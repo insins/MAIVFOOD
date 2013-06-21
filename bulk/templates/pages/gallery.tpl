@@ -1,0 +1,3 @@
+<!-- GALLERY HOME -->
+{$subtemplate}
+<!-- home -->

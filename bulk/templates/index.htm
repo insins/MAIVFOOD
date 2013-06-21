@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+    <title>BURGER KING's battle of the decades</title>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"/>
+
+</head>
+<body>
+<!-- html5 content -->
+<div id="wrapper">
+    <!-- wrapper -->
+    <section id="menu">
+        <!-- menu -->
+        <ul>
+            {foreach from=$menu item=menuitem}
+                {if $page == $menuitem.page_id}
+                <li class="active">{$menuitem.link_text}
+                    {if isset($menuitem.submenu)}
+                        <ul id="submenu">
+                            {foreach from=$menuitem.submenu item=submenuitem}
+                            {if isset($smarty.get.decade) && $smarty.get.decade == $submenuitem.page_id}
+                            <li class="active">{$submenuitem.link_text}</li>
+                            {else}
+                            <li><a href="index.php?page=gallery&amp;decade={$submenuitem.page_id}">{$submenuitem.link_text}</a></li>
+                            {/if}
+                            {/foreach}
+                        </ul>
+                    {/if}
+                </li>
+                {else}
+                <li><a href="index.php?page={$menuitem.page_id}">{$menuitem.link_text}</a>
+                    {if isset($menuitem.submenu)}
+                        <ul id="submenu">
+                            {foreach from=$menuitem.submenu item=submenuitem}
+                            {if isset($smarty.get.decade) && $smarty.get.decade == $submenuitem.page_id}
+                            <li class="active">{$submenuitem.link_text}</li>
+                            {else}
+                            <li><a href="index.php?page=gallery&amp;decade={$submenuitem.page_id}">{$submenuitem.link_text}</a></li>
+                            {/if}
+                            {/foreach}
+                        </ul>
+                    {/if}
+                </li>
+                {/if}
+            {/foreach}
+        </ul>
+        <div class="dummy">&nbsp;</div>
+        <!-- /menu -->
+    </section>
+    <section id="content-wrapper">
+        <!-- content-wrapper -->
+        <section id="content">
+            <!-- content -->
+            {$content}
+            <!-- /content -->
+        </section>
+        <!-- /content-wrapper -->
+    </section>
+    <!-- /wrapper -->
+</div>
+<!-- /html5 content -->
+
+<!-- javascript files -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="assets/js/Application.js"></script>
+<!-- /javascript files -->
+
+</body>
+</html>

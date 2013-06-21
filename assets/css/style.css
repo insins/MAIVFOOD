@@ -1,0 +1,731 @@
+@import url(../fonts/bebasneue/stylesheet.css);
+@import url(../fonts/americanPurpose/stylesheet.css);
+@import url(../fonts/branboll/stylesheet.css);
+@import url(../fonts/brandonGrotesque/stylesheet.css);
+@import url(../fonts/geared/stylesheet.css);
+@import url(../fonts/southern/stylesheet.css);
+/* -------------------- */
+/* ALGEMENE STYLESHEET */
+/* -------------------- */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* START SASSING HERE */
+/* !# IMPORTANTé jaar-classname */
+/* -------------------- */
+/* MENU */
+/* -------------------- */
+/* line 47, ../sass/style.scss */
+div#wrapper section#menu {
+  background-color: #fbf9f4;
+  background-image: url("../images/menu-logo.png");
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+}
+/* line 49, ../sass/style.scss */
+div#wrapper section#menu ul {
+  /* SUBMENU */
+  /* /SUBMENU */
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+/* line 54, ../sass/style.scss */
+div#wrapper section#menu ul li {
+  position: relative;
+}
+/* line 56, ../sass/style.scss */
+div#wrapper section#menu ul li ul#submenu {
+  /*display: none;*/
+  position: absolute;
+  width: 150px;
+  left: -60px;
+  top: 50px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fbf9f4;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+}
+/* line 69, ../sass/style.scss */
+div#wrapper section#menu ul li ul#submenu > li {
+  display: block;
+  border: none;
+  width: 100px;
+  padding: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 79, ../sass/style.scss */
+div#wrapper section#menu ul li ul#submenu > li:last-child {
+  border: none;
+}
+/* line 93, ../sass/style.scss */
+div#wrapper section#menu ul li:hover ul#submenu {
+  /*display: block;*/
+  opacity: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 108, ../sass/style.scss */
+div#wrapper section#menu ul li:first-child {
+  border-top: 3px solid #fd7878;
+}
+/* line 110, ../sass/style.scss */
+div#wrapper section#menu ul li:first-child:hover, div#wrapper section#menu ul li:first-child.active {
+  color: #fd7878;
+}
+/* line 113, ../sass/style.scss */
+div#wrapper section#menu ul li:last-child {
+  border-top: 3px solid #6ee8ca;
+}
+/* line 115, ../sass/style.scss */
+div#wrapper section#menu ul li:last-child:hover, div#wrapper section#menu ul li:last-child.active {
+  color: #6ee8ca;
+}
+/* line 118, ../sass/style.scss */
+div#wrapper section#menu ul li {
+  border-top: 3px solid #f6e993;
+}
+/* line 120, ../sass/style.scss */
+div#wrapper section#menu ul li:hover, div#wrapper section#menu ul li.active {
+  color: #f6e993;
+}
+/* line 124, ../sass/style.scss */
+div#wrapper section#menu ul li {
+  padding-top: 16px;
+  margin-left: 20px;
+  display: inline-block;
+  font-family: "bebasneue";
+  font-size: 30px;
+}
+/* line 125, ../sass/style.scss */
+div#wrapper section#menu ul li a {
+  color: #5f5f5f;
+  text-decoration: none;
+}
+
+/* -------------------- */
+/* CREATE A BURGER PAGE */
+/* -------------------- */
+/* line 169, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper {
+  background-image: url("../images/create-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 494px;
+  width: 100%;
+}
+/* line 178, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 181, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header {
+  text-shadow: 2px 2px #434343;
+  color: #FFF;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 188, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header h1 {
+  padding: 146px 0 0 96px;
+  font-family: Arvo, sans-serif;
+  font-size: 38px;
+  width: 403px;
+}
+/* line 196, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header h2 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  margin: 20px 0 0 195px;
+  background: url("../images/create-white-line-h2.png") no-repeat bottom left;
+  padding: 0 0 5px 0;
+}
+/* line 211, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header div#car-iphone-image {
+  background: url("../images/create-cars-and-iphone.png") no-repeat;
+  background-size: contain;
+  height: 518px;
+  width: 800px;
+  position: absolute;
+  top: 25%;
+  margin-left: 180px;
+}
+/* line 233, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper {
+  background-color: #f2882f;
+  padding: 200px 0 30px 0;
+}
+/* line 236, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper section#how-does-it-work {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+/* line 245, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper header {
+  font-family: brannboll_fetregular, serif;
+  font-size: 42px;
+  color: #FFF;
+  text-shadow: 2px 2px #434343;
+  width: 960px;
+  margin: 20px auto 15px auto;
+}
+/* line 255, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+}
+/* line 259, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work p {
+  color: #FFF;
+  font-size: 30px;
+  margin: 20px 0 27px 10px;
+}
+/* line 265, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work p a {
+  text-indent: -9999px;
+  display: block;
+  background: url("../images/create-app-store-btn.png");
+  width: 160px;
+  height: 54px;
+}
+/* line 275, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work ol {
+  list-style: decimal;
+  color: #474747;
+  margin: 30px 0 0 30px;
+  font-size: 20px;
+}
+/* line 284, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div#flamingo-iphone-image {
+  background: url("../images/create-flamingo-iphone.png");
+  background-size: contain;
+  width: 256px;
+  height: 355px;
+  position: absolute;
+  top: 0;
+  left: 700px;
+}
+/* line 297, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content {
+  padding-top: 75px;
+  background-color: #00c0a7;
+}
+/* line 302, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content header {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 307, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content header h1 {
+  font-family: brannboll_fetregular, serif;
+  font-size: 42px;
+  color: #FFF;
+  text-shadow: 2px 2px #434343;
+  width: 960px;
+}
+/* line 315, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content header h2 {
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #e27f2c;
+  padding: 3px 5px;
+  width: 175px;
+  text-align: center;
+  margin: -5px 0 40px 300px;
+}
+/* line 328, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content div#video-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 332, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content div#video-wrapper div#video-bg {
+  background: url("../images/create-video-bg.png") no-repeat;
+  width: 1004px;
+  height: 386px;
+  margin: -320px 0 0 -15px;
+  z-index: 10;
+}
+
+/* -------------------- */
+/* CAMPAIGN PAGE */
+/* -------------------- */
+/* line 361, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper {
+  background-color: #b5a7a7;
+}
+/* line 365, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header {
+  background: url("../images/home-bg.png") no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+/* line 375, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header header h1 {
+  background: url("../images/home-logo.png") no-repeat bottom left;
+  height: 110px;
+  padding: 30px 0 0 110px;
+  margin: 0 0 0 5%;
+  line-height: 30px;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 3em;
+}
+/* line 394, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header div#home-burgers {
+  background: url("../images/home-burgers.png") no-repeat;
+  background-size: contain;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 429px;
+}
+/* line 407, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+  background-color: #eff3e4;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -100px auto 0 auto;
+  padding: 33px 0 33px 39px;
+}
+/* line 409, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper section#home-uitleg {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 417, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper header h1 {
+  color: #686964;
+  font-family: bebasneue, sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+/* line 426, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p {
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  font-size: 1.4em;
+  width: 100%;
+  line-height: 1.35em;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+/* line 434, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p span {
+  color: #e33951;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+/* line 441, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  font-size: 0.75em;
+  padding: 5px 10px;
+}
+/* line 450, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a:last-child {
+  background-color: #6bc8af;
+  margin-left: 10px;
+}
+/* line 455, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a:first-child {
+  background-color: #fac00f;
+  margin-right: 10px;
+}
+
+/* -------------------- */
+/* GALERY PAGE */
+/* -------------------- */
+/* line 476, ../sass/style.scss */
+section#content-wrapper section#content {
+  /* ALLE HAMBURGERS */
+}
+/* line 479, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s {
+  background: url("../images/50s-banner-bg.png") no-repeat;
+  background-size: cover;
+  height: 337px;
+}
+/* line 484, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s div#logo {
+  background: url("../images/50s-logo.png") no-repeat bottom center;
+  width: 87px;
+  height: 87px;
+  margin: 0 0 0 215px;
+  padding-top: 10px;
+}
+/* line 492, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header {
+  color: #fffcf1;
+  text-shadow: 2px 2px #434343;
+}
+/* line 497, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 150px;
+  margin: 10px 0 0 150px;
+}
+/* line 502, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h1 span {
+  font-size: 50px;
+}
+/* line 508, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h2 {
+  font-family: southern_aire_personal_use_Rg, serif;
+  font-size: 65px;
+  position: relative;
+  top: -130px;
+  left: 300px;
+}
+/* line 519, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s {
+  background-color: #df4452;
+}
+/* line 523, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  color: #de606b;
+  background-image: url("../images/50s-patterned-bg.png");
+}
+/* line 532, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  padding: 40px 0 5px 40px;
+  text-shadow: 2px 2px #434343;
+  background: url("../images/50s-title-line.png") no-repeat;
+  background-position: 40px 83px;
+}
+/* line 544, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers {
+  width: 820px;
+  margin: 25px auto 0 auto;
+}
+/* line 550, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 556, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger div#voteCountFirst {
+  background: url("../images/50s-vote-count-best.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 26px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 572, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger p {
+  color: #58bfa6;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 580, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #58bfa6;
+  padding: 5px 10px;
+}
+/* line 587, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 600, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 607, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger div#voteCountSecond {
+  background: url("../images/50s-vote-count-second.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 26px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 623, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger p {
+  color: #fd7878;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 631, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #fd7878;
+  padding: 5px 10px;
+}
+/* line 639, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 652, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+}
+/* line 658, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger div#voteCountThird {
+  background: url("../images/50s-vote-count-third.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 26px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 674, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger p {
+  color: #ebce11;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 682, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #ebce11;
+  padding: 5px 10px;
+}
+/* line 691, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 705, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s {
+  width: 960px;
+  margin: 30 auto 0 auto;
+}
+/* line 709, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header {
+  float: left;
+}
+/* line 713, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header h1 {
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  background: url("../images/50s-view-all-line.png") no-repeat bottom left;
+  padding-bottom: 8px;
+  width: 550px;
+}
+/* line 723, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField {
+  float: left;
+  width: 260px;
+}
+/* line 729, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div input {
+  border: none;
+  width: 260px;
+  padding: 10px 0 10px 10px;
+  font-size: 24px;
+  color: #df4452;
+  font-family: bebasneue, sans-serif;
+  margin-left: 100px;
+  background-image: url("../images/50s-search-glass.png");
+  background-repeat: no-repeat;
+  background-position: 220px;
+}
+/* line 749, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 753, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary {
+  color: #f6e993;
+  position: relative;
+  float: left;
+  margin: 30px 40px 0 40px;
+  font-family: bebasneue, sans-serif;
+  font-size: 30px;
+}
+/* line 763, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary p {
+  margin-top: 10px;
+}
+/* line 769, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li {
+  background-color: #f6e993;
+  text-align: center;
+  margin-top: 5px;
+  padding: 3px 0 7px 0;
+}
+/* line 776, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li a {
+  color: #df4452;
+  text-decoration: none;
+  font-size: 21px;
+}
+/* line 784, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary div.voteCount {
+  position: absolute;
+  top: -15px;
+  left: 80px;
+  background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+  width: 53px;
+  height: 53px;
+  padding: 18px 0 0 18px;
+  color: #df4452;
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+}
+/* line 799, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow div.line {
+  background-color: #fbf9f3;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+/* line 818, ../sass/style.scss */
+.dummy {
+  clear: both;
+}
+
+/* END SASSING HERE */
+/* -------------------- */
+/* RESPONSIVE STYLESHEET */
+/* -------------------- */
+/* START SASSING HERE */
+/* END SASSING HERE */
