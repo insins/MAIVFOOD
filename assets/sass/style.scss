@@ -552,13 +552,11 @@ section#content-wrapper{
               font-size: 70px;
               color: #FFF;
               height: 169px;
-
+              text-transform: lowercase;
               font-size: 79px;
               font-family: deftone, serif;
               color: #50c8b8;
               text-shadow: -4px 4px #000;
-
-
             }
           }
         }
@@ -931,9 +929,306 @@ section#content-wrapper{
         }
     }
 
-    }
+    /* -------------------- */
+    /* 80S GALLERY */
+    /* -------------------- */
+    /* ALLE HAMBURGERS */
+      section#top380s{
+        width: 960px;
+        margin: 0 auto 0 auto;
+        color: #de606b;
+        background: url("../images/80s-patterened.png");
+        // Titel
+        header{
+
+          h1{
+            font-family: brannboll_fetregular, serif;
+            color: #e72c6c;
+            text-shadow: -1px 1px #50c8b8;
+            font-size: 30px;
+            padding-bottom: 3px;
+            width: 300px;
+            margin: 0 0 40px 40px;
+          }
+        }
+
+        div#burgers{
+          width: 820px;
+          margin: 25px auto 0 auto;
+          // -------------------
+          // Top burger
+          // -------------------
+          section#topBurger{
+            position:relative;
+            float: left;
+            width: 230px;
+            margin-right: 60px;
+
+              // Vote rondje
+              div#voteCountFirst{
+                // Vote count opmaak
+                background: url("../images/50s-vote-count-best.png") no-repeat;
+                height: 97px;
+                width: 97px;
+                font-family: american_purpose_casual_01Rg, serif;
+                padding: 30px 0 0 23px;
+                color: #FFF;
+                font-size: 43px;
+
+                // Positioneren
+                position: absolute;
+                left: 60px;
+                top: 50px;
+              }
+              // Naam maker
+              p{
+                color: #50c8b8;
+                font-size: 25px;
+                font-family: american_purpose_casual_01Rg, serif;
+                margin-bottom: 10px;
+              }
+              // Action buttons
+              ul.actions{
+                li{
+                  font-size: 20px;
+                  font-family: american_purpose_casual_01Rg, serif;
+                  background-color:#50c8b8;
+                  margin-bottom: 10px;
+                  width: 187px;
+                  text-align: center;
+                  padding: 10px 10px;
+                  -moz-border-radius: 15px;
+                  border-radius: 15px;
+
+                  a{
+                     color: #edeed7;
+                     text-decoration: none;
+                  }
+                }
+              }
+          }
+
+          // -------------------
+          // TWEEDE burger
+          // -------------------
+          section#secondBurger{
+                position:relative;
+                float: left;
+                width: 230px;
+                margin-right: 60px;
 
 
+                  div#voteCountSecond{
+                    // Vote count opmaak
+                    background: url("../images/50s-vote-count-second.png") no-repeat;
+                    height: 97px;
+                    width: 97px;
+                    font-family: american_purpose_casual_01Rg, serif;
+                    padding: 30px 0 0 23px;
+                    color: #FFF;
+                    font-size: 43px;
+
+                    // Positioneren
+                    position: absolute;
+                    left: 60px;
+                    top: 50px;
+                  }
+
+            // Naam maker
+            p{
+              color: #ea475f;
+              font-size: 25px;
+              font-family: american_purpose_casual_01Rg, serif;
+              margin-bottom: 10px;
+            }
+            // Action buttons
+            ul.actions{
+              li{
+                font-size: 20px;
+                font-family: american_purpose_casual_01Rg, serif;
+                background-color:#ea475f;
+                margin-bottom: 10px;
+                width: 187px;
+                text-align: center;
+                padding: 10px 10px;
+                -moz-border-radius: 15px;
+                border-radius: 15px;
+
+                a{
+                   color: #edeed7;
+                   text-decoration: none;
+                }
+              }
+            }
+          }
+
+          //--------------------
+          // Tweede beste burger
+          // --------------------
+        section#thirdBurger{
+
+              position:relative;
+              float: left;
+              width: 230px;
+
+                div#voteCountThird{
+                  // Vote count opmaak
+                  background: url("../images/50s-vote-count-third.png") no-repeat;
+                  height: 97px;
+                  width: 97px;
+                  font-family: american_purpose_casual_01Rg, serif;
+                  padding: 30px 0 0 23px;
+                  color: #FFF;
+                  font-size: 43px;
+
+                  // Positioneren
+                  position: absolute;
+                  left: 60px;
+                  top: 50px;
+                }
+
+          // Naam maker
+          p{
+            color: #ffb537;
+            font-size: 25px;
+            font-family: american_purpose_casual_01Rg, serif;
+            margin-bottom: 10px;
+          }
+          // Action buttons
+          ul.actions{
+            li{
+              font-size: 20px;
+              font-family: american_purpose_casual_01Rg, serif;
+              background-color:#ffb537;
+              margin-bottom: 10px;
+              width: 187px;
+              text-align: center;
+              padding: 10px 10px;
+              -moz-border-radius: 15px;
+              border-radius: 15px;
+
+              a{
+                 color: #edeed7;
+                 text-decoration: none;
+              }
+            }
+          }
+         }
+        }
+      }
+
+        section#allTheBugers00s{
+          width: 960px;
+          margin: 30 auto 0 auto;
+
+          header{
+
+            float: left;
+             h1{
+               font-family: brannboll_fetregular, serif;
+               color: #e72c6c;
+               text-shadow: 2px -2px #50c8b8;
+               font-size: 38px;
+
+               margin: 0 0 40px 40px;
+              }
+           }
+
+          section#searchField{
+            float: left;
+            width: 260px;
+
+            form{
+              div{
+                input{
+                  border: none;
+                  font-size: 20px;
+                  font-family: american_purpose_casual_01Rg, serif;
+                  background-color:#72d2bc;
+                  margin: 40px 0 10px 40px;
+                  width: 250px;
+                  text-align: center;
+                  padding: 10px 10px;
+                  -moz-border-radius: 15px;
+                  border-radius: 15px;
+                  color: #e72c6c;
+
+                  background-image: url("../images/50s-search-glass.png");
+                  background-repeat: no-repeat;
+                  background-position: 220px;
+                }
+              }
+            }
+          }
+
+          // Burger overzicht
+          section.burgerRow{
+            width: 960px;
+            margin: 0 auto 0 auto;
+
+            section.burgerSummary{
+              color: #f6e993;
+              position: relative;
+              float: left;
+              margin: 30px 40px 0 40px;
+
+              // Gegevens
+              font-family: american_purpose_casual_01Rg, serif;
+              color: #e72c6c;
+
+              p{
+                margin: 10px 0;
+                font-size: 24px;
+
+              }
+
+              // Actions
+              ul.actions{
+                li{
+
+                  font-family: american_purpose_casual_01Rg, serif;
+                  background-color:#e72c6c;
+                  margin-bottom: 10px;
+                  width: 187px;
+                  text-align: center;
+                  padding: 10px 10px;
+                  -moz-border-radius: 15px;
+                  border-radius: 15px;
+
+                  a{
+                    color:#ffb537;
+                    text-decoration: none;
+                    font-size: 20px;
+
+                  }
+                }
+              }
+
+              div.voteCount{
+                position: absolute;
+                top: -15px;
+                left: 80px;
+                background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+                width: 53px;
+                height: 53px;
+                padding: 18px 0 0 18px;
+                color: #df4452;
+                font-size: 20px;
+                font-family: american_purpose_casual_01Rg, serif;
+              }
+
+            }
+
+            div.line{
+              background-color: #fbf9f3;
+              height: 1px;
+              margin-bottom: 20px;
+            }
+          }
+
+
+
+        }}
 
 
     /* -------------------- */

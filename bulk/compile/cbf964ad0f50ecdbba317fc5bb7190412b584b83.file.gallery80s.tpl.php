@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 23:05:36
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 00:09:12
          compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:81290276051c5b03de30213-18049666%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cbf964ad0f50ecdbba317fc5bb7190412b584b83' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery80s.tpl',
-      1 => 1371935135,
+      1 => 1371938951,
       2 => 'file',
     ),
   ),
@@ -22,16 +22,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_51c5b03de3e4a7_28721281')) {function content_51c5b03de3e4a7_28721281($_smarty_tpl) {?><section id="banner-80s">
     <header>
         <h1>THE PRESENT</h1>
-        <h2>With <span id="rood">contemporary</span> ingredients we&#8217;ll define the <span>future</span>.</h2>
     </header>
 </section>
 
 <!-- Alle hamburgers -->
 <div id="achtergrond80s">
 
-    <section id="top3">
+    <section id="top380s">
         <header>
-            <h1>these burgers have it!</h1>
+            <h1>Boogie burgers</h1>
         </header>
 
         <div id="burgers">
@@ -82,7 +81,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <!-- All the burgers -->
     <section id="allTheBugers00s">
         <header>
-            <h1>View all the modern burgers</h1>
+            <h1>View all the funky burgers</h1>
         </header>
 
         <section id="searchField">

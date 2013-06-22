@@ -1,16 +1,15 @@
 <section id="banner-80s">
     <header>
         <h1>THE PRESENT</h1>
-        <h2>With <span id="rood">contemporary</span> ingredients we&#8217;ll define the <span>future</span>.</h2>
     </header>
 </section>
 
 <!-- Alle hamburgers -->
 <div id="achtergrond80s">
 
-    <section id="top3">
+    <section id="top380s">
         <header>
-            <h1>these burgers have it!</h1>
+            <h1>Boogie burgers</h1>
         </header>
 
         <div id="burgers">
@@ -61,7 +60,7 @@
     <!-- All the burgers -->
     <section id="allTheBugers00s">
         <header>
-            <h1>View all the modern burgers</h1>
+            <h1>View all the funky burgers</h1>
         </header>
 
         <section id="searchField">
