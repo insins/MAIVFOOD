@@ -13,7 +13,6 @@
 
     // import files
     require_once WWW_ROOT . "includes" . DS . "functions.php";
-    require_once WWW_ROOT . "facebook" . DS . "src/facebook.php";
 
 
     muteExpectedErrors();
@@ -25,14 +24,17 @@
     require_once WWW_ROOT . "controller" . DS . "CreateController.php";
     require_once WWW_ROOT . "controller" . DS . "GalleryController.php";
 
-    // DAOS
+    // DAO's
     require_once WWW_ROOT . "DAO" . DS . "DatabasePDO.php";
     require_once WWW_ROOT . "DAO" . DS . "UserDAO.php";
     require_once WWW_ROOT . "DAO" . DS . "LikeDAO.php";
 
 
+
     // set variables
     $config = new Config();
+
+
 
 
     $page = isset($_GET['page']) ? $_GET['page'] : 'campaign';

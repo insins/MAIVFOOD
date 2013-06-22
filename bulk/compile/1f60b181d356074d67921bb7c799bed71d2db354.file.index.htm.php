@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 12:24:19
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-22 13:01:05
          compiled from "bulk/templates/index.htm" */ ?>
-<?php /*%%SmartyHeaderCode:148088807151c57b53b1f751-82388121%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6418854051c583f1a997e9-10207558%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1f60b181d356074d67921bb7c799bed71d2db354' => 
     array (
       0 => 'bulk/templates/index.htm',
-      1 => 1371855486,
+      1 => 1371898552,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '148088807151c57b53b1f751-82388121',
+  'nocache_hash' => '6418854051c583f1a997e9-10207558',
   'function' => 
   array (
   ),
@@ -24,10 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'content' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c57b53c04063_60879817',
+  'version' => 'Smarty-3.1.11',
+  'unifunc' => 'content_51c583f1c12ec7_62888923',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c57b53c04063_60879817')) {function content_51c57b53c04063_60879817($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
+<?php if ($_valid && !is_callable('content_51c583f1c12ec7_62888923')) {function content_51c583f1c12ec7_62888923($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
 <html>
 <head>
     <title>BURGER KING's battle of the decades</title>
@@ -114,6 +114,9 @@ $_smarty_tpl->tpl_vars['submenuitem']->_loop = true;
 
 <!-- javascript files -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="https://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript" src="assets/js/Facebook.login.js"></script>
+<div id="fb-root"></div>
 <script type="text/javascript" src="assets/js/Application.js"></script>
 <!-- /javascript files -->
 

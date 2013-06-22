@@ -6,11 +6,11 @@ class Config
 
     // db consts
     const DB_TYPE = 'mysql';
-   const DB_HOST = 'localhost'; // mysqlstudent
-   const DB_USER = 'ines';
-   const DB_PASS = 'test';
-   const DB_NAME = '20122013_food';
-   const DB_PORT = 3306;
+    const DB_HOST = 'localhost'; // mysqlstudent
+    const DB_USER = 'usr_food';
+    const DB_PASS = 'test';
+    const DB_NAME = 'maiv_food';
+    const DB_PORT = 3306;
 
     function __construct(){
 
