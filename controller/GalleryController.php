@@ -106,16 +106,43 @@ class GalleryController extends AppController
                  ));
 
                  //Facebook Authentication
-                 $user       = $facebook->getUser();
-                 $loginUrl   = $facebook->getLoginUrl(
+                 $user = $facebook->getUser();
+                 $loginUrl = $facebook->getLoginUrl(
                  array(
                    'scope' => 'email,publish_stream,user_birthday,user_location,user_work_history,user_about_me,user_hometown'
                  )
                  );
+                    //echo($_SESSION);
+
+                 header("location: ".$loginUrl);
+
+                if ($user) {
+                  trace(" The user is logged in");
+                  try {
+                    $facebook->api('/me');
+                      trace("API call succeeded, you have a valid access token");
+                    // Here : API call succeeded, you have a valid access token
+                  } catch (FacebookApiException $e) {
+                      trace("API call failed, you don't have a valid access token");
+                    // Here : API call failed, you don't have a valid access token
+                    // you have to send him to $facebook->getLoginUrl()
+                    $user = null;
+                  }
+                } else {
+                    trace("The user is not logged");
+                    header("location: ".$loginUrl);
+                  // The user is not logged
+                  // you have to send him to $facebook->getLoginUrl()
+                }
+                if (!$user) {
+
+                  // display link to $facebook->getLoginUrl();
+                }
+
 
 
                  // Als er een user is gevonden
-                 if ($user) {
+                 /*if ($user) {
                    try {
                      // De user ophalen via "/me"
                      $user_profile = $facebook->api('/me');
@@ -160,7 +187,7 @@ class GalleryController extends AppController
                     error_log($e);
                     $user = null;
                   }
-                }
+                } */
             }
 
 
