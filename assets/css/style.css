@@ -458,6 +458,10 @@ section#content-wrapper section#content {
   /* 00S GALLERY */
   /* -------------------- */
   /* ALLE HAMBURGERS */
+  /* -------------------- */
+  /* 50s */
+  /* -------------------- */
+  /* ALLE HAMBURGERS */
 }
 /* line 489, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s {
@@ -1176,13 +1180,417 @@ section#content-wrapper section#content div#achtergrond00s #bottomInfo section#v
 section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li a img {
   margin: 0 0 0 15px;
 }
+/* line 1399, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s {
+  background: url("../images/50s-banner-bg.png") no-repeat;
+  background-size: cover;
+  height: 337px;
+}
+/* line 1404, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s div#logo {
+  background: url("../images/50s-logo.png") no-repeat bottom center;
+  width: 87px;
+  height: 87px;
+  margin: 0 0 0 215px;
+  padding-top: 10px;
+}
+/* line 1412, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header {
+  color: #fffcf1;
+  text-shadow: 2px 2px #434343;
+}
+/* line 1417, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 150px;
+  margin: 10px 0 0 150px;
+}
+/* line 1422, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h1 span {
+  font-size: 50px;
+}
+/* line 1428, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h2 {
+  font-family: southern_aire_personal_use_Rg, serif;
+  font-size: 65px;
+  position: relative;
+  top: -130px;
+  left: 300px;
+}
+/* line 1439, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s {
+  background-color: #df4452;
+  /* -------------------- */
+  /* DETAIL PAGE */
+  /* -------------------- */
+}
+/* line 1443, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  color: #de606b;
+  background-color: #fbf9f4;
+}
+/* line 1452, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  padding: 40px 0 5px 40px;
+  text-shadow: 2px 2px #434343;
+  background: url("../images/50s-title-line.png") no-repeat;
+  background-position: 40px 83px;
+}
+/* line 1464, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers {
+  width: 820px;
+  margin: 25px auto 0 auto;
+}
+/* line 1470, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 1476, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger div#voteCountFirst {
+  background: url("../images/50s-vote-count-best.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 26px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1492, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger p {
+  color: #58bfa6;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 1500, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #58bfa6;
+  padding: 5px 10px;
+}
+/* line 1507, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 1520, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 1527, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger div#voteCountSecond {
+  background: url("../images/50s-vote-count-second.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 26px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1543, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger p {
+  color: #fd7878;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 1551, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #fd7878;
+  padding: 5px 10px;
+}
+/* line 1559, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 1572, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+}
+/* line 1578, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger div#voteCountThird {
+  background: url("../images/50s-vote-count-third.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 26px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1594, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger p {
+  color: #ebce11;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 1602, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #ebce11;
+  padding: 5px 10px;
+}
+/* line 1611, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 1625, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s {
+  width: 960px;
+  margin: 30 auto 0 auto;
+}
+/* line 1629, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header {
+  float: left;
+}
+/* line 1633, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header h1 {
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  background: url("../images/50s-view-all-line.png") no-repeat bottom left;
+  padding-bottom: 8px;
+  width: 550px;
+}
+/* line 1643, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField {
+  float: left;
+  width: 260px;
+}
+/* line 1649, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div input {
+  border: none;
+  width: 260px;
+  padding: 10px 0 10px 10px;
+  font-size: 24px;
+  color: #df4452;
+  font-family: bebasneue, sans-serif;
+  margin-left: 100px;
+  background-image: url("../images/50s-search-glass.png");
+  background-repeat: no-repeat;
+  background-position: 220px;
+}
+/* line 1669, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 1673, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary {
+  color: #f6e993;
+  position: relative;
+  float: left;
+  margin: 30px 40px 0 40px;
+  font-family: bebasneue, sans-serif;
+  font-size: 30px;
+}
+/* line 1683, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary p {
+  margin-top: 10px;
+}
+/* line 1689, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li {
+  background-color: #f6e993;
+  text-align: center;
+  margin-top: 5px;
+  padding: 3px 0 7px 0;
+}
+/* line 1696, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li a {
+  color: #df4452;
+  text-decoration: none;
+  font-size: 21px;
+}
+/* line 1704, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary div.voteCount {
+  position: absolute;
+  top: -15px;
+  left: 80px;
+  background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+  width: 53px;
+  height: 53px;
+  padding: 18px 0 0 18px;
+  color: #df4452;
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+}
+/* line 1719, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow div.line {
+  background-color: #fbf9f3;
+  height: 1px;
+  margin-bottom: 20px;
+}
+/* line 1733, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting {
+  background-color: #fbf9f4;
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 1740, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  color: #df4452;
+  background: url("../images/50s-burger-rocking-title-line.png") no-repeat bottom left;
+  padding: 30px 0 5px 0;
+  margin: 0 0 0 50px;
+}
+/* line 1754, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting div#hamburgerImage {
+  float: left;
+  width: 273px;
+  margin: 25px 0 0 86px;
+}
+/* line 1762, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things {
+  float: left;
+  width: 400px;
+  margin: 25px 0 0 86px;
+}
+/* line 1769, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li {
+  font-family: bebasneue, sans-serif;
+  font-size: 30px;
+  color: #e4656f;
+  width: 400px;
+  margin-bottom: 45px;
+}
+/* line 1776, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span {
+  color: #78d1b2;
+}
+/* line 1780, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span#votes {
+  background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
+  height: 76px;
+  width: 76px;
+  padding: 25px 25px 25px 25px;
+  font-family: american_purpose_casual_01Rg, serif;
+  color: #fffcf1;
+}
+/* line 1789, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a {
+  text-decoration: none;
+  color: #fffcf1;
+  background-color: #7bd3b4;
+  text-align: center;
+  padding: 10px 10px;
+}
+/* line 1796, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a img {
+  margin-right: 10px;
+}
+/* line 1807, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo {
+  width: 960px;
+  margin: 40px auto 0 auto;
+}
+/* line 1814, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten {
+  float: left;
+  width: 300px;
+  font-size: 20px;
+  font-family: bebasneue, sans-serif;
+}
+/* line 1822, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten header h1 {
+  color: #fffcf1;
+  font-size: 40px;
+  font-family: american_purpose_casual_01Rg, serif;
+  background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+  padding-bottom: 10px;
+}
+/* line 1835, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten p {
+  float: left;
+  color: #fffcf1;
+  margin: 25px 40px 0 0;
+}
+/* line 1841, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul {
+  float: left;
+  margin: 25px 0 0 0;
+}
+/* line 1846, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul li {
+  color: #e4cf41;
+  margin-bottom: 15px;
+}
+/* line 1858, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns {
+  margin-left: 150px;
+  float: left;
+}
+/* line 1866, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns header h1 {
+  color: #fffcf1;
+  font-size: 40px;
+  font-family: american_purpose_casual_01Rg, serif;
+  width: 235px;
+  background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+  padding-bottom: 10px;
+}
+/* line 1880, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li {
+  width: 220px;
+  background-color: #e4cf41;
+  font-size: 20px;
+  font-family: bebasneue, sans-serif;
+  padding: 10px 10px;
+  margin: 15px 0 15px 0;
+}
+/* line 1890, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a {
+  color: #fbf9f4;
+  text-decoration: none;
+}
+/* line 1894, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a img {
+  margin: 0 0 0 15px;
+}
 
-/* line 1402, ../sass/style.scss */
+/* line 1910, ../sass/style.scss */
 .dummy {
   clear: both;
 }
 
-/* line 1409, ../sass/style.scss */
+/* line 1917, ../sass/style.scss */
 section#searchField form div input:focus {
   outline: none;
 }
