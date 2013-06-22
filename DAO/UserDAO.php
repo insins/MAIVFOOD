@@ -37,7 +37,7 @@ class UserDAO
 
                }
                catch(PDOException $e) {
-                   trace ($e->getMessage());
+                   //trace ($e->getMessage());
                    return $e->getMessage();
                }
     }

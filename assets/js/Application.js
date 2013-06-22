@@ -10,18 +10,19 @@ function performAjaxAction(target,userDetails)
 
 // Eerst checken of de user al in de DB zit
 
-    var baseUrl = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/api";
+    var baseUrl = "http://localhost/devine/20122013/MAIV/MAIVFOOD/api";
 
-
+    var details = JSON.stringify({'id':userDetails.id});
     var user_profile = userDetails;
+    console.log(details);
 
     $.ajax({
             url : baseUrl + "/user/check",
     		type : 'POST',
             dataType: 'json',
-    		data : user_profile,
+    		data : details,
     		success: function(data){
-    		console.log(data);
+    		  console.log(data);
     		}, error: function(){
                 console.log(arguments);
             }

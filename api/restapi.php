@@ -1,5 +1,5 @@
 <?php
-
+ini_set("display_errors" , "1");
 header("Content-Type: application/json");
 
 define("WWW_ROOT",dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR);
@@ -13,20 +13,18 @@ require_once WWW_ROOT. "DAO" .DIRECTORY_SEPARATOR. 'LikeDAO.php';
 $app = new Slim();
 
 // USER DINGEN
-$app->post('/user/check', 'checkUserDatabase');
+$app->get('/hello',function(){
+
+});
+
+$app->post('/user/check', function(){
+	//$user_profile = Slim::getInstance()->request()->post();
+    //$userDAO = new UserDAO();
+    //$result = $userDAO->checkInDatabase($user_profile['id']);
+    echo 'hello world';
+    //echo $user_profile;
+
+    //exit();
+});
 
 $app->run();
-
-
-/* ------------------
-   USER FUNCTIONS
------------------- */
-function checkUserDatabase(){
-
-    $user_profile = Slim::getInstance()->request()->post();
-    $userDAO = new UserDAO();
-    $result = $userDAO->checkInDatabase($user_profile['id']);
-    echo json_encode($result);
-
-    exit();
-}
