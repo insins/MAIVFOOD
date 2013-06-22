@@ -1,0 +1,2 @@
+[22-Jun-2013 13:08:15] PHP Fatal error:  Class 'Facebook' not found in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/GalleryController.php on line 108
+[22-Jun-2013 14:59:55] PHP Fatal error:  Call to undefined method GalleryController::voteForBurger() in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/GalleryController.php on line 90

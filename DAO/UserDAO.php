@@ -28,13 +28,12 @@ class UserDAO
                $stmt->execute();
                $result = $stmt->fetch();
 
-            // Als het resultaat niet "" is dan id ophalen, anders -1
-               if($result != ""){
-                   return $result["user_id"];
-               }
-                else{
-                    return "-1";
-                }
+                // Als het resultaat niet "" is dan id ophalen, anders -1
+                if ($stmt->rowCount() > 0) {
+                       return $result['user_id'];
+                   } else {
+                       return -1;
+                   }
 
                }
                catch(PDOException $e) {

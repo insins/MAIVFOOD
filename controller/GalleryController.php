@@ -87,33 +87,9 @@ class GalleryController extends AppController
         // Een switch op de action gebeurt
         if($action == "vote"){
             if (!empty($_GET["burgerId"])){
-                $this->logintofacebook();
+                $this->voteForBurger();
             }
         }
-    }
-
-    /*          'appId'  => "616766485000843",
-              'secret' => "edd55c3a3277b6ba91fa426dea80c8cb",
-              'baseurl' => "http://localhost/20122013/SEMESTER2/MAIV/FOOD/index.php?page=gallery"*/
-
-        // --------------
-       // FB AUTH + LOGIN
-       // --------------
-    private function logintofacebook(){
-
-        $app_id		= "616766485000843";
-        $app_secret	= "edd55c3a3277b6ba91fa426dea80c8cb";
-        $site_url	= "http://localhost/20122013/SEMESTER2/MAIV/FOOD/index.php?page=gallery";
-
-        $facebook = new Facebook(array(
-        	'appId'		=> $app_id,
-        	'secret'	=> $app_secret,
-        	));
-
-        $user = $facebook->getUser();
-        trace($user);
-
-
     }
 
 

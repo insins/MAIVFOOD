@@ -18,9 +18,9 @@ function setupAPI(){
     window.fbAsyncInit = (function(){
         // init the FB JS SDK
         FB.init({
-            appId      : '268486403291969', // App ID from the App Dashboard
+            appId      : '616766485000843', // App ID from the App Dashboard
             //channelUrl : '//http://student.howest.be/tycho.martins/20122013/MAIII/RECORD/',
-            channelUrl : 'http://localhost:8888/devine/20122013/MAIV/MAIVFOOD/', // Channel File for x-domain communication
+            channelUrl : 'http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/', // Channel File for x-domain communication
             status     : true, // check the login status upon init?
             cookie     : true, // set sessions cookies to allow your server to access the session?
             xfbml      : true  // parse XFBML tags on this page?,
@@ -46,7 +46,8 @@ function setupAPI(){
 
     })();
 
-    $('.actions a').click(deployFacebook);
+    $('.actions li:first-child a').click(deployFacebook);
+
 }
 
 function deployFacebook(e){

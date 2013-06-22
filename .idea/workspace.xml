@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/ccb6298d2802003163a3ed70fd118ea09320492c.file.gallery.tpl.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Exception/Pass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Exception/RequestSlash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Exception/Stop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Http/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Http/CookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Http/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Http/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Http/Uri.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Router.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Session/Flash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Session/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Session/Handler/Cookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/Slim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/Slim/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/restapi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/UserDAO.php" afterPath="$PROJECT_DIR$/DAO/UserDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Application.js" afterPath="$PROJECT_DIR$/assets/js/Application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Facebook.login.js" afterPath="$PROJECT_DIR$/assets/js/Facebook.login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Config.php" afterPath="$PROJECT_DIR$/classes/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/GalleryController.php" afterPath="$PROJECT_DIR$/controller/GalleryController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/allerrors.log" afterPath="$PROJECT_DIR$/logs/allerrors.log" />
     </list>
     <ignored path="MAIVFOOD.iws" />
@@ -30,7 +51,7 @@
       <file leaf-file-name="GalleryController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="13" selection-start="2441" selection-end="2441" vertical-scroll-proportion="-12.782609">
+            <state line="95" column="0" selection-start="2061" selection-end="2061" vertical-scroll-proportion="-23.913044">
               <folding />
             </state>
           </provider>
@@ -39,22 +60,22 @@
       <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="30" column="1" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Facebook.login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+      <file leaf-file-name="restapi.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/restapi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="15" selection-start="995" selection-end="1042" vertical-scroll-proportion="0.0">
+            <state line="14" column="14" selection-start="403" selection-end="418" vertical-scroll-proportion="0.34674922">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allerrors.log" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="allerrors.log" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logs/allerrors.log">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -63,28 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery00s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
+      <file leaf-file-name="View.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/Slim/View.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campaign.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery50s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="0" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/AppController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +105,7 @@
       <file leaf-file-name="base_facebook.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/facebook/src/base_facebook.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="593" column="36" selection-start="16927" selection-end="16927" vertical-scroll-proportion="0.0">
+            <state line="593" column="36" selection-start="16927" selection-end="16927" vertical-scroll-proportion="-0.6956522">
               <folding />
             </state>
           </provider>
@@ -102,7 +114,7 @@
       <file leaf-file-name="UserDAO.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="40" selection-start="1129" selection-end="1139" vertical-scroll-proportion="0.0">
+            <state line="24" column="12" selection-start="575" selection-end="575" vertical-scroll-proportion="-16.695652">
               <folding />
             </state>
           </provider>
@@ -123,16 +135,23 @@
       <list>
         <option value="$PROJECT_DIR$/facebook/src/base_facebook.php" />
         <option value="$PROJECT_DIR$/controller/AppController.php" />
-        <option value="$PROJECT_DIR$/controller/GalleryController.php" />
         <option value="$PROJECT_DIR$/logs/allerrors.log" />
+        <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
+        <option value="$PROJECT_DIR$/classes/Config.php" />
+        <option value="$PROJECT_DIR$/controller/GalleryController.php" />
+        <option value="$PROJECT_DIR$/api/.htaccess" />
+        <option value="$PROJECT_DIR$/assets/js/Application.js" />
+        <option value="$PROJECT_DIR$/api/restapi.php" />
+        <option value="$PROJECT_DIR$/DAO/UserDAO.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
+    <option name="x" value="323" />
     <option name="y" value="22" />
-    <option name="width" value="1241" />
+    <option name="width" value="1117" />
     <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -161,6 +180,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,6 +210,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,21 +359,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slim" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -333,14 +414,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="22" width="1241" height="815" extended-state="0" />
+    <frame x="323" y="22" width="1117" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2535565" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26517275" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937238" sideWeight="0.5013928" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -408,107 +489,83 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="2757" selection-end="2757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook/src/base_facebook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="593" column="36" selection-start="16927" selection-end="16927" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="40" selection-start="1129" selection-end="1139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="1129" selection-end="1139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.19814241">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.19814241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="713" selection-end="713" vertical-scroll-proportion="0.60835916" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="32" selection-start="1508" selection-end="1566" vertical-scroll-proportion="0.5365854">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facebook/src/base_facebook.php">
+    <entry file="file://$PROJECT_DIR$/classes/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="593" column="36" selection-start="16927" selection-end="16927" vertical-scroll-proportion="0.0">
+        <state line="9" column="25" selection-start="216" selection-end="216" vertical-scroll-proportion="-0.16408668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.24767801" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="13" selection-start="2441" selection-end="2441" vertical-scroll-proportion="-12.782609">
+        <state line="95" column="0" selection-start="2061" selection-end="2061" vertical-scroll-proportion="-23.913044">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="30" column="1" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+    <entry file="file://$PROJECT_DIR$/facebook/src/base_facebook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="15" selection-start="995" selection-end="1042" vertical-scroll-proportion="0.0">
+        <state line="593" column="36" selection-start="16927" selection-end="16927" vertical-scroll-proportion="-0.6956522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="575" selection-end="575" vertical-scroll-proportion="-16.695652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/Slim/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -516,6 +573,20 @@
     <entry file="file://$PROJECT_DIR$/logs/allerrors.log">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/restapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="403" selection-end="418" vertical-scroll-proportion="0.34674922">
           <folding />
         </state>
       </provider>
