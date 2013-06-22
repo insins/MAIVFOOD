@@ -5,8 +5,11 @@ require_once('/Applications/MAMP/htdocs/smarty/libs/Smarty.class.php');
 class AppController
 {
 
+
+
     public function __construct()
     {
+
         $this->page = isset($_GET['page']) ? $_GET['page'] : "campaign";
         $this->action = isset($_GET['action']) ? $_GET['action'] : '';
         $this->decade = isset($_GET['decade']) ? $_GET['decade'] : '';

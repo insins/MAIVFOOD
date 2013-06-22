@@ -96,65 +96,74 @@ class GalleryController extends AppController
        // --------------
     private function logintofacebook(){
 
+      $user = null;
+
         // FACEBOOK APP DINGEN IN ORDE BRENGEN
-        $facebook = new Facebook(array(
-          'appId'  => "616766485000843",
-          'secret' => "a573f30c80a05a4cd33543fd30065494",
-          'cookie' => true,
-        ));
+                 $facebook = new Facebook(array(
+                   'appId'  => "616766485000843",
+                   'secret' => "edd55c3a3277b6ba91fa426dea80c8cb",
+                   'cookie' => true,
+                 ));
 
-        //Facebook Authentication
-        $user       = $facebook->getUser();
-        $loginUrl   = $facebook->getLoginUrl(array('scope' => 'email,publish_stream,user_birthday,user_location,user_work_history,user_about_me,user_hometown'));
+                 //Facebook Authentication
+                 $user       = $facebook->getUser();
+                 $loginUrl   = $facebook->getLoginUrl(
+                 array(
+                   'scope' => 'email,publish_stream,user_birthday,user_location,user_work_history,user_about_me,user_hometown'
+                 )
+                 );
 
-        var_dump($user);
-        var_dump($loginUrl);
-        header( "'Location:'" . "'" . $loginUrl . "'" );
 
-        // Als er een user is gevonden
-        if ($user) {
-          try {
-            // De user ophalen via "/me"
-            $user_profile = $facebook->api('/me');
-            // Joepie we kunnen beginnen checken
-                if($user_profile){
+                 // Als er een user is gevonden
+                 if ($user) {
+                   try {
+                     // De user ophalen via "/me"
+                     $user_profile = $facebook->api('/me');
 
-               // Zit de user al in onze db?
-               $userDAO = new UserDAO();
-               $userID = $userDAO->checkInDatabase($user_profile["id"]);
-                // Als het niet zo is -> insert in de DB en daarna userID
-                if($userID == "-1"){
+                     // Joepie we kunnen beginnen checken
+                     if($user_profile){
 
-                   $checkSuccesInsert = $userDAO->insertUser($user_profile);
-                   if($checkSuccesInsert == true){
-                       $userID = $user_profile["id"];
-                   }
-                }
+                        // Zit de user al in onze db?
+                        $userDAO = new UserDAO();
+                        $userID = $userDAO->checkInDatabase($user_profile["id"]);
 
-            // We hebben eindelijk een user.
-            // Nu moeten we checken of hij de burger al geliked heeft
+                         // Als het niet zo is -> insert in de DB en daarna userID
+                         if($userID == "-1"){
 
-                // Burger ID uit de URL halen
-                $burger_id = $_GET["burgerId"];
+                            $checkSuccesInsert = $userDAO->insertUser($user_profile);
+                            if($checkSuccesInsert == true){
+                                $userID = $user_profile["id"];
+                            }
+                         }
 
-                $likeDAO = new LikeDAO();
-                $checkLike = $likeDAO->chechUserLikedBurger($userID, $burger_id);
+                     // We hebben eindelijk een user.
+                     // Nu moeten we checken of hij de burger al geliked heeft
 
-                // Like checken
-                if($checkLike == true){
-                    // Like bestaat al, dus je kan niet nog is liken
-                    trace("Error, like bestaat al");
-                }
-                else{
-                    // Like bestaat nog niet we gaan hem dan inserten
-                    $likeDAO->insertLike($burger_id, $userID);
+                         // Burger ID uit de URL halen
+                         $burger_id = $_GET["burgerId"];
+
+                         $likeDAO = new LikeDAO();
+                         $checkLike = $likeDAO->chechUserLikedBurger($userID, $burger_id);
+
+                         // Like checken
+                         if($checkLike == true){
+                             // Like bestaat al, dus je kan niet nog is liken
+                             trace("Error, like bestaat al");
+                         }
+                         else{
+                             // Like bestaat nog niet we gaan hem dan inserten
+                             $likeDAO->insertLike($burger_id, $userID);
+                         }
+                     }
+
+                  } catch (FacebookApiException $e) {
+                    error_log($e);
+                    $user = null;
+                  }
                 }
             }
 
-          } catch (FacebookApiException $e) {
-            error_log($e);
-            $user = null;
-          }
-        }
+
+
+
     }
-}
