@@ -531,6 +531,39 @@ section#content-wrapper{
       }
     }
 
+        /* -------------------- */
+        /* 80s */
+        /* -------------------- */
+        //Header van de 80s
+        section#banner-80s{
+          background: url("../images/80s-banner-bg.png") no-repeat;
+          background-size: cover;
+          height: 603px;
+
+          // 00s
+          header{
+
+            margin-left: 200px;
+
+            h1{
+              background: url("../images/80s-banner-80s.png") no-repeat bottom left;
+              padding: 80px 0 0 255px;
+              font-family: bebasneue, sans-serif;
+              font-size: 70px;
+              color: #FFF;
+              height: 169px;
+
+              font-size: 79px;
+              font-family: deftone, serif;
+              color: #50c8b8;
+              text-shadow: -4px 4px #000;
+
+
+            }
+          }
+        }
+
+
     /* -------------------- */
     /* DETAIL 00s */
     /* -------------------- */
@@ -1219,22 +1252,22 @@ section#content-wrapper{
       /* DETAIL PAGE */
       /* -------------------- */
       section#burgerSamenvatting{
-        background-color: #fbf9f4;
+        background-color: #333;
         width: 960px;
         margin: 0 auto 0 auto;
 
         // This burger is rocking
         header{
           h1{
-            font-family: american_purpose_casual_01Rg, serif;
-            font-size: 46px;
-            color: #df4452;
-
-            // Lijn onder titel
-            background: url("../images/50s-burger-rocking-title-line.png") no-repeat bottom left;
-            padding: 30px 0 5px 0;
-            margin: 0 0 0 50px;
-
+            font-family: nevis, sans-serif;
+            text-transform: uppercase;
+            color: #ffea63;
+            text-shadow: -2px 2px #000;
+            font-size: 30px;
+            padding-bottom: 3px;
+            width: 656px;
+            border-bottom: #ffea63 3px solid;
+            margin: 0 0 20px 40px;
           }
 
         }
@@ -1255,9 +1288,8 @@ section#content-wrapper{
           ul#actios{
 
             li{
-              font-family: bebasneue, sans-serif;
               font-size: 30px;
-              color: #e4656f;
+              color: #fd7878;
               width: 400px;
               margin-bottom: 45px;
 
@@ -1269,17 +1301,17 @@ section#content-wrapper{
                 background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
                 height: 76px;
                 width: 76px;
-                padding: 25px 25px 25px 25px;
-                font-family: american_purpose_casual_01Rg, serif;
+                padding: 20px 20px;
+                font-family: brandon_grotesque_regularRg, sans-serif;
                 color: #fffcf1;
               }
 
               a{
                 text-decoration: none;
-                color: #fffcf1;
-                background-color: #7bd3b4;
+                color: #fd7878;
                 text-align: center;
                 padding: 10px 10px;
+
 
                 img{
                   margin-right: 10px;
@@ -1308,14 +1340,15 @@ section#content-wrapper{
           // In this burger
           header{
             h1{
-              color:#fffcf1;
-              font-size: 40px;
-              font-family: american_purpose_casual_01Rg, serif;
-
-              // Lijn onder header
-              background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
-              padding-bottom: 10px;
-
+              font-family: nevis, sans-serif;
+              text-transform: uppercase;
+              color: #ffea63;
+              text-shadow: -2px 2px #000;
+              font-size: 30px;
+              padding-bottom: 3px;
+              width: 656px;
+              border-bottom: #ffea63 3px solid;
+              margin: 0 0 20px 40px;
             }
           }
 
@@ -1328,12 +1361,11 @@ section#content-wrapper{
 
           ul{
             float: left;
-            margin: 25px 0 0 0;
 
 
             li{
 
-              color: #e4cf41;
+              color: #FFFF;
               margin-bottom: 15px;
 
             }
@@ -1352,14 +1384,15 @@ section#content-wrapper{
           header{
 
               h1{
-               color:#fffcf1;
-               font-size: 40px;
-               font-family: american_purpose_casual_01Rg, serif;
-                width: 235px;
-
-               // Lijn onder header
-               background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
-               padding-bottom: 10px;
+                font-family: nevis, sans-serif;
+                text-transform: uppercase;
+                color: #ffea63;
+                text-shadow: -2px 2px #000;
+                font-size: 30px;
+                padding-bottom: 3px;
+                width: 350px;
+                border-bottom: #ffea63 3px solid;
+                margin: 0 0 20px 0;
              }
            }
 
@@ -1367,16 +1400,15 @@ section#content-wrapper{
           ul{
             li{
 
-              width: 220px;
-              background-color: #e4cf41;
+              width: 300px;
               font-size: 20px;
-              font-family: bebasneue, sans-serif;
+              font-family: brandon_grotesque_regularRg, sans-serif;
               padding: 10px 10px;
               margin: 15px 0 15px 0;
 
 
                a{
-                 color: #fbf9f4;
+                 color: #fd7878;
                  text-decoration: none;
 
                  img{
@@ -1392,7 +1424,7 @@ section#content-wrapper{
 
       }
 
-    /* -------------------- */
+        /* -------------------- */
         /* 50s */
         /* -------------------- */
         // Header van de 50s

@@ -2,7 +2,7 @@
     <section id="banner-80s">
         <div id="logo">&nbsp;</div>
         <header>
-            <h1><span>80s</span>Burger fever</h1>
+            <h1>Burger fever</h1>
         </header>
     </section>
 

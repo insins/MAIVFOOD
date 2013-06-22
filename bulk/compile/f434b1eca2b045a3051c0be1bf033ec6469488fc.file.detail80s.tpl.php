@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 20:06:39
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 23:33:11
          compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:122773289651c5ce779bd008-44831850%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f434b1eca2b045a3051c0be1bf033ec6469488fc' => 
     array (
       0 => 'bulk/templates/pages/partials/detail80s.tpl',
-      1 => 1371924379,
+      1 => 1371936789,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <section id="banner-80s">
         <div id="logo">&nbsp;</div>
         <header>
-            <h1><span>80s</span>Burger fever</h1>
+            <h1>Burger fever</h1>
         </header>
     </section>
 
