@@ -47,11 +47,6 @@ function setupAPI(){
     })();
 
     $('.actions li:first-child a').click(deployFacebook);
-<<<<<<< HEAD
-
-=======
->>>>>>> 71ab5abc8e0f5c4f95ada5e7a394b134844442cf
-}
 
 function deployFacebook(e){
     if(userConnected == false){
@@ -77,4 +72,5 @@ function fetchUserDetails(target){
     FB.api("/me", function(response){
         performAjaxAction(target,response);
     });
+}
 }
