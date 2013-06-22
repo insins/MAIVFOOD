@@ -904,71 +904,30 @@ section#content-wrapper{
 
 
     /* -------------------- */
-    /* 50s */
+    /* 00S GALLERY */
     /* -------------------- */
-    // Header van de 50s
-    section#banner-50s{
-      background: url("../images/50s-banner-bg.png") no-repeat;
-      background-size: cover;
-      height: 337px;
-
-      div#logo{
-        background: url("../images/50s-logo.png") no-repeat bottom center;
-        width: 87px;
-        height: 87px;
-        margin: 0 0 0 215px;
-        padding-top: 10px;
-      }
-
-      header{
-
-        color: #fffcf1;
-        text-shadow: 2px 2px #434343;
-
-        h1{
-          font-family: american_purpose_casual_01Rg, serif;
-          font-size: 150px;
-          margin: 10px 0 0 150px;
-
-          span{
-            font-size: 50px;
-          }
-
-        }
-
-        h2{
-          font-family: southern_aire_personal_use_Rg, serif;
-          font-size: 65px;
-          position: relative;
-          top: -130px;
-          left: 300px;
-        }
-      }
-    }
-
     /* ALLE HAMBURGERS */
-    div#achtergrond50s{
-      background-color: #df4452;
-
+    div#achtergrond00s{
       // Top 3
       section#top3{
         width: 960px;
         margin: 0 auto 0 auto;
         color: #de606b;
-        background-color: #fbf9f4;
+        background-color: #353535;
 
         // Titel
         header{
 
           h1{
-            font-family: american_purpose_casual_01Rg, serif;
-            font-size: 46px;
-            padding: 40px 0 5px 40px;
-            text-shadow: 2px 2px #434343;
-
-            // lijn onder title
-            background: url("../images/50s-title-line.png") no-repeat;
-            background-position: 40px 83px;
+            font-family: nevis, sans-serif;
+            text-transform: uppercase;
+            color: #ffea63;
+            text-shadow: -2px 2px #000;
+            font-size: 30px;
+            padding-bottom: 3px;
+            width: 456px;
+            border-bottom: #ffea63 3px solid;
+            margin: 0 0 40px 40px;
           }
         }
 
@@ -983,15 +942,16 @@ section#content-wrapper{
             float: left;
             width: 230px;
             margin-right: 60px;
+
               // Vote rondje
               div#voteCountFirst{
                 // Vote count opmaak
                 background: url("../images/50s-vote-count-best.png") no-repeat;
                 height: 97px;
                 width: 97px;
-                padding: 34px 0 0 26px;
+                font-family: brandon_grotesque_regularRg, sans-serif;
+                padding: 30px 0 0 23px;
                 color: #FFF;
-                font-family: american_purpose_casual_01Rg, serif;
                 font-size: 43px;
 
                 // Positioneren
@@ -1001,25 +961,27 @@ section#content-wrapper{
               }
               // Naam maker
               p{
-                color: #58bfa6;
-                font-size: 30px;
-                font-family: bebasneue, sans-serif;
+                color: #6ee8ca;
+                font-size: 20px;
+                font-family: brandon_grotesque_regularRg, sans-serif;
+                text-transform: uppercase;
                 margin-bottom: 10px;
               }
               // Action buttons
               ul.actions{
                 li{
-
+                  text-transform: uppercase;
+                  font-size: 14px;
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  border: 5px #6ee8ca solid;
                   margin-bottom: 10px;
                   width: 187px;
                   text-align: center;
-                  background-color: #58bfa6;
-                  padding: 5px 10px;
-                   a{
-                    text-decoration: none;
-                    color: #FFF;
-                    font-family: bebasneue, sans-serif;
-                    font-size: 20px;
+                  padding: 10px 10px;
+
+                  a{
+                     color: #6ee8ca;
+                     text-decoration: none;
                   }
                 }
               }
@@ -1040,9 +1002,9 @@ section#content-wrapper{
                     background: url("../images/50s-vote-count-second.png") no-repeat;
                     height: 97px;
                     width: 97px;
-                    padding: 34px 0 0 26px;
                     color: #FFF;
-                    font-family: american_purpose_casual_01Rg, serif;
+                    font-family: brandon_grotesque_regularRg, sans-serif;
+                    padding: 30px 0 0 23px;
                     font-size: 43px;
 
                     // Positioneren
@@ -1053,33 +1015,34 @@ section#content-wrapper{
 
                   p{
                     color: #fd7878;
-                    font-size: 30px;
-                    font-family: bebasneue, sans-serif;
+                    font-size: 20px;
+                    font-family: brandon_grotesque_regularRg, sans-serif;
+                    text-transform: uppercase;
                     margin-bottom: 10px;
                   }
 
-                  ul.actions{
-                    li{
-                      margin-bottom: 10px;
-                      width: 187px;
-                      text-align: center;
-                      background-color: #fd7878;
-                      padding: 5px 10px;
+              ul.actions{
+                li{
+                  text-transform: uppercase;
+                  font-size: 14px;
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  border: 5px #fd7878 solid;
+                  margin-bottom: 10px;
+                  width: 187px;
+                  text-align: center;
+                  padding: 10px 10px;
 
-
-                       a{
-                        text-decoration: none;
-                        color: #FFF;
-                        font-family: bebasneue, sans-serif;
-                        font-size: 20px;
-
-                      }
-
-                    }
+                  a{
+                     color: #fd7878;
+                     text-decoration: none;
                   }
+                }
               }
+          }
 
+          //--------------------
           // Tweede beste burger
+          // --------------------
         section#thirdBurger{
 
               position:relative;
@@ -1091,9 +1054,9 @@ section#content-wrapper{
                   background: url("../images/50s-vote-count-third.png") no-repeat;
                   height: 97px;
                   width: 97px;
-                  padding: 34px 0 0 26px;
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  padding: 30px 0 0 23px;
                   color: #FFF;
-                  font-family: american_purpose_casual_01Rg, serif;
                   font-size: 43px;
 
                   // Positioneren
@@ -1103,53 +1066,53 @@ section#content-wrapper{
                 }
 
                 p{
-                  color: #ebce11;
-                  font-size: 30px;
-                  font-family: bebasneue, sans-serif;
-                  margin-bottom: 10px;
-                }
+                 color: #ffea63;
+                 font-size: 20px;
+                 font-family: brandon_grotesque_regularRg, sans-serif;
+                 text-transform: uppercase;
+                 margin-bottom: 10px;
+               }
 
-                ul.actions{
-                  li{
+           ul.actions{
+             li{
+               text-transform: uppercase;
+               font-size: 14px;
+               font-family: brandon_grotesque_regularRg, sans-serif;
+               border: 5px #ffea63 solid;
+               margin-bottom: 10px;
+               width: 187px;
+               text-align: center;
+               padding: 10px 10px;
 
-                    margin-bottom: 10px;
-                    width: 187px;
-                    text-align: center;
-                    background-color: #ebce11;
-                    padding: 5px 10px;
-
-
-                     a{
-                      text-decoration: none;
-                      color: #FFF;
-                      font-family: bebasneue, sans-serif;
-                      font-size: 20px;
-
-                    }
-                  }
-                }
+               a{
+                  color: #ffea63;
+                  text-decoration: none;
+               }
+             }
+           }
             }
         }
 
       }
 
-        section#allTheBugers50s{
+        section#allTheBugers00s{
           width: 960px;
           margin: 30 auto 0 auto;
 
           header{
 
-            float:left;
-
-            h1{
-              color:  #FFF;
-              font-family: american_purpose_casual_01Rg, serif;
-              font-size: 46px;
-              background: url("../images/50s-view-all-line.png") no-repeat bottom left;
-              padding-bottom: 8px;
-              width: 550px;
-            }
-          }
+            float: left;
+             h1{
+                font-family: nevis, sans-serif;
+                text-transform: uppercase;
+                color: #ffea63;
+                text-shadow: -2px 1px #000;
+                font-size: 30px;
+                padding-bottom: 3px;
+                width: 550px;
+                border-bottom: #ffea63 3px solid;
+              }
+           }
 
           section#searchField{
             float: left;
@@ -1158,13 +1121,20 @@ section#content-wrapper{
             form{
               div{
                 input{
-                  border:none;
+                  border: 5px #fd7878 solid;
+                  color: #fd7878;
+                  text-decoration: none;
+                  font-size: 20px;
+                  font-weight: bolder;
+                  background: none;
+
                   width: 260px;
                   padding: 10px 0 10px 10px;
-                  font-size: 24px;
-                  color: #df4452;
-                  font-family: bebasneue, sans-serif;
-                  margin-left: 100px;
+                  font-size: 18px;
+                  color: #fd7878;
+
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  margin: 30px 0 0 85px;
 
                   background-image: url("../images/50s-search-glass.png");
                   background-repeat: no-repeat;
@@ -1188,26 +1158,33 @@ section#content-wrapper{
               margin: 30px 40px 0 40px;
 
               // Gegevens
-              font-family: bebasneue, sans-serif;
-              font-size: 30px;
+              font-family: brandon_grotesque_regularRg, sans-serif;
+              color: #FFF;
+              text-transform: uppercase;
 
               p{
-                margin-top: 10px;
+                margin: 10px 0;
+                font-size: 18px;
+
               }
 
               // Actions
               ul.actions{
                 li{
-                  background-color:#f6e993;
-                  text-align: center;
-                  margin-top: 5px;
-                  padding: 3px 0 7px 0;
 
+                  border: 5px #FFF solid;
+                  text-decoration: none;
+                  font-weight: bolder;
+                  background: none;
+                  text-align: center;
+                  margin-top: 10px;
+                  padding: 7px 0 7px 0;
 
                   a{
-                    color:#df4452;
+                    color:#FFF;
                     text-decoration: none;
-                    font-size: 21px;
+                    font-size: 14px;
+
                   }
                 }
               }
@@ -1424,6 +1401,16 @@ section#content-wrapper{
 // DINGEN DIE WE OVERAL NODIG HEBBEN
 .dummy{
   clear:both;
+}
+
+section#searchField{
+  form{
+    div{
+      input:focus{
+        outline: none;
+      }
+    }
+  }
 }
 
 

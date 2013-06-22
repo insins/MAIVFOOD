@@ -455,7 +455,7 @@ section#content-wrapper section#content {
   /* DETAIL 80s */
   /* -------------------- */
   /* -------------------- */
-  /* 50s */
+  /* 00S GALLERY */
   /* -------------------- */
   /* ALLE HAMBURGERS */
 }
@@ -790,264 +790,247 @@ section#content-wrapper section#content div#achtergrond80s section#voteBtns ul l
   margin-left: 10px;
 }
 /* line 910, ../sass/style.scss */
-section#content-wrapper section#content section#banner-50s {
-  background: url("../images/50s-banner-bg.png") no-repeat;
-  background-size: cover;
-  height: 337px;
-}
-/* line 915, ../sass/style.scss */
-section#content-wrapper section#content section#banner-50s div#logo {
-  background: url("../images/50s-logo.png") no-repeat bottom center;
-  width: 87px;
-  height: 87px;
-  margin: 0 0 0 215px;
-  padding-top: 10px;
-}
-/* line 923, ../sass/style.scss */
-section#content-wrapper section#content section#banner-50s header {
-  color: #fffcf1;
-  text-shadow: 2px 2px #434343;
-}
-/* line 928, ../sass/style.scss */
-section#content-wrapper section#content section#banner-50s header h1 {
-  font-family: american_purpose_casual_01Rg, serif;
-  font-size: 150px;
-  margin: 10px 0 0 150px;
-}
-/* line 933, ../sass/style.scss */
-section#content-wrapper section#content section#banner-50s header h1 span {
-  font-size: 50px;
-}
-/* line 939, ../sass/style.scss */
-section#content-wrapper section#content section#banner-50s header h2 {
-  font-family: southern_aire_personal_use_Rg, serif;
-  font-size: 65px;
-  position: relative;
-  top: -130px;
-  left: 300px;
-}
-/* line 950, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s {
-  background-color: #df4452;
+section#content-wrapper section#content div#achtergrond00s {
   /* -------------------- */
   /* DETAIL PAGE */
   /* -------------------- */
 }
-/* line 954, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 {
+/* line 912, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 {
   width: 960px;
   margin: 0 auto 0 auto;
   color: #de606b;
-  background-color: #fbf9f4;
+  background-color: #353535;
 }
-/* line 963, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 header h1 {
-  font-family: american_purpose_casual_01Rg, serif;
-  font-size: 46px;
-  padding: 40px 0 5px 40px;
-  text-shadow: 2px 2px #434343;
-  background: url("../images/50s-title-line.png") no-repeat;
-  background-position: 40px 83px;
+/* line 921, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 2px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 456px;
+  border-bottom: #ffea63 3px solid;
+  margin: 0 0 40px 40px;
 }
-/* line 975, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers {
+/* line 934, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers {
   width: 820px;
   margin: 25px auto 0 auto;
 }
-/* line 981, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger {
+/* line 940, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 987, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger div#voteCountFirst {
+/* line 947, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger div#voteCountFirst {
   background: url("../images/50s-vote-count-best.png") no-repeat;
   height: 97px;
   width: 97px;
-  padding: 34px 0 0 26px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  padding: 30px 0 0 23px;
   color: #FFF;
-  font-family: american_purpose_casual_01Rg, serif;
   font-size: 43px;
   position: absolute;
   left: 60px;
   top: 50px;
 }
-/* line 1003, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger p {
-  color: #58bfa6;
-  font-size: 30px;
-  font-family: bebasneue, sans-serif;
+/* line 963, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger p {
+  color: #6ee8ca;
+  font-size: 20px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 1011, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li {
+/* line 972, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger ul.actions li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  border: 5px #6ee8ca solid;
   margin-bottom: 10px;
   width: 187px;
   text-align: center;
-  background-color: #58bfa6;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
-/* line 1018, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li a {
+/* line 982, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger ul.actions li a {
+  color: #6ee8ca;
   text-decoration: none;
-  color: #FFF;
-  font-family: bebasneue, sans-serif;
-  font-size: 20px;
 }
-/* line 1031, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger {
+/* line 993, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 1038, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger div#voteCountSecond {
+/* line 1000, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger div#voteCountSecond {
   background: url("../images/50s-vote-count-second.png") no-repeat;
   height: 97px;
   width: 97px;
-  padding: 34px 0 0 26px;
   color: #FFF;
-  font-family: american_purpose_casual_01Rg, serif;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  padding: 30px 0 0 23px;
   font-size: 43px;
   position: absolute;
   left: 60px;
   top: 50px;
 }
-/* line 1054, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger p {
+/* line 1016, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger p {
   color: #fd7878;
-  font-size: 30px;
-  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 1062, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li {
+/* line 1025, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger ul.actions li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  border: 5px #fd7878 solid;
   margin-bottom: 10px;
   width: 187px;
   text-align: center;
-  background-color: #fd7878;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
-/* line 1070, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li a {
+/* line 1035, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger ul.actions li a {
+  color: #fd7878;
   text-decoration: none;
-  color: #FFF;
-  font-family: bebasneue, sans-serif;
-  font-size: 20px;
 }
-/* line 1083, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger {
+/* line 1046, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger {
   position: relative;
   float: left;
   width: 230px;
 }
-/* line 1089, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger div#voteCountThird {
+/* line 1052, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger div#voteCountThird {
   background: url("../images/50s-vote-count-third.png") no-repeat;
   height: 97px;
   width: 97px;
-  padding: 34px 0 0 26px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  padding: 30px 0 0 23px;
   color: #FFF;
-  font-family: american_purpose_casual_01Rg, serif;
   font-size: 43px;
   position: absolute;
   left: 60px;
   top: 50px;
 }
-/* line 1105, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger p {
-  color: #ebce11;
-  font-size: 30px;
-  font-family: bebasneue, sans-serif;
+/* line 1068, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger p {
+  color: #ffea63;
+  font-size: 20px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 1113, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li {
+/* line 1077, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger ul.actions li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  border: 5px #ffea63 solid;
   margin-bottom: 10px;
   width: 187px;
   text-align: center;
-  background-color: #ebce11;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
-/* line 1122, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li a {
+/* line 1087, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger ul.actions li a {
+  color: #ffea63;
   text-decoration: none;
-  color: #FFF;
-  font-family: bebasneue, sans-serif;
-  font-size: 20px;
 }
-/* line 1136, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s {
+/* line 1098, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s {
   width: 960px;
   margin: 30 auto 0 auto;
 }
-/* line 1140, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header {
+/* line 1102, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s header {
   float: left;
 }
-/* line 1144, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header h1 {
-  color: #FFF;
-  font-family: american_purpose_casual_01Rg, serif;
-  font-size: 46px;
-  background: url("../images/50s-view-all-line.png") no-repeat bottom left;
-  padding-bottom: 8px;
+/* line 1105, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 1px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
   width: 550px;
+  border-bottom: #ffea63 3px solid;
 }
-/* line 1154, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField {
+/* line 1117, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField {
   float: left;
   width: 260px;
 }
-/* line 1160, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div input {
-  border: none;
+/* line 1123, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div input {
+  border: 5px #fd7878 solid;
+  color: #fd7878;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  background: none;
   width: 260px;
   padding: 10px 0 10px 10px;
-  font-size: 24px;
-  color: #df4452;
-  font-family: bebasneue, sans-serif;
-  margin-left: 100px;
+  font-size: 18px;
+  color: #fd7878;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  margin: 30px 0 0 85px;
   background-image: url("../images/50s-search-glass.png");
   background-repeat: no-repeat;
   background-position: 220px;
 }
-/* line 1180, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow {
+/* line 1150, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow {
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 1184, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary {
+/* line 1154, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary {
   color: #f6e993;
   position: relative;
   float: left;
   margin: 30px 40px 0 40px;
-  font-family: bebasneue, sans-serif;
-  font-size: 30px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
 }
-/* line 1194, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary p {
-  margin-top: 10px;
+/* line 1165, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary p {
+  margin: 10px 0;
+  font-size: 18px;
 }
-/* line 1200, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li {
-  background-color: #f6e993;
-  text-align: center;
-  margin-top: 5px;
-  padding: 3px 0 7px 0;
-}
-/* line 1207, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li a {
-  color: #df4452;
+/* line 1173, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li {
+  border: 5px #FFF solid;
   text-decoration: none;
-  font-size: 21px;
+  font-weight: bolder;
+  background: none;
+  text-align: center;
+  margin-top: 10px;
+  padding: 7px 0 7px 0;
 }
-/* line 1215, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary div.voteCount {
+/* line 1183, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* line 1192, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary div.voteCount {
   position: absolute;
   top: -15px;
   left: 80px;
@@ -1059,20 +1042,20 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
 }
-/* line 1230, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow div.line {
+/* line 1207, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow div.line {
   background-color: #fbf9f3;
   height: 1px;
   margin-bottom: 20px;
 }
-/* line 1244, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting {
+/* line 1221, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting {
   background-color: #fbf9f4;
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 1251, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting header h1 {
+/* line 1228, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting header h1 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 46px;
   color: #df4452;
@@ -1080,32 +1063,32 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   padding: 30px 0 5px 0;
   margin: 0 0 0 50px;
 }
-/* line 1265, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting div#hamburgerImage {
+/* line 1242, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting div#hamburgerImage {
   float: left;
   width: 273px;
   margin: 25px 0 0 86px;
 }
-/* line 1273, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things {
+/* line 1250, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things {
   float: left;
   width: 400px;
   margin: 25px 0 0 86px;
 }
-/* line 1280, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li {
+/* line 1257, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li {
   font-family: bebasneue, sans-serif;
   font-size: 30px;
   color: #e4656f;
   width: 400px;
   margin-bottom: 45px;
 }
-/* line 1287, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span {
+/* line 1264, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li span {
   color: #78d1b2;
 }
-/* line 1291, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span#votes {
+/* line 1268, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li span#votes {
   background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
   height: 76px;
   width: 76px;
@@ -1113,61 +1096,61 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   font-family: american_purpose_casual_01Rg, serif;
   color: #fffcf1;
 }
-/* line 1300, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a {
+/* line 1277, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a {
   text-decoration: none;
   color: #fffcf1;
   background-color: #7bd3b4;
   text-align: center;
   padding: 10px 10px;
 }
-/* line 1307, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a img {
+/* line 1284, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a img {
   margin-right: 10px;
 }
-/* line 1318, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo {
+/* line 1295, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo {
   width: 960px;
   margin: 40px auto 0 auto;
 }
-/* line 1325, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten {
+/* line 1302, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten {
   float: left;
   width: 300px;
   font-size: 20px;
   font-family: bebasneue, sans-serif;
 }
-/* line 1333, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten header h1 {
+/* line 1310, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten header h1 {
   color: #fffcf1;
   font-size: 40px;
   font-family: american_purpose_casual_01Rg, serif;
   background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
   padding-bottom: 10px;
 }
-/* line 1346, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten p {
+/* line 1323, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten p {
   float: left;
   color: #fffcf1;
   margin: 25px 40px 0 0;
 }
-/* line 1352, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul {
+/* line 1329, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten ul {
   float: left;
   margin: 25px 0 0 0;
 }
-/* line 1357, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul li {
+/* line 1334, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten ul li {
   color: #e4cf41;
   margin-bottom: 15px;
 }
-/* line 1369, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns {
+/* line 1346, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns {
   margin-left: 150px;
   float: left;
 }
-/* line 1377, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns header h1 {
+/* line 1354, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns header h1 {
   color: #fffcf1;
   font-size: 40px;
   font-family: american_purpose_casual_01Rg, serif;
@@ -1175,8 +1158,8 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
   background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
   padding-bottom: 10px;
 }
-/* line 1391, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li {
+/* line 1368, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li {
   width: 220px;
   background-color: #e4cf41;
   font-size: 20px;
@@ -1184,19 +1167,24 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
   padding: 10px 10px;
   margin: 15px 0 15px 0;
 }
-/* line 1401, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a {
+/* line 1378, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li a {
   color: #fbf9f4;
   text-decoration: none;
 }
-/* line 1405, ../sass/style.scss */
-section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a img {
+/* line 1382, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li a img {
   margin: 0 0 0 15px;
 }
 
-/* line 1425, ../sass/style.scss */
+/* line 1402, ../sass/style.scss */
 .dummy {
   clear: both;
+}
+
+/* line 1409, ../sass/style.scss */
+section#searchField form div input:focus {
+  outline: none;
 }
 
 /* END SASSING HERE */
