@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/style.scss" afterPath="$PROJECT_DIR$/assets/sass/style.scss" />
     </list>
     <ignored path="MAIVFOOD.iws" />
@@ -94,7 +92,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="963" column="23" selection-start="22889" selection-end="22889" vertical-scroll-proportion="0.46341464">
+            <state line="529" column="0" selection-start="11629" selection-end="11629" vertical-scroll-proportion="0.4640523">
               <folding />
             </state>
           </provider>
@@ -571,7 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="963" column="23" selection-start="22889" selection-end="22889" vertical-scroll-proportion="0.46341464">
+        <state line="529" column="0" selection-start="11629" selection-end="11629" vertical-scroll-proportion="0.4640523">
           <folding />
         </state>
       </provider>
