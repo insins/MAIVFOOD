@@ -10,6 +10,11 @@
 @import "../fonts/brandonGrotesque/stylesheet.css";
 @import "../fonts/geared/stylesheet.css";
 @import "../fonts/southern/stylesheet.css";
+@import "../fonts/deftone/stylesheet.css";
+@import "../fonts/bebas/stylesheet.css";
+@import "../fonts/nevis/stylesheet.css";
+
+
 
 // variables
 $red : #fd7878;
@@ -468,6 +473,8 @@ div#wrapper{
   }
 }
 
+
+
 /* -------------------- */
 /* GALERY PAGE */
 /* -------------------- */
@@ -475,69 +482,473 @@ section#content-wrapper{
 
   section#content{
 
-    // Header van de 50s
-    section#banner-50s{
-      background: url("../images/50s-banner-bg.png") no-repeat;
+    /* -------------------- */
+    /* 00s */
+    /* -------------------- */
+    //Header van de 00s
+    section#banner-00s{
+      background: url("../images/00s-banner-bg.png") no-repeat;
       background-size: cover;
-      height: 337px;
+      height: 603px;
 
-      div#logo{
-        background: url("../images/50s-logo.png") no-repeat bottom center;
-        width: 87px;
-        height: 87px;
-        margin: 0 0 0 215px;
-        padding-top: 10px;
-      }
-
+      // 00s
       header{
 
-        color: #fffcf1;
-        text-shadow: 2px 2px #434343;
+        margin-left: 200px;
 
         h1{
-          font-family: american_purpose_casual_01Rg, serif;
-          font-size: 150px;
-          margin: 10px 0 0 150px;
+
+          background: url("../images/00s-banner-title-triangles.png") no-repeat bottom left;
+          padding: 45px 0 0 25px;
+          font-family: bebasneue, sans-serif;
+          font-size: 70px;
+          color: #FFF;
+
 
           span{
-            font-size: 50px;
+            position: absolute;
+            left: -9999px;
+            display:none;
+
+          }}
+
+        h2{
+         font-family: brandon_grotesque_regularRg, sans-serif;
+         font-size: 30px;
+          color: #Fff;
+          width: 400px;
+          margin: -50px 0 0 400px;
+
+          span{
+            color: #ffec5b;
+          }
+
+          span#rood{
+            color: #fd7878;
+            font-weight: bolder;
+          }
+       }
+      }
+    }
+
+        /* -------------------- */
+        /* 80s */
+        /* -------------------- */
+        //Header van de 80s
+        section#banner-80s{
+          background: url("../images/80s-banner-bg.png") no-repeat;
+          background-size: cover;
+          height: 603px;
+
+          // 00s
+          header{
+
+            margin-left: 200px;
+
+            h1{
+              background: url("../images/80s-banner-80s.png") no-repeat bottom left;
+              padding: 80px 0 0 255px;
+              font-family: bebasneue, sans-serif;
+              font-size: 70px;
+              color: #FFF;
+              height: 169px;
+              text-transform: lowercase;
+              font-size: 79px;
+              font-family: deftone, serif;
+              color: #50c8b8;
+              text-shadow: -4px 4px #000;
+            }
+          }
+        }
+
+
+    /* -------------------- */
+    /* DETAIL 00s */
+    /* -------------------- */
+    div#achtergrond00s{
+      background-color: #83d6b8;
+
+      section#burgerSamenvatting{
+        width: 960px;
+        margin:0 auto;
+        background-color: #353535;
+      }
+
+      // This burger is something special!
+      header{
+
+        padding-top: 40px;
+
+        h1{
+          font-family: nevis, sans-serif;
+          text-transform: uppercase;
+          color: #ffea63;
+          text-shadow: -2px 2px #000;
+          font-size: 30px;
+          padding-bottom: 3px;
+          width: 656px;
+          border-bottom: #ffea63 3px solid;
+
+          margin: 0 0 40px 40px;
+
+        }
+      }
+
+      // Burger image
+         div#hamburgerImage{
+           float: left;
+           width: 375px;
+           margin: 10px 0 20px 60px;
+         }
+
+         // Opsomming
+         section#list-things{
+
+           float: left;
+           width: 375px;
+
+
+           ul#actios{
+
+             margin: 30px 0 0 50px;
+
+
+             li{
+               font-family: brandon_grotesque_regularRg, sans-serif;
+               text-transform: uppercase;
+               color: #fd7878;
+               font-size: 25px;
+               margin-bottom: 35px;
+
+               a{
+                 height: 65px;
+                 width:160px;
+                 padding: 5px;
+
+                 border: 5px #fd7878 solid;
+                 color: #fd7878;
+                 text-decoration: none;
+                 font-size: 20px;
+                 font-weight: bolder;
+
+
+                 img{
+                   margin-right: 5px;
+                 }
+
+               }
+
+               span{
+                 color: #6ee8ca;
+               }
+             }
+
+           }
+
+         }
+
+      // ONDERSTE OP DETAIL PAGINA
+      section#bottomInfo{
+
+        width: 960px;
+        margin: 0 auto;
+
+        section#ingredienten{
+
+          width: 335px;
+          float: left;
+
+          // Ingredients
+          header{
+            h1{
+               font-family: nevis, sans-serif;
+               text-transform: uppercase;
+               color: #ffea63;
+               text-shadow: -2px 1px #000;
+               font-size: 30px;
+               padding-bottom: 3px;
+               width: 300px;
+               border-bottom: #ffea63 3px solid;
+             }
+          }
+
+          // Includes
+          p{
+            float: left;
+            font-size: 24px;
+            font-family: brandon_grotesque_regularRg, sans-serif;
+            text-transform: uppercase;
+            color: #565656;
+            margin: 0 40px;
+          }
+
+          ul{
+            float: left;
+            font-size: 22px;
+            font-family: brandon_grotesque_regularRg, sans-serif;
+            color: #FFF;
+            text-transform: uppercase;
+
+
+            li{
+              margin: 0 0 20px 0;
+            }
+
           }
 
         }
 
-        h2{
-          font-family: southern_aire_personal_use_Rg, serif;
-          font-size: 65px;
-          position: relative;
-          top: -130px;
-          left: 300px;
-        }
       }
+
+      // VOTE BUTTONS
+      section#voteBtns{
+
+        width: 335px;
+        float: left;
+        margin-left: 100px;
+
+          header{
+           h1{
+             font-family: nevis, sans-serif;
+             text-transform: uppercase;
+             color: #ffea63;
+             text-shadow: -2px 1px #000;
+             font-size: 30px;
+             padding-bottom: 3px;
+             width: 300px;
+             border-bottom: #ffea63 3px solid;
+           }
+       }
+
+        ul{
+          li{
+             width:300px;
+             padding: 5px 0 8px 0;
+             margin: 0 0 25px 40px;
+            text-align: center;
+
+             border: 5px #fd7878 solid;
+             color: #fd7878;
+             text-decoration: none;
+             font-size: 20px;
+             font-weight: bolder;
+
+             font-family: brandon_grotesque_regularRg, sans-serif;
+             text-transform: uppercase;
+             font-size: 18px;
+
+            a{
+              text-decoration: none;
+              color: #fd7878;
+
+              img{
+                margin-left: 10px;
+              }
+            }
+
+          }
+        }
     }
 
-    /* ALLE HAMBURGERS */
-    div#achtergrond50s{
-      background-color: #df4452;
+    }
 
-      // Top 3
-      section#top3{
+    /* -------------------- */
+    /* DETAIL 80s */
+    /* -------------------- */
+    div#achtergrond80s{
+      background-color: #fcc567;
+
+      section#burgerSamenvatting{
+        width: 960px;
+        margin:0 auto;
+        background: url("../images/80s-patterened.png");
+        z-index: 11;
+      }
+
+      // This burger has some swing
+      header{
+
+        padding-top: 40px;
+
+        h1{
+          font-family: brannboll_fetregular, serif;
+          color: #e72c6c;
+          text-shadow: 2px -2px #50c8b8;
+          font-size: 38px;
+
+          margin: 0 0 40px 40px;
+
+          // Lijn
+          background: url("../images/80s-detail-summary-line.png") no-repeat bottom left;
+          padding-bottom: 1px;
+        }
+      }
+
+      // Burger image
+         div#hamburgerImage{
+           float: left;
+           width: 375px;
+           margin: 20px 0 20px 30px;
+         }
+
+         // Opsomming
+         section#list-things{
+
+           float: left;
+           width: 375px;
+
+
+           ul#actios{
+
+             margin: 30px 0 0 50px;
+
+
+             li{
+               font-family: american_purpose_casual_01Rg, serif;
+               color: #e72c6c;
+               font-size: 35px;
+               margin-bottom: 20px;
+
+               a{
+                 height: 65px;
+                 width:160px;
+                 padding: 15px 10px;
+                 -moz-border-radius: 15px;
+                 border-radius: 15px;
+
+
+                 background-color: #50c8b8;
+                 font-size: 25px;
+                 color: #ffffff;
+                 text-decoration: none;
+
+                 img{
+                   margin-right: 5px;
+                 }
+
+               }
+
+               span{
+                 color: #50c8b8;
+               }
+             }
+
+           }
+
+         }
+
+      // ONDERSTE OP DETAIL PAGINA
+      section#bottomInfo{
+
+        width: 960px;
+        margin: 0 auto;
+
+        section#ingredienten{
+
+          width: 335px;
+          float: left;
+
+          // Ingredients
+          header{
+            h1{
+
+              font-family: brannboll_fetregular, serif;
+              color: #e72c6c;
+              text-shadow: 2px 2px #ecf0aa;
+              font-size: 38px;
+
+            }
+          }
+
+          // Includes
+          p{
+            float: left;
+            font-size: 27px;
+            font-family: american_purpose_casual_01Rg, serif;
+            color: #e72c6c;
+            margin: 0 40px;
+          }
+
+          ul{
+            float: left;
+            font-size: 27px;
+            font-family: american_purpose_casual_01Rg, serif;
+            color: #fff;
+
+            li{
+              margin: 0 0 20px 0;
+            }
+
+          }
+
+        }
+
+      }
+
+      // VOTE BUTTONS
+      section#voteBtns{
+
+        width: 335px;
+        float: left;
+        margin-left: 100px;
+
+          header{
+           h1{
+
+             font-family: brannboll_fetregular, serif;
+             color: #e72c6c;
+             text-shadow: 2px 2px #ecf0aa;
+             font-size: 38px;
+
+           }
+       }
+
+        ul{
+          li{
+            background-color: #ecf0aa;
+            font-family: american_purpose_casual_01Rg, serif;
+            text-shadow: 2px 2px #ecf0aa;
+            font-size: 27px;
+            width: 300px;
+            padding: 10px 10px;
+            margin: 0 0 20px 40px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            text-align: center;
+
+            a{
+              text-decoration: none;
+              color: #e72c6c;
+
+              img{
+                margin-left: 10px;
+              }
+            }
+
+          }
+        }
+    }
+
+    /* -------------------- */
+    /* 80S GALLERY */
+    /* -------------------- */
+    /* ALLE HAMBURGERS */
+      section#top380s{
         width: 960px;
         margin: 0 auto 0 auto;
         color: #de606b;
-        background-image: url("../images/50s-patterned-bg.png");
-
+        background: url("../images/80s-patterened.png");
         // Titel
         header{
 
           h1{
-            font-family: american_purpose_casual_01Rg, serif;
-            font-size: 46px;
-            padding: 40px 0 5px 40px;
-            text-shadow: 2px 2px #434343;
-
-            // lijn onder title
-            background: url("../images/50s-title-line.png") no-repeat;
-            background-position: 40px 83px;
+            font-family: brannboll_fetregular, serif;
+            color: #e72c6c;
+            text-shadow: -1px 1px #50c8b8;
+            font-size: 30px;
+            padding-bottom: 3px;
+            width: 300px;
+            margin: 0 0 40px 40px;
           }
         }
 
@@ -552,15 +963,16 @@ section#content-wrapper{
             float: left;
             width: 230px;
             margin-right: 60px;
+
               // Vote rondje
               div#voteCountFirst{
                 // Vote count opmaak
                 background: url("../images/50s-vote-count-best.png") no-repeat;
                 height: 97px;
                 width: 97px;
-                padding: 34px 0 0 26px;
-                color: #FFF;
                 font-family: american_purpose_casual_01Rg, serif;
+                padding: 30px 0 0 23px;
+                color: #FFF;
                 font-size: 43px;
 
                 // Positioneren
@@ -570,25 +982,27 @@ section#content-wrapper{
               }
               // Naam maker
               p{
-                color: #58bfa6;
-                font-size: 30px;
-                font-family: bebasneue, sans-serif;
+                color: #50c8b8;
+                font-size: 25px;
+                font-family: american_purpose_casual_01Rg, serif;
                 margin-bottom: 10px;
               }
               // Action buttons
               ul.actions{
                 li{
-
+                  font-size: 20px;
+                  font-family: american_purpose_casual_01Rg, serif;
+                  background-color:#50c8b8;
                   margin-bottom: 10px;
                   width: 187px;
                   text-align: center;
-                  background-color: #58bfa6;
-                  padding: 5px 10px;
-                   a{
-                    text-decoration: none;
-                    color: #FFF;
-                    font-family: bebasneue, sans-serif;
-                    font-size: 20px;
+                  padding: 10px 10px;
+                  -moz-border-radius: 15px;
+                  border-radius: 15px;
+
+                  a{
+                     color: #edeed7;
+                     text-decoration: none;
                   }
                 }
               }
@@ -609,9 +1023,9 @@ section#content-wrapper{
                     background: url("../images/50s-vote-count-second.png") no-repeat;
                     height: 97px;
                     width: 97px;
-                    padding: 34px 0 0 26px;
-                    color: #FFF;
                     font-family: american_purpose_casual_01Rg, serif;
+                    padding: 30px 0 0 23px;
+                    color: #FFF;
                     font-size: 43px;
 
                     // Positioneren
@@ -620,35 +1034,37 @@ section#content-wrapper{
                     top: 50px;
                   }
 
-                  p{
-                    color: #fd7878;
-                    font-size: 30px;
-                    font-family: bebasneue, sans-serif;
-                    margin-bottom: 10px;
-                  }
+            // Naam maker
+            p{
+              color: #ea475f;
+              font-size: 25px;
+              font-family: american_purpose_casual_01Rg, serif;
+              margin-bottom: 10px;
+            }
+            // Action buttons
+            ul.actions{
+              li{
+                font-size: 20px;
+                font-family: american_purpose_casual_01Rg, serif;
+                background-color:#ea475f;
+                margin-bottom: 10px;
+                width: 187px;
+                text-align: center;
+                padding: 10px 10px;
+                -moz-border-radius: 15px;
+                border-radius: 15px;
 
-                  ul.actions{
-                    li{
-                      margin-bottom: 10px;
-                      width: 187px;
-                      text-align: center;
-                      background-color: #fd7878;
-                      padding: 5px 10px;
-
-
-                       a{
-                        text-decoration: none;
-                        color: #FFF;
-                        font-family: bebasneue, sans-serif;
-                        font-size: 20px;
-
-                      }
-
-                    }
-                  }
+                a{
+                   color: #edeed7;
+                   text-decoration: none;
+                }
               }
+            }
+          }
 
+          //--------------------
           // Tweede beste burger
+          // --------------------
         section#thirdBurger{
 
               position:relative;
@@ -660,9 +1076,315 @@ section#content-wrapper{
                   background: url("../images/50s-vote-count-third.png") no-repeat;
                   height: 97px;
                   width: 97px;
-                  padding: 34px 0 0 26px;
-                  color: #FFF;
                   font-family: american_purpose_casual_01Rg, serif;
+                  padding: 30px 0 0 23px;
+                  color: #FFF;
+                  font-size: 43px;
+
+                  // Positioneren
+                  position: absolute;
+                  left: 60px;
+                  top: 50px;
+                }
+
+          // Naam maker
+          p{
+            color: #ffb537;
+            font-size: 25px;
+            font-family: american_purpose_casual_01Rg, serif;
+            margin-bottom: 10px;
+          }
+          // Action buttons
+          ul.actions{
+            li{
+              font-size: 20px;
+              font-family: american_purpose_casual_01Rg, serif;
+              background-color:#ffb537;
+              margin-bottom: 10px;
+              width: 187px;
+              text-align: center;
+              padding: 10px 10px;
+              -moz-border-radius: 15px;
+              border-radius: 15px;
+
+              a{
+                 color: #edeed7;
+                 text-decoration: none;
+              }
+            }
+          }
+         }
+        }
+      }
+
+        section#allTheBugers00s{
+          width: 960px;
+          margin: 30 auto 0 auto;
+
+          header{
+
+            float: left;
+             h1{
+               font-family: brannboll_fetregular, serif;
+               color: #e72c6c;
+               text-shadow: 2px -2px #50c8b8;
+               font-size: 38px;
+
+               margin: 0 0 40px 40px;
+              }
+           }
+
+          section#searchField{
+            float: left;
+            width: 260px;
+
+            form{
+              div{
+                input{
+                  border: none;
+                  font-size: 20px;
+                  font-family: american_purpose_casual_01Rg, serif;
+                  background-color:#72d2bc;
+                  margin: 40px 0 10px 40px;
+                  width: 250px;
+                  text-align: center;
+                  padding: 10px 10px;
+                  -moz-border-radius: 15px;
+                  border-radius: 15px;
+                  color: #e72c6c;
+
+                  background-image: url("../images/50s-search-glass.png");
+                  background-repeat: no-repeat;
+                  background-position: 220px;
+                }
+              }
+            }
+          }
+
+          // Burger overzicht
+          section.burgerRow{
+            width: 960px;
+            margin: 0 auto 0 auto;
+
+            section.burgerSummary{
+              color: #f6e993;
+              position: relative;
+              float: left;
+              margin: 30px 40px 0 40px;
+
+              // Gegevens
+              font-family: american_purpose_casual_01Rg, serif;
+              color: #e72c6c;
+
+              p{
+                margin: 10px 0;
+                font-size: 24px;
+
+              }
+
+              // Actions
+              ul.actions{
+                li{
+
+                  font-family: american_purpose_casual_01Rg, serif;
+                  background-color:#e72c6c;
+                  margin-bottom: 10px;
+                  width: 187px;
+                  text-align: center;
+                  padding: 10px 10px;
+                  -moz-border-radius: 15px;
+                  border-radius: 15px;
+
+                  a{
+                    color:#ffb537;
+                    text-decoration: none;
+                    font-size: 20px;
+
+                  }
+                }
+              }
+
+              div.voteCount{
+                position: absolute;
+                top: -15px;
+                left: 80px;
+                background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+                width: 53px;
+                height: 53px;
+                padding: 18px 0 0 18px;
+                color: #df4452;
+                font-size: 20px;
+                font-family: american_purpose_casual_01Rg, serif;
+              }
+
+            }
+
+            div.line{
+              background-color: #fbf9f3;
+              height: 1px;
+              margin-bottom: 20px;
+            }
+          }
+
+
+
+        }}
+
+
+    /* -------------------- */
+    /* 00S GALLERY */
+    /* -------------------- */
+    /* ALLE HAMBURGERS */
+    div#achtergrond00s{
+      // Top 3
+      section#top3{
+        width: 960px;
+        margin: 0 auto 0 auto;
+        color: #de606b;
+        background-color: #353535;
+
+        // Titel
+        header{
+
+          h1{
+            font-family: nevis, sans-serif;
+            text-transform: uppercase;
+            color: #ffea63;
+            text-shadow: -2px 2px #000;
+            font-size: 30px;
+            padding-bottom: 3px;
+            width: 456px;
+            border-bottom: #ffea63 3px solid;
+            margin: 0 0 40px 40px;
+          }
+        }
+
+        div#burgers{
+          width: 820px;
+          margin: 25px auto 0 auto;
+          // -------------------
+          // Top burger
+          // -------------------
+          section#topBurger{
+            position:relative;
+            float: left;
+            width: 230px;
+            margin-right: 60px;
+
+              // Vote rondje
+              div#voteCountFirst{
+                // Vote count opmaak
+                background: url("../images/50s-vote-count-best.png") no-repeat;
+                height: 97px;
+                width: 97px;
+                font-family: brandon_grotesque_regularRg, sans-serif;
+                padding: 30px 0 0 23px;
+                color: #FFF;
+                font-size: 43px;
+
+                // Positioneren
+                position: absolute;
+                left: 60px;
+                top: 50px;
+              }
+              // Naam maker
+              p{
+                color: #6ee8ca;
+                font-size: 20px;
+                font-family: brandon_grotesque_regularRg, sans-serif;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+              }
+              // Action buttons
+              ul.actions{
+                li{
+                  text-transform: uppercase;
+                  font-size: 14px;
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  border: 5px #6ee8ca solid;
+                  margin-bottom: 10px;
+                  width: 187px;
+                  text-align: center;
+                  padding: 10px 10px;
+
+                  a{
+                     color: #6ee8ca;
+                     text-decoration: none;
+                  }
+                }
+              }
+          }
+
+          // -------------------
+          // TWEEDE burger
+          // -------------------
+          section#secondBurger{
+                position:relative;
+                float: left;
+                width: 230px;
+                margin-right: 60px;
+
+
+                  div#voteCountSecond{
+                    // Vote count opmaak
+                    background: url("../images/50s-vote-count-second.png") no-repeat;
+                    height: 97px;
+                    width: 97px;
+                    color: #FFF;
+                    font-family: brandon_grotesque_regularRg, sans-serif;
+                    padding: 30px 0 0 23px;
+                    font-size: 43px;
+
+                    // Positioneren
+                    position: absolute;
+                    left: 60px;
+                    top: 50px;
+                  }
+
+                  p{
+                    color: #fd7878;
+                    font-size: 20px;
+                    font-family: brandon_grotesque_regularRg, sans-serif;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                  }
+
+              ul.actions{
+                li{
+                  text-transform: uppercase;
+                  font-size: 14px;
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  border: 5px #fd7878 solid;
+                  margin-bottom: 10px;
+                  width: 187px;
+                  text-align: center;
+                  padding: 10px 10px;
+
+                  a{
+                     color: #fd7878;
+                     text-decoration: none;
+                  }
+                }
+              }
+          }
+
+          //--------------------
+          // Tweede beste burger
+          // --------------------
+        section#thirdBurger{
+
+              position:relative;
+              float: left;
+              width: 230px;
+
+                div#voteCountThird{
+                  // Vote count opmaak
+                  background: url("../images/50s-vote-count-third.png") no-repeat;
+                  height: 97px;
+                  width: 97px;
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  padding: 30px 0 0 23px;
+                  color: #FFF;
                   font-size: 43px;
 
                   // Positioneren
@@ -672,53 +1394,53 @@ section#content-wrapper{
                 }
 
                 p{
-                  color: #ebce11;
-                  font-size: 30px;
-                  font-family: bebasneue, sans-serif;
-                  margin-bottom: 10px;
-                }
+                 color: #ffea63;
+                 font-size: 20px;
+                 font-family: brandon_grotesque_regularRg, sans-serif;
+                 text-transform: uppercase;
+                 margin-bottom: 10px;
+               }
 
-                ul.actions{
-                  li{
+           ul.actions{
+             li{
+               text-transform: uppercase;
+               font-size: 14px;
+               font-family: brandon_grotesque_regularRg, sans-serif;
+               border: 5px #ffea63 solid;
+               margin-bottom: 10px;
+               width: 187px;
+               text-align: center;
+               padding: 10px 10px;
 
-                    margin-bottom: 10px;
-                    width: 187px;
-                    text-align: center;
-                    background-color: #ebce11;
-                    padding: 5px 10px;
-
-
-                     a{
-                      text-decoration: none;
-                      color: #FFF;
-                      font-family: bebasneue, sans-serif;
-                      font-size: 20px;
-
-                    }
-                  }
-                }
+               a{
+                  color: #ffea63;
+                  text-decoration: none;
+               }
+             }
+           }
             }
         }
 
       }
 
-        section#allTheBugers50s{
+        section#allTheBugers00s{
           width: 960px;
           margin: 30 auto 0 auto;
 
           header{
 
-            float:left;
-
-            h1{
-              color:  #FFF;
-              font-family: american_purpose_casual_01Rg, serif;
-              font-size: 46px;
-              background: url("../images/50s-view-all-line.png") no-repeat bottom left;
-              padding-bottom: 8px;
-              width: 550px;
-            }
-          }
+            float: left;
+             h1{
+                font-family: nevis, sans-serif;
+                text-transform: uppercase;
+                color: #ffea63;
+                text-shadow: -2px 1px #000;
+                font-size: 30px;
+                padding-bottom: 3px;
+                width: 550px;
+                border-bottom: #ffea63 3px solid;
+              }
+           }
 
           section#searchField{
             float: left;
@@ -727,13 +1449,20 @@ section#content-wrapper{
             form{
               div{
                 input{
-                  border:none;
+                  border: 5px #fd7878 solid;
+                  color: #fd7878;
+                  text-decoration: none;
+                  font-size: 20px;
+                  font-weight: bolder;
+                  background: none;
+
                   width: 260px;
                   padding: 10px 0 10px 10px;
-                  font-size: 24px;
-                  color: #df4452;
-                  font-family: bebasneue, sans-serif;
-                  margin-left: 100px;
+                  font-size: 18px;
+                  color: #fd7878;
+
+                  font-family: brandon_grotesque_regularRg, sans-serif;
+                  margin: 30px 0 0 85px;
 
                   background-image: url("../images/50s-search-glass.png");
                   background-repeat: no-repeat;
@@ -757,26 +1486,33 @@ section#content-wrapper{
               margin: 30px 40px 0 40px;
 
               // Gegevens
-              font-family: bebasneue, sans-serif;
-              font-size: 30px;
+              font-family: brandon_grotesque_regularRg, sans-serif;
+              color: #FFF;
+              text-transform: uppercase;
 
               p{
-                margin-top: 10px;
+                margin: 10px 0;
+                font-size: 18px;
+
               }
 
               // Actions
               ul.actions{
                 li{
-                  background-color:#f6e993;
-                  text-align: center;
-                  margin-top: 5px;
-                  padding: 3px 0 7px 0;
 
+                  border: 5px #FFF solid;
+                  text-decoration: none;
+                  font-weight: bolder;
+                  background: none;
+                  text-align: center;
+                  margin-top: 10px;
+                  padding: 7px 0 7px 0;
 
                   a{
-                    color:#df4452;
+                    color:#FFF;
                     text-decoration: none;
-                    font-size: 21px;
+                    font-size: 14px;
+
                   }
                 }
               }
@@ -807,16 +1543,709 @@ section#content-wrapper{
 
         }
 
+      /* -------------------- */
+      /* DETAIL PAGE */
+      /* -------------------- */
+      section#burgerSamenvatting{
+        background-color: #333;
+        width: 960px;
+        margin: 0 auto 0 auto;
+
+        // This burger is rocking
+        header{
+          h1{
+            font-family: nevis, sans-serif;
+            text-transform: uppercase;
+            color: #ffea63;
+            text-shadow: -2px 2px #000;
+            font-size: 30px;
+            padding-bottom: 3px;
+            width: 656px;
+            border-bottom: #ffea63 3px solid;
+            margin: 0 0 20px 40px;
+          }
+
+        }
+        // Hamburger image
+        div#hamburgerImage{
+          float: left;
+          width: 273px;
+          margin: 25px 0 0 86px;
+
+        }
+
+        // LIST MET CREATOR - AANTAL VOTES - VOTE BTN
+        section#list-things{
+          float: left;
+          width: 400px;
+          margin: 25px 0 0 86px;
+
+          ul#actios{
+
+            li{
+              font-size: 30px;
+              color: #fd7878;
+              width: 400px;
+              margin-bottom: 45px;
+
+              span{
+                color: #78d1b2;
+              }
+
+              span#votes{
+                background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
+                height: 76px;
+                width: 76px;
+                padding: 20px 20px;
+                font-family: brandon_grotesque_regularRg, sans-serif;
+                color: #fffcf1;
+              }
+
+              a{
+                text-decoration: none;
+                color: #fd7878;
+                text-align: center;
+                padding: 10px 10px;
+
+
+                img{
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+      // END OF BURGER SAMENVATTING DETAIL 50S
+
+      // Ingredienten lijstje && Share btns
+      #bottomInfo{
+
+        width: 960px;
+        margin: 40px auto 0 auto;
+
+        // INGREDIENTEN
+
+        #ingredienten{
+          float:left;
+          width: 300px;
+          font-size: 20px;
+          font-family: bebasneue, sans-serif;
+
+          // In this burger
+          header{
+            h1{
+              font-family: nevis, sans-serif;
+              text-transform: uppercase;
+              color: #ffea63;
+              text-shadow: -2px 2px #000;
+              font-size: 30px;
+              padding-bottom: 3px;
+              width: 656px;
+              border-bottom: #ffea63 3px solid;
+              margin: 0 0 20px 40px;
+            }
+          }
+
+          // includes
+          p{
+            float: left;
+            color: #fffcf1;
+            margin: 25px 40px 0 0;
+          }
+
+          ul{
+            float: left;
+
+
+            li{
+
+              color: #FFFF;
+              margin-bottom: 15px;
+
+            }
+
+          }
+
+        }
+
+        // Vote buttons
+        section#voteBtns{
+
+          margin-left: 150px;
+          float: left;
+
+          // I like this one
+          header{
+
+              h1{
+                font-family: nevis, sans-serif;
+                text-transform: uppercase;
+                color: #ffea63;
+                text-shadow: -2px 2px #000;
+                font-size: 30px;
+                padding-bottom: 3px;
+                width: 350px;
+                border-bottom: #ffea63 3px solid;
+                margin: 0 0 20px 0;
+             }
+           }
+
+          // Buttons om te sharen
+          ul{
+            li{
+
+              width: 300px;
+              font-size: 20px;
+              font-family: brandon_grotesque_regularRg, sans-serif;
+              padding: 10px 10px;
+              margin: 15px 0 15px 0;
+
+
+               a{
+                 color: #fd7878;
+                 text-decoration: none;
+
+                 img{
+                   margin: 0 0 0 15px;
+                 }
+               }
+              }
+            }
+
+
+          }
+        }
+
+      }
+
+        /* -------------------- */
+        /* 50s */
+        /* -------------------- */
+        // Header van de 50s
+        section#banner-50s{
+          background: url("../images/50s-banner-bg.png") no-repeat;
+          background-size: cover;
+          height: 337px;
+
+          div#logo{
+            background: url("../images/50s-logo.png") no-repeat bottom center;
+            width: 87px;
+            height: 87px;
+            margin: 0 0 0 215px;
+            padding-top: 10px;
+          }
+
+          header{
+
+            color: #fffcf1;
+            text-shadow: 2px 2px #434343;
+
+            h1{
+              font-family: american_purpose_casual_01Rg, serif;
+              font-size: 150px;
+              margin: 10px 0 0 150px;
+
+              span{
+                font-size: 50px;
+              }
+
+            }
+
+            h2{
+              font-family: southern_aire_personal_use_Rg, serif;
+              font-size: 65px;
+              position: relative;
+              top: -130px;
+              left: 300px;
+            }
+          }
+        }
+
+        /* ALLE HAMBURGERS */
+        div#achtergrond50s{
+          background-color: #df4452;
+
+          // Top 3
+          section#top3{
+            width: 960px;
+            margin: 0 auto 0 auto;
+            color: #de606b;
+            background-color: #fbf9f4;
+
+            // Titel
+            header{
+
+              h1{
+                font-family: american_purpose_casual_01Rg, serif;
+                font-size: 46px;
+                padding: 40px 0 5px 40px;
+                text-shadow: 2px 2px #434343;
+
+                // lijn onder title
+                background: url("../images/50s-title-line.png") no-repeat;
+                background-position: 40px 83px;
+              }
+            }
+
+            div#burgers{
+              width: 820px;
+              margin: 25px auto 0 auto;
+              // -------------------
+              // Top burger
+              // -------------------
+              section#topBurger{
+                position:relative;
+                float: left;
+                width: 230px;
+                margin-right: 60px;
+                  // Vote rondje
+                  div#voteCountFirst{
+                    // Vote count opmaak
+                    background: url("../images/50s-vote-count-best.png") no-repeat;
+                    height: 97px;
+                    width: 97px;
+                    padding: 34px 0 0 26px;
+                    color: #FFF;
+                    font-family: american_purpose_casual_01Rg, serif;
+                    font-size: 43px;
+
+                    // Positioneren
+                    position: absolute;
+                    left: 60px;
+                    top: 50px;
+                  }
+                  // Naam maker
+                  p{
+                    color: #58bfa6;
+                    font-size: 30px;
+                    font-family: bebasneue, sans-serif;
+                    margin-bottom: 10px;
+                  }
+                  // Action buttons
+                  ul.actions{
+                    li{
+
+                      margin-bottom: 10px;
+                      width: 187px;
+                      text-align: center;
+                      background-color: #58bfa6;
+                      padding: 5px 10px;
+                       a{
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: bebasneue, sans-serif;
+                        font-size: 20px;
+                      }
+                    }
+                  }
+              }
+
+              // -------------------
+              // TWEEDE burger
+              // -------------------
+              section#secondBurger{
+                    position:relative;
+                    float: left;
+                    width: 230px;
+                    margin-right: 60px;
+
+
+                      div#voteCountSecond{
+                        // Vote count opmaak
+                        background: url("../images/50s-vote-count-second.png") no-repeat;
+                        height: 97px;
+                        width: 97px;
+                        padding: 34px 0 0 26px;
+                        color: #FFF;
+                        font-family: american_purpose_casual_01Rg, serif;
+                        font-size: 43px;
+
+                        // Positioneren
+                        position: absolute;
+                        left: 60px;
+                        top: 50px;
+                      }
+
+                      p{
+                        color: #fd7878;
+                        font-size: 30px;
+                        font-family: bebasneue, sans-serif;
+                        margin-bottom: 10px;
+                      }
+
+                      ul.actions{
+                        li{
+                          margin-bottom: 10px;
+                          width: 187px;
+                          text-align: center;
+                          background-color: #fd7878;
+                          padding: 5px 10px;
+
+
+                           a{
+                            text-decoration: none;
+                            color: #FFF;
+                            font-family: bebasneue, sans-serif;
+                            font-size: 20px;
+
+                          }
+
+                        }
+                      }
+                  }
+
+              // Tweede beste burger
+            section#thirdBurger{
+
+                  position:relative;
+                  float: left;
+                  width: 230px;
+
+                    div#voteCountThird{
+                      // Vote count opmaak
+                      background: url("../images/50s-vote-count-third.png") no-repeat;
+                      height: 97px;
+                      width: 97px;
+                      padding: 34px 0 0 26px;
+                      color: #FFF;
+                      font-family: american_purpose_casual_01Rg, serif;
+                      font-size: 43px;
+
+                      // Positioneren
+                      position: absolute;
+                      left: 60px;
+                      top: 50px;
+                    }
+
+                    p{
+                      color: #ebce11;
+                      font-size: 30px;
+                      font-family: bebasneue, sans-serif;
+                      margin-bottom: 10px;
+                    }
+
+                    ul.actions{
+                      li{
+
+                        margin-bottom: 10px;
+                        width: 187px;
+                        text-align: center;
+                        background-color: #ebce11;
+                        padding: 5px 10px;
+
+
+                         a{
+                          text-decoration: none;
+                          color: #FFF;
+                          font-family: bebasneue, sans-serif;
+                          font-size: 20px;
+
+                        }
+                      }
+                    }
+                }
+            }
+
+          }
+
+            section#allTheBugers50s{
+              width: 960px;
+              margin: 30 auto 0 auto;
+
+              header{
+
+                float:left;
+
+                h1{
+                  color:  #FFF;
+                  font-family: american_purpose_casual_01Rg, serif;
+                  font-size: 46px;
+                  background: url("../images/50s-view-all-line.png") no-repeat bottom left;
+                  padding-bottom: 8px;
+                  width: 550px;
+                }
+              }
+
+              section#searchField{
+                float: left;
+                width: 260px;
+
+                form{
+                  div{
+                    input{
+                      border:none;
+                      width: 260px;
+                      padding: 10px 0 10px 10px;
+                      font-size: 24px;
+                      color: #df4452;
+                      font-family: bebasneue, sans-serif;
+                      margin-left: 100px;
+
+                      background-image: url("../images/50s-search-glass.png");
+                      background-repeat: no-repeat;
+                      background-position: 220px;
+
+
+                    }
+                  }
+                }
+              }
+
+              // Burger overzicht
+              section.burgerRow{
+                width: 960px;
+                margin: 0 auto 0 auto;
+
+                section.burgerSummary{
+                  color: #f6e993;
+                  position: relative;
+                  float: left;
+                  margin: 30px 40px 0 40px;
+
+                  // Gegevens
+                  font-family: bebasneue, sans-serif;
+                  font-size: 30px;
+
+                  p{
+                    margin-top: 10px;
+                  }
+
+                  // Actions
+                  ul.actions{
+                    li{
+                      background-color:#f6e993;
+                      text-align: center;
+                      margin-top: 5px;
+                      padding: 3px 0 7px 0;
+
+
+                      a{
+                        color:#df4452;
+                        text-decoration: none;
+                        font-size: 21px;
+                      }
+                    }
+                  }
+
+                  div.voteCount{
+                    position: absolute;
+                    top: -15px;
+                    left: 80px;
+                    background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+                    width: 53px;
+                    height: 53px;
+                    padding: 18px 0 0 18px;
+                    color: #df4452;
+                    font-size: 20px;
+                    font-family: american_purpose_casual_01Rg, serif;
+                  }
+
+                }
+
+                div.line{
+                  background-color: #fbf9f3;
+                  height: 1px;
+                  margin-bottom: 20px;
+                }
+              }
+
+
+
+            }
+
+          /* -------------------- */
+          /* DETAIL PAGE */
+          /* -------------------- */
+          section#burgerSamenvatting{
+            background-color: #fbf9f4;
+            width: 960px;
+            margin: 0 auto 0 auto;
+
+            // This burger is rocking
+            header{
+              h1{
+                font-family: american_purpose_casual_01Rg, serif;
+                font-size: 46px;
+                color: #df4452;
+
+                // Lijn onder titel
+                background: url("../images/50s-burger-rocking-title-line.png") no-repeat bottom left;
+                padding: 30px 0 5px 0;
+                margin: 0 0 0 50px;
+
+              }
+
+            }
+            // Hamburger image
+            div#hamburgerImage{
+              float: left;
+              width: 273px;
+              margin: 25px 0 0 86px;
+
+            }
+
+            // LIST MET CREATOR - AANTAL VOTES - VOTE BTN
+            section#list-things{
+              float: left;
+              width: 400px;
+              margin: 25px 0 0 86px;
+
+              ul#actios{
+
+                li{
+                  font-family: bebasneue, sans-serif;
+                  font-size: 30px;
+                  color: #e4656f;
+                  width: 400px;
+                  margin-bottom: 45px;
+
+                  span{
+                    color: #78d1b2;
+                  }
+
+                  span#votes{
+                    background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
+                    height: 76px;
+                    width: 76px;
+                    padding: 25px 25px 25px 25px;
+                    font-family: american_purpose_casual_01Rg, serif;
+                    color: #fffcf1;
+                  }
+
+                  a{
+                    text-decoration: none;
+                    color: #fffcf1;
+                    background-color: #7bd3b4;
+                    text-align: center;
+                    padding: 10px 10px;
+
+                    img{
+                      margin-right: 10px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          // END OF BURGER SAMENVATTING DETAIL 50S
+
+          // Ingredienten lijstje && Share btns
+          #bottomInfo{
+
+            width: 960px;
+            margin: 40px auto 0 auto;
+
+            // INGREDIENTEN
+
+            #ingredienten{
+              float:left;
+              width: 300px;
+              font-size: 20px;
+              font-family: bebasneue, sans-serif;
+
+              // In this burger
+              header{
+                h1{
+                  color:#fffcf1;
+                  font-size: 40px;
+                  font-family: american_purpose_casual_01Rg, serif;
+
+                  // Lijn onder header
+                  background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+                  padding-bottom: 10px;
+
+                }
+              }
+
+              // includes
+              p{
+                float: left;
+                color: #fffcf1;
+                margin: 25px 40px 0 0;
+              }
+
+              ul{
+                float: left;
+                margin: 25px 0 0 0;
+
+
+                li{
+
+                  color: #e4cf41;
+                  margin-bottom: 15px;
+
+                }
+
+              }
+
+            }
+
+            // Vote buttons
+            section#voteBtns{
+
+              margin-left: 150px;
+              float: left;
+
+              // I like this one
+              header{
+
+                  h1{
+                   color:#fffcf1;
+                   font-size: 40px;
+                   font-family: american_purpose_casual_01Rg, serif;
+                    width: 235px;
+
+                   // Lijn onder header
+                   background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+                   padding-bottom: 10px;
+                 }
+               }
+
+              // Buttons om te sharen
+              ul{
+                li{
+
+                  width: 220px;
+                  background-color: #e4cf41;
+                  font-size: 20px;
+                  font-family: bebasneue, sans-serif;
+                  padding: 10px 10px;
+                  margin: 15px 0 15px 0;
+
+
+                   a{
+                     color: #fbf9f4;
+                     text-decoration: none;
+
+                     img{
+                       margin: 0 0 0 15px;
+                     }
+                   }
+                  }
+                }
+
+
+              }
+            }
+        }
     }
-
-
-
   }
-}
+
 
 // DINGEN DIE WE OVERAL NODIG HEBBEN
 .dummy{
   clear:both;
+}
+
+section#searchField{
+  form{
+    div{
+      input:focus{
+        outline: none;
+      }
+    }
+  }
 }
 
 

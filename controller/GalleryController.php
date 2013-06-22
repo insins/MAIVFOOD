@@ -79,9 +79,7 @@ class GalleryController extends AppController
         $action = "";
 
         if(isset($_GET["action"]) && $_GET["action"] != ""){
-
            $action = $_GET["action"];
-
         }
 
         // Een switch op de action gebeurt

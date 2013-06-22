@@ -2,9 +2,11 @@
 
     session_start();
 
+    ini_set("display_errors", 1);
+    error_reporting(E_ALL);
+
     ini_set("log_errors" , "1");
     ini_set("error_log" , "logs/allerrors.log");
-    ini_set("display_errors" , "0");
 
     define("DS",DIRECTORY_SEPARATOR);
     define("WWW_ROOT",dirname(__FILE__) . DS);
@@ -23,11 +25,13 @@
     require_once WWW_ROOT . "controller" . DS . "CampaignController.php";
     require_once WWW_ROOT . "controller" . DS . "CreateController.php";
     require_once WWW_ROOT . "controller" . DS . "GalleryController.php";
+    require_once WWW_ROOT . "controller" . DS . "DetailController.php";
+
 
     // DAO's
-    require_once WWW_ROOT . "DAO" . DS . "DatabasePDO.php";
-    require_once WWW_ROOT . "DAO" . DS . "UserDAO.php";
-    require_once WWW_ROOT . "DAO" . DS . "LikeDAO.php";
+    require WWW_ROOT . "DAO" . DS . "DatabasePDO.php";
+    require WWW_ROOT . "DAO" . DS . "UserDAO.php";
+    require WWW_ROOT . "DAO" . DS . "LikeDAO.php";
 
 
 
@@ -56,6 +60,10 @@
 
         case 'gallery':
             $controller = new GalleryController();
+            break;
+
+        case 'detail':
+            $controller = new DetailController();
             break;
 
     }

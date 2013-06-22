@@ -4,19 +4,29 @@ header("Content-Type: application/json");
 
 define("WWW_ROOT",dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR);
 
-// REQUIRES
 require_once WWW_ROOT. "api" .DIRECTORY_SEPARATOR. 'Slim'. DIRECTORY_SEPARATOR .'Slim.php';
-require_once WWW_ROOT. "DAO" .DIRECTORY_SEPARATOR. 'UserDAO.php';
-require_once WWW_ROOT. "DAO" .DIRECTORY_SEPARATOR. 'LikeDAO.php';
+require WWW_ROOT. "DAO" .DIRECTORY_SEPARATOR. 'UserDAO.php';
+require WWW_ROOT. "DAO" .DIRECTORY_SEPARATOR. 'LikeDAO.php';
 
-// New slim framework maken
+
+
+
 $app = new Slim();
 
+<<<<<<< HEAD
 // USER DINGEN
 $app->get('/hello',function(){
+=======
+// USER 
+$app->post('/user/check', 'checkUser');
+
+
+$app->run();
+>>>>>>> cc60d3f70e231af9ed0011992b80760e05d28e1e
 
 });
 
+<<<<<<< HEAD
 $app->post('/user/check', function(){
 	//$user_profile = Slim::getInstance()->request()->post();
     //$userDAO = new UserDAO();
@@ -28,3 +38,15 @@ $app->post('/user/check', function(){
 });
 
 $app->run();
+=======
+
+/* USER FUNCTIONS 
+----------------- */
+function checkUser()
+{
+    $user = Slim::getInstance()->request()->post();
+    $userDAO = new UserDAO();
+    echo json_encode($userDAO->checkInDatabase($user['id']));
+    exit();
+}
+>>>>>>> cc60d3f70e231af9ed0011992b80760e05d28e1e
