@@ -1,4 +1,25 @@
-<!-- Header van de 00s -->
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 21:05:58
+         compiled from "bulk/templates/pages/partials/detail00s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1179782051c5ea21900261-54147457%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'e308f22c598710e988181cd423d1886f7d3f4734' => 
+    array (
+      0 => 'bulk/templates/pages/partials/detail00s.tpl',
+      1 => 1371927954,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1179782051c5ea21900261-54147457',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c5ea2199be13_25212564',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51c5ea2199be13_25212564')) {function content_51c5ea2199be13_25212564($_smarty_tpl) {?><!-- Header van de 00s -->
     <section id="banner-00s">
         <header>
             <h1>THE PRESENT</h1>
@@ -66,4 +87,4 @@
     </section>
 
 
-</div>
+</div><?php }} ?>

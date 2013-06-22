@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 17:29:27
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 20:17:02
          compiled from "bulk/templates/pages/partials/detail50s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:138296826551c5b2eaed1cb4-57012662%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6e0fd51da328da0c8115217f2a9aa142f50496ca' => 
     array (
       0 => 'bulk/templates/pages/partials/detail50s.tpl',
-      1 => 1371914967,
+      1 => 1371924397,
       2 => 'file',
     ),
   ),
@@ -74,9 +74,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on FB! <img src="assets/images/50s-detail-fb-share-btn.png"
+            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png"
                                                                width="10"/></a></li>
-            <li id="tw"><a href="shareTwitter">Share it on Twitter!<img
+            <li id="tw"><a href="shareTwitter">Share it on Twitter<img
                     src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 
         </ul>

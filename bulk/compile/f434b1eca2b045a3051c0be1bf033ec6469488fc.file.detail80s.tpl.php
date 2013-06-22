@@ -1,4 +1,25 @@
-<!-- Header van de 80s -->
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 20:06:39
+         compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:122773289651c5ce779bd008-44831850%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'f434b1eca2b045a3051c0be1bf033ec6469488fc' => 
+    array (
+      0 => 'bulk/templates/pages/partials/detail80s.tpl',
+      1 => 1371924379,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '122773289651c5ce779bd008-44831850',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c5ce77aef009_97072503',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51c5ce77aef009_97072503')) {function content_51c5ce77aef009_97072503($_smarty_tpl) {?><!-- Header van de 80s -->
     <section id="banner-80s">
         <div id="logo">&nbsp;</div>
         <header>
@@ -66,4 +87,4 @@
     </section>
 
 
-</div>
+</div><?php }} ?>
