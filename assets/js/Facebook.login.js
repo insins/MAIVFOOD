@@ -46,7 +46,7 @@ function setupAPI(){
 
     })();
 
-    $('.actions a').click(deployFacebook);
+    $('.actions li:first-child a').click(deployFacebook);
 }
 
 function deployFacebook(e){
