@@ -1,26 +1,25 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 12:24:19
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-22 13:01:20
          compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:204798186251c57b53a397a2-55114729%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:60811404051c58400abf451-73652277%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1371856774,
+      1 => 1371898555,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '204798186251c57b53a397a2-55114729',
+  'nocache_hash' => '60811404051c58400abf451-73652277',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c57b53a48614_28391357',
+  'version' => 'Smarty-3.1.11',
+  'unifunc' => 'content_51c58400be1c16_18795596',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c57b53a48614_28391357')) {function content_51c57b53a48614_28391357($_smarty_tpl) {?><!-- Header van de 50s -->
-<div id="fb-root"></div>
+<?php if ($_valid && !is_callable('content_51c58400be1c16_18795596')) {function content_51c58400be1c16_18795596($_smarty_tpl) {?><!-- Header van de 50s -->
     <section id="banner-50s">
         <div id="logo">&nbsp;</div>
         <header>
@@ -71,8 +70,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                  <p>Ines van helleputte</p>
                  <ul class="actions">
-                     <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this
-                         burger</a></li>
+                     <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this burger</a></li>
                      <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
                  </ul>
 
@@ -127,7 +125,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                 <p>Ines van helleputte</p>
                 <ul class="actions">
-                    <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this burger</a></li>
+                    <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this
+                        burger</a></li>
                     <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
                 </ul>
             </section>

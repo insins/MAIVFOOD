@@ -1,5 +1,4 @@
 <!-- Header van de 50s -->
-<div id="fb-root"></div>
     <section id="banner-50s">
         <div id="logo">&nbsp;</div>
         <header>
@@ -50,8 +49,7 @@
 
                  <p>Ines van helleputte</p>
                  <ul class="actions">
-                     <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this
-                         burger</a></li>
+                     <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this burger</a></li>
                      <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
                  </ul>
 
@@ -106,7 +104,8 @@
 
                 <p>Ines van helleputte</p>
                 <ul class="actions">
-                    <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this burger</a></li>
+                    <li> <a href="index.php?page=gallery&decade=50s&action=vote&burgerId=1">Vote for this
+                        burger</a></li>
                     <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
                 </ul>
             </section>
