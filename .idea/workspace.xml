@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/DetailController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/LikeDAO.php" afterPath="$PROJECT_DIR$/DAO/LikeDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/UserDAO.php" afterPath="$PROJECT_DIR$/DAO/UserDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/.htaccess" afterPath="$PROJECT_DIR$/api/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Exception/Pass.php" afterPath="$PROJECT_DIR$/api/Slim/Exception/Pass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Exception/RequestSlash.php" afterPath="$PROJECT_DIR$/api/Slim/Exception/RequestSlash.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Exception/Stop.php" afterPath="$PROJECT_DIR$/api/Slim/Exception/Stop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Http/Cookie.php" afterPath="$PROJECT_DIR$/api/Slim/Http/Cookie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Http/CookieJar.php" afterPath="$PROJECT_DIR$/api/Slim/Http/CookieJar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Http/Request.php" afterPath="$PROJECT_DIR$/api/Slim/Http/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Http/Response.php" afterPath="$PROJECT_DIR$/api/Slim/Http/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Http/Uri.php" afterPath="$PROJECT_DIR$/api/Slim/Http/Uri.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Log.php" afterPath="$PROJECT_DIR$/api/Slim/Log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Logger.php" afterPath="$PROJECT_DIR$/api/Slim/Logger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Route.php" afterPath="$PROJECT_DIR$/api/Slim/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Router.php" afterPath="$PROJECT_DIR$/api/Slim/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Session/Flash.php" afterPath="$PROJECT_DIR$/api/Slim/Session/Flash.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Session/Handler.php" afterPath="$PROJECT_DIR$/api/Slim/Session/Handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Session/Handler/Cookies.php" afterPath="$PROJECT_DIR$/api/Slim/Session/Handler/Cookies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/Slim.php" afterPath="$PROJECT_DIR$/api/Slim/Slim.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/Slim/View.php" afterPath="$PROJECT_DIR$/api/Slim/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/restapi.php" afterPath="$PROJECT_DIR$/api/restapi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Application.js" afterPath="$PROJECT_DIR$/assets/js/Application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/style.scss" afterPath="$PROJECT_DIR$/assets/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/GalleryController.php" afterPath="$PROJECT_DIR$/controller/GalleryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/allerrors.log" afterPath="$PROJECT_DIR$/logs/allerrors.log" />
     </list>
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,7 +94,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="941" column="26" selection-start="22346" selection-end="22346" vertical-scroll-proportion="0.41463414">
+            <state line="963" column="23" selection-start="22889" selection-end="22889" vertical-scroll-proportion="0.46341464">
               <folding />
             </state>
           </provider>
@@ -599,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="941" column="26" selection-start="22346" selection-end="22346" vertical-scroll-proportion="0.41463414">
+        <state line="963" column="23" selection-start="22889" selection-end="22889" vertical-scroll-proportion="0.46341464">
           <folding />
         </state>
       </provider>
