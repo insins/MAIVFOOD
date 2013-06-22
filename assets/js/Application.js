@@ -11,9 +11,8 @@ function performAjaxAction(target,userDetails)
 // Eerst checken of de user al in de DB zit
 
     var baseUrl = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/api";
-
-
-    var user_profile = userDetails;
+    var user_profile = new Object({});
+    user_profile.id = userDetails.id;
 
     $.ajax({
             url : baseUrl + "/user/check",

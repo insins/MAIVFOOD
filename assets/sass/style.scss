@@ -468,6 +468,8 @@ div#wrapper{
   }
 }
 
+
+
 /* -------------------- */
 /* GALERY PAGE */
 /* -------------------- */
@@ -807,12 +809,188 @@ section#content-wrapper{
 
         }
 
+      /* -------------------- */
+      /* DETAIL PAGE */
+      /* -------------------- */
+      section#burgerSamenvatting{
+        background-color: #fbf9f4;
+        width: 960px;
+        margin: 0 auto 0 auto;
+
+        // This burger is rocking
+        header{
+          h1{
+            font-family: american_purpose_casual_01Rg, serif;
+            font-size: 46px;
+            color: #df4452;
+
+            // Lijn onder titel
+            background: url("../images/50s-burger-rocking-title-line.png") no-repeat bottom left;
+            padding: 30px 0 5px 0;
+            margin: 0 0 0 50px;
+
+          }
+
+        }
+        // Hamburger image
+        div#hamburgerImage{
+          float: left;
+          width: 273px;
+          margin: 25px 0 0 86px;
+
+        }
+
+        // LIST MET CREATOR - AANTAL VOTES - VOTE BTN
+        section#list-things{
+          float: left;
+          width: 400px;
+          margin: 25px 0 0 86px;
+
+          ul#actios{
+
+            li{
+              font-family: bebasneue, sans-serif;
+              font-size: 30px;
+              color: #e4656f;
+              width: 400px;
+              margin-bottom: 45px;
+
+              span{
+                color: #78d1b2;
+              }
+
+              span#votes{
+                background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
+                height: 76px;
+                width: 76px;
+                padding: 25px 25px 25px 25px;
+                font-family: american_purpose_casual_01Rg, serif;
+                color: #fffcf1;
+              }
+
+              a{
+                text-decoration: none;
+                color: #fffcf1;
+                background-color: #7bd3b4;
+                text-align: center;
+                padding: 10px 10px;
+
+                img{
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+      // END OF BURGER SAMENVATTING DETAIL 50S
+
+      // Ingredienten lijstje && Share btns
+      #bottomInfo{
+
+        width: 960px;
+        margin: 40px auto 0 auto;
+
+        // INGREDIENTEN
+
+        #ingredienten{
+          float:left;
+          width: 300px;
+          font-size: 20px;
+          font-family: bebasneue, sans-serif;
+
+          // In this burger
+          header{
+            h1{
+              color:#fffcf1;
+              font-size: 40px;
+              font-family: american_purpose_casual_01Rg, serif;
+
+              // Lijn onder header
+              background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+              padding-bottom: 10px;
+
+            }
+          }
+
+          // includes
+          p{
+            float: left;
+            color: #fffcf1;
+            margin: 25px 40px 0 0;
+          }
+
+          ul{
+            float: left;
+            margin: 25px 0 0 0;
+
+
+            li{
+
+              color: #e4cf41;
+              margin-bottom: 15px;
+
+            }
+
+          }
+
+        }
+
+        // Vote buttons
+        section#voteBtns{
+
+          margin-left: 150px;
+          float: left;
+
+          // I like this one
+          header{
+
+              h1{
+               color:#fffcf1;
+               font-size: 40px;
+               font-family: american_purpose_casual_01Rg, serif;
+                width: 235px;
+
+               // Lijn onder header
+               background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+               padding-bottom: 10px;
+             }
+           }
+
+          // Buttons om te sharen
+          ul{
+            li{
+
+              width: 270px;
+              background-color: #e4cf41;
+              font-size: 20px;
+              font-family: bebasneue, sans-serif;
+              padding: 10px 10px;
+              margin: 15px 0 15px 0;
+
+
+               a{
+                 color: #fbf9f4;
+                 text-decoration: none;
+
+                 img{
+                   margin: 0 0 0 15px;
+                 }
+               }
+              }
+            }
+
+
+          }
+        }
+
+      }
     }
 
 
 
   }
-}
+
 
 // DINGEN DIE WE OVERAL NODIG HEBBEN
 .dummy{

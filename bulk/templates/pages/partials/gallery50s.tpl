@@ -24,7 +24,7 @@
                 <p>Ines van helleputte</p>
                 <ul class="actions">
                     <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
 
             </section>
@@ -37,7 +37,7 @@
                <p>Ines van helleputte</p>
                <ul class="actions">
                    <li> <a href="1">Vote for this burger</a></li>
-                   <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                   <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                </ul>
 
            </section>
@@ -50,7 +50,7 @@
                  <p>Ines van helleputte</p>
                  <ul class="actions">
                      <li> <a href="1">Vote for this burger</a></li>
-                     <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                     <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                  </ul>
 
              </section>
@@ -83,7 +83,7 @@
                 <p>Ines van helleputte</p>
                 <ul class="actions">
                     <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
             </section>
 
@@ -94,7 +94,7 @@
                 <p>Ines van helleputte</p>
                 <ul class="actions">
                     <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
             </section>
 
@@ -106,7 +106,7 @@
                 <ul class="actions">
                     <li> <a href="1">Vote for this
                         burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
             </section>
 

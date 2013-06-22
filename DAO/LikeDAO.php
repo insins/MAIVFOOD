@@ -6,6 +6,7 @@
  * Time: 22:18
  * To change this template use File | Settings | File Templates.
  */
+
 class LikeDAO
 {
     public $dbh;

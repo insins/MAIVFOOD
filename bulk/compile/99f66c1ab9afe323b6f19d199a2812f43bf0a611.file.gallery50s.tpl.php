@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 14:07:04
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-22 16:21:29
          compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:202127089751c585b30dc3e8-11049637%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1371902817,
+      1 => 1371910887,
       2 => 'file',
     ),
   ),
@@ -45,7 +45,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <p>Ines van helleputte</p>
                 <ul class="actions">
                     <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
 
             </section>
@@ -58,7 +58,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                <p>Ines van helleputte</p>
                <ul class="actions">
                    <li> <a href="1">Vote for this burger</a></li>
-                   <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                   <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                </ul>
 
            </section>
@@ -71,7 +71,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                  <p>Ines van helleputte</p>
                  <ul class="actions">
                      <li> <a href="1">Vote for this burger</a></li>
-                     <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                     <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                  </ul>
 
              </section>
@@ -104,7 +104,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <p>Ines van helleputte</p>
                 <ul class="actions">
                     <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
             </section>
 
@@ -115,7 +115,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <p>Ines van helleputte</p>
                 <ul class="actions">
                     <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
             </section>
 
@@ -127,7 +127,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <ul class="actions">
                     <li> <a href="1">Vote for this
                         burger</a></li>
-                    <li> <a href=index.php?page=detail&burgerId=1>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
                 </ul>
             </section>
 
