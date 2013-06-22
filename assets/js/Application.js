@@ -10,29 +10,55 @@ function performAjaxAction(target,userDetails)
 
 // Eerst checken of de user al in de DB zit
 
-<<<<<<< HEAD
-    var baseUrl = "http://localhost/devine/20122013/MAIV/MAIVFOOD/api";
-
     var details = JSON.stringify({'id':userDetails.id});
     var user_profile = userDetails;
     console.log(details);
-=======
-    var baseUrl = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/api";
-    var user_profile = new Object({});
-    user_profile.id = userDetails.id;
->>>>>>> cc60d3f70e231af9ed0011992b80760e05d28e1e
 
-    $.ajax({
-            url : baseUrl + "/user/check",
-    		type : 'POST',
-            dataType: 'json',
-    		data : details,
-    		success: function(data){
-    		  console.log(data);
-    		}, error: function(){
-                console.log(arguments);
-            }
+    var api = new Api("tychozijnawesomeapiominestehelpen");
+    
+    api.post('/user/checkExistance',{ id : userDetails.id}, function(result, error){
+        console.log(result, error);
     });
 
-
 }
+
+var Api = function(name){
+    this.name = name;
+};
+Api.prototype = (function(){
+
+    var baseUrl = "http://localhost:8888/devine/20122013/MAIV/MAIVFOOD/api";
+
+    var get = function(callString, responseHandler){
+        $.ajax({
+            url : baseUrl + callString,
+            type : 'get',
+            success : function(data){
+                responseHandler(data,null);
+            }, error : function(){
+                responseHandler(null,arguments);
+            }
+        });
+    };
+
+    var post = function(callString, params, responseHandler){
+        $.ajax({
+            url : baseUrl + callString,
+            type : 'post',
+            data : params,
+            success : function(data){
+                responseHandler(data,null);
+            }, error : function(){
+                responseHandler(null,arguments);
+            }
+        });
+    };
+
+    return {
+
+        get : get,
+        post : post
+
+    }
+
+})();

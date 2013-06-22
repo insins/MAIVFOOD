@@ -13,7 +13,7 @@ class Config
     const DB_PORT = 3306;
 
     function __construct(){
-
+        
     }
 
     public static function getMenu(){

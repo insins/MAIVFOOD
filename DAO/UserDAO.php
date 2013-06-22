@@ -20,7 +20,7 @@ class UserDAO
     /*  ------------------------------------
         CHECKEN OF DE USER AL IN DE DB STAAT
         ------------------------------------ */
-    public function checkInDatabase($user_id){
+    public function checkUserExistance($user_id){
 
         $sql = "SELECT * FROM maiv_food_users WHERE user_id = :user_id";
 
