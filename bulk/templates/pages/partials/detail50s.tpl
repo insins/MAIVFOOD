@@ -53,7 +53,7 @@
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
+            <li id="fb"><a href="{$burger.id}">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
             <li id="tw"><a href="shareTwitter">Share it on Twitter<img
                     src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 

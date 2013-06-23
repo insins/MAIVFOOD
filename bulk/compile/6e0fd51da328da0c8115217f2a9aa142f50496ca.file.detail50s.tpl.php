@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:30:19
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 00:14:15
          compiled from "bulk/templates/pages/partials/detail50s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:31958427951c768eb25a292-28943467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6e0fd51da328da0c8115217f2a9aa142f50496ca' => 
     array (
       0 => 'bulk/templates/pages/partials/detail50s.tpl',
-      1 => 1372009603,
+      1 => 1372025647,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c768eb2e7106_18716696',
   'variables' => 
   array (
     'burger' => 0,
     'ingredient' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c768eb2e7106_18716696',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c768eb2e7106_18716696')) {function content_51c768eb2e7106_18716696($_smarty_tpl) {?><!-- Header van de 50s -->
     <section id="banner-50s">
@@ -86,7 +86,8 @@ $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
+            <li id="fb"><a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
+">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
             <li id="tw"><a href="shareTwitter">Share it on Twitter<img
                     src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 
