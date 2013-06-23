@@ -1,0 +1,29 @@
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 22:05:39
+         compiled from "bulk/templates/pages/gallery.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:137534309751c755137a60c6-58691499%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'ccb6298d2802003163a3ed70fd118ea09320492c' => 
+    array (
+      0 => 'bulk/templates/pages/gallery.tpl',
+      1 => 1371807179,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '137534309751c755137a60c6-58691499',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'subtemplate' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c755137aa3f7_16010707',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51c755137aa3f7_16010707')) {function content_51c755137aa3f7_16010707($_smarty_tpl) {?><!-- GALLERY HOME -->
+<?php echo $_smarty_tpl->tpl_vars['subtemplate']->value;?>
+
+<!-- home --><?php }} ?>
