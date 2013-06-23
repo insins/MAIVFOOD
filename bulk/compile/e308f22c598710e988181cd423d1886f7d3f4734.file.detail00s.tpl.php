@@ -1,57 +1,47 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 22:05:39
-=======
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 20:26:09
->>>>>>> 7c020d964627508e19fbb43a0216d4d1471ffff8
-         compiled from "bulk/templates/pages/partials/detail50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:192461838351c755137594e4-49638483%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 20:37:48
+         compiled from "bulk/templates/pages/partials/detail00s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:212867125751c714a1307824-92745606%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '6e0fd51da328da0c8115217f2a9aa142f50496ca' => 
+    'e308f22c598710e988181cd423d1886f7d3f4734' => 
     array (
-      0 => 'bulk/templates/pages/partials/detail50s.tpl',
+      0 => 'bulk/templates/pages/partials/detail00s.tpl',
       1 => 1372010849,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '192461838351c755137594e4-49638483',
+  'nocache_hash' => '212867125751c714a1307824-92745606',
   'function' => 
   array (
   ),
-<<<<<<< HEAD
-=======
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c71052a04b22_01186496',
->>>>>>> 7c020d964627508e19fbb43a0216d4d1471ffff8
+  'unifunc' => 'content_51c714a130ef27_44270891',
   'variables' => 
   array (
     'burger' => 0,
     'ingredient' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c755137a1da4_94903321',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c755137a1da4_94903321')) {function content_51c755137a1da4_94903321($_smarty_tpl) {?><!-- Header van de 50s -->
-    <section id="banner-50s">
-        <div id="logo">&nbsp;</div>
+<?php if ($_valid && !is_callable('content_51c714a130ef27_44270891')) {function content_51c714a130ef27_44270891($_smarty_tpl) {?><!-- Header van de 00s -->
+    <section id="banner-00s">
         <header>
-            <h1>50<span>s</span></h1>
-            <h2>Rock a burger</h2>
+            <h1>THE PRESENT</h1>
+            <h2>With <span id="rood">contemporary</span> ingredients we&#8217;ll define the <span>future</span>.</h2>
         </header>
     </section>
 
 <!-- Alle hamburgers -->
-<div id="achtergrond50s">
+<div id="achtergrond00s">
 
     <!-- top venstertje met samenvatting over burger -->
     <section id="burgerSamenvatting">
 
-        <header><h1>This burger is rocking!</h1></header>
+        <header><h1>This burger is something special!</h1></header>
 
         <div id="hamburgerImage">
-            <img src="assets/images/detail-50s-burger.png" />
+            <img src="assets/images/00s-detail-burger.png" />
         </div>
 
         <section id="list-things">
@@ -75,14 +65,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <p>Includes</p>
         <ul>
-            <?php  $_smarty_tpl->tpl_vars['ingredient'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ingredient']->_loop = false;
+        <?php  $_smarty_tpl->tpl_vars['ingredient'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ingredient']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['burger']->value['ingredienten']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['ingredient']->key => $_smarty_tpl->tpl_vars['ingredient']->value){
 $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
 ?>
-                <li><?php echo $_smarty_tpl->tpl_vars['ingredient']->value;?>
+            <li><?php echo $_smarty_tpl->tpl_vars['ingredient']->value;?>
 </li>
-            <?php } ?>
+        <?php } ?>
         </ul>
 
         <div class="dummy">&nbsp;</div>
@@ -95,9 +85,9 @@ $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
+            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/00s-detail-fb-share-btn.png" width="10"/></a></li>
             <li id="tw"><a href="shareTwitter">Share it on Twitter<img
-                    src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
+                    src="assets/images/00s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 
         </ul>
 
