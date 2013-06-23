@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="" />
+    <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/2b81e2c9d5bbd0d8a1664a492be33dd8ce760fbf.file.404.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/cbf964ad0f50ecdbba317fc5bb7190412b584b83.file.gallery80s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/ccb6298d2802003163a3ed70fd118ea09320492c.file.gallery.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e308f22c598710e988181cd423d1886f7d3f4734.file.detail00s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e73f98f04db3d94da10a23bd78d47db0ac2374b5.file.gallery00s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/f434b1eca2b045a3051c0be1bf033ec6469488fc.file.detail80s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/fc0cd3b8865148ef361c6272012350025f041735.file.404.tpl.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/responsive.scss" afterPath="$PROJECT_DIR$/assets/sass/responsive.scss" />
+    </list>
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,89 +32,34 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="detail00s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="115" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-14.869565">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail50s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="114" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-20.173914">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail80s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="116" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-21.565218">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DetailController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/DetailController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="30" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-1.9183674">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GalleryController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="46" selection-start="3078" selection-end="3113" vertical-scroll-proportion="-11.130435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="46" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-9.565217">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/AppController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="47" selection-start="756" selection-end="756" vertical-scroll-proportion="-17.391304">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/Config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="38" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-28.52174">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BurgerDAO.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DAO/BurgerDAO.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="50" selection-start="403" selection-end="410" vertical-scroll-proportion="-0.22291021">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="campaign.tpl" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="36" selection-start="289" selection-end="308" vertical-scroll-proportion="0.2687023">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="responsive.scss" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.25470334">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -114,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
-        <option value="$PROJECT_DIR$/api/restapi.php" />
         <option value="$PROJECT_DIR$/assets/js/Application.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/DAO/UserDAO.php" />
@@ -130,6 +86,8 @@
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
         <option value="$PROJECT_DIR$/controller/DetailController.php" />
+        <option value="$PROJECT_DIR$/assets/sass/style.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/responsive.scss" />
       </list>
     </option>
   </component>
@@ -279,32 +237,6 @@
               <option name="myItemId" value="bulk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAIVFOOD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAIVFOOD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -317,6 +249,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,6 +271,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,58 +419,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DAO/LikeDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="30" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.60778445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="47" selection-start="2151" selection-end="2151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="74" selection-start="3155" selection-end="3155" vertical-scroll-proportion="0.43034056">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="83" selection-start="845" selection-end="845" vertical-scroll-proportion="0.5748503">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/gallery.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="38" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-28.52174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="46" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-9.565217">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="47" selection-start="756" selection-end="756" vertical-scroll-proportion="-17.391304">
           <folding />
         </state>
       </provider>
@@ -539,44 +440,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+    <entry file="file://$PROJECT_DIR$/DAO/BurgerDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="115" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-14.869565">
+        <state line="18" column="50" selection-start="403" selection-end="410" vertical-scroll-proportion="0.1486068">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
+    <entry file="file://$PROJECT_DIR$/classes/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="114" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-20.173914">
+        <state line="41" column="38" selection-start="1119" selection-end="1119" vertical-scroll-proportion="1.0154799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="116" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-21.565218">
+        <state line="25" column="47" selection-start="756" selection-end="756" vertical-scroll-proportion="0.5988024">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/DetailController.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="30" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-1.9183674">
+        <state line="34" column="46" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.32934132">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="46" selection-start="3078" selection-end="3113" vertical-scroll-proportion="-11.130435">
+        <state line="123" column="46" selection-start="3078" selection-end="3113" vertical-scroll-proportion="0.38323355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DAO/BurgerDAO.php">
+    <entry file="file://$PROJECT_DIR$/controller/DetailController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="50" selection-start="403" selection-end="410" vertical-scroll-proportion="-0.22291021">
+        <state line="44" column="30" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.14641744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="114" selection-start="1564" selection-end="1564" vertical-scroll-proportion="1.3902054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="115" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.5358779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="116" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.7572519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7816794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="820" selection-end="820" vertical-scroll-proportion="0.16519174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="36" selection-start="289" selection-end="308" vertical-scroll-proportion="0.2687023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.25470334">
           <folding />
         </state>
       </provider>
