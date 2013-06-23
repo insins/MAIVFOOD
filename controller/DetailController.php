@@ -103,7 +103,7 @@ class DetailController extends AppController
 
 
                 // En dan kunnen we de juiste detail page laten zien adhv de decade
-                switch($burgerFromDB["burger_decade"])
+                switch($this->decade)
                    {
 
                     case "50":
@@ -155,7 +155,7 @@ class DetailController extends AppController
         // 50S DETAIL
         // --------------
         private function load50sDetail(){
-
+            trace('hello from 50s');
             $subtemplate = $this->smarty->fetch('pages/partials/detail50s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
         }
@@ -164,7 +164,7 @@ class DetailController extends AppController
         // 80S DETAIL
         // --------------
         private function load80sDetail(){
-
+            trace('hello from 80s');
             $subtemplate = $this->smarty->fetch('pages/partials/detail80s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
         }
@@ -173,7 +173,7 @@ class DetailController extends AppController
         // 00S DETAIL
         // --------------
         private function load00sDetail(){
-
+            trace('hello from 00s');
             $subtemplate = $this->smarty->fetch('pages/partials/detail00s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
         }

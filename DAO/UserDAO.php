@@ -70,6 +70,15 @@ class UserDAO
     }
 
     /*  ------------------------------------
+           INSERTEN BURGER
+        ------------------------------------ */
+
+        public function insertBurgerForUser($userId,$details)
+        {
+
+        }
+
+    /*  ------------------------------------
            GEEF DE USER MEE VOOR DE BURGER ID
         ------------------------------------ */
         public function getUserForBurgerID($user_id){

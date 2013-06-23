@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 19:43:32
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 20:37:56
          compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:154042127551c7151cc58416-03666989%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f434b1eca2b045a3051c0be1bf033ec6469488fc' => 
     array (
       0 => 'bulk/templates/pages/partials/detail80s.tpl',
-      1 => 1372009411,
+      1 => 1372010849,
       2 => 'file',
     ),
   ),
@@ -15,7 +15,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.8',
+  'version' => 'Smarty-3.1.11',
   'unifunc' => 'content_51c7151cccb365_06567731',
   'variables' => 
   array (
@@ -85,8 +85,7 @@ $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on Facebook <img src="assets/images/80s-detail-fb-share-btn.png"
-                                                               width="10"/></a></li>
+            <li id="fb"><a href="shareFB">Share it on Facebook <img src="assets/images/80s-detail-fb-share-btn.png" width="10"/></a></li>
             <li id="tw"><a href="shareTwitter">Share it on Twitter<img
                     src="assets/images/80s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 
