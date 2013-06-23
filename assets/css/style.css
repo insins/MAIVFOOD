@@ -194,10 +194,56 @@ div#wrapper section#menu ul li a {
   text-decoration: none;
 }
 
+/* line 171, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage {
+  background-color: #e33951;
+  height: 100%;
+}
+/* line 176, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage section#someText {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 180, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage section#someText p {
+  color: #FFF;
+  margin: 50px 0 0 0;
+  font-family: bitter, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 28px;
+}
+/* line 189, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage section#someText p a {
+  text-decoration: none;
+  color: #f6e993;
+  font-weight: bolder;
+  border-bottom: #f6e993 3px solid;
+  padding-bottom: 1px;
+  text-transform: uppercase;
+}
+/* line 206, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage header {
+  color: #FFF;
+  width: 960px;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+/* line 213, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage header h1 {
+  font-family: nevis, sans-serif;
+  font-size: 70px;
+}
+/* line 219, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage header h2 {
+  font-size: 20px;
+  font-family: bitter, sans-serif;
+}
+
 /* -------------------- */
 /* CREATE A BURGER PAGE */
 /* -------------------- */
-/* line 174, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#car-header-wrapper {
   background-image: url("../images/create-bg.png");
   background-size: cover;
@@ -206,13 +252,13 @@ div#wrapper section#content-wrapper section#content section#car-header-wrapper {
   height: 494px;
   width: 100%;
 }
-/* line 183, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 186, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header {
   text-shadow: 2px 2px #434343;
   color: #FFF;
@@ -220,14 +266,14 @@ div#wrapper section#content-wrapper section#content section#car-header-wrapper s
   margin-left: auto;
   margin-right: auto;
 }
-/* line 193, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header h1 {
   padding: 146px 0 0 96px;
   font-family: Arvo, sans-serif;
   font-size: 38px;
   width: 403px;
 }
-/* line 201, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header h2 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 43px;
@@ -235,7 +281,7 @@ div#wrapper section#content-wrapper section#content section#car-header-wrapper s
   background: url("../images/create-white-line-h2.png") no-repeat bottom left;
   padding: 0 0 5px 0;
 }
-/* line 216, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header div#car-iphone-image {
   background: url("../images/create-cars-and-iphone.png") no-repeat;
   background-size: contain;
@@ -245,19 +291,19 @@ div#wrapper section#content-wrapper section#content section#car-header-wrapper s
   top: 25%;
   margin-left: 180px;
 }
-/* line 238, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper {
   background-color: #f2882f;
   padding: 200px 0 30px 0;
 }
-/* line 241, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper section#how-does-it-work {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
-/* line 250, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper header {
   font-family: brannboll_fetregular, serif;
   font-size: 42px;
@@ -266,20 +312,20 @@ div#wrapper section#content-wrapper section#content section#how-does-it-work-wra
   width: 960px;
   margin: 20px auto 15px auto;
 }
-/* line 260, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
   font-family: brandon_grotesque_regularRg, sans-serif;
 }
-/* line 264, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work p {
   color: #FFF;
   font-size: 30px;
   margin: 20px 0 27px 10px;
 }
-/* line 270, ../sass/style.scss */
+/* line 339, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work p a {
   text-indent: -9999px;
   display: block;
@@ -287,14 +333,14 @@ div#wrapper section#content-wrapper section#content section#how-does-it-work-wra
   width: 160px;
   height: 54px;
 }
-/* line 280, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work ol {
   list-style: decimal;
   color: #474747;
   margin: 30px 0 0 30px;
   font-size: 20px;
 }
-/* line 289, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div#flamingo-iphone-image {
   background: url("../images/create-flamingo-iphone.png");
   background-size: contain;
@@ -304,17 +350,17 @@ div#wrapper section#content-wrapper section#content section#how-does-it-work-wra
   top: 0;
   left: 700px;
 }
-/* line 302, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#video-content {
   padding-top: 75px;
   background-color: #00c0a7;
 }
-/* line 307, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#video-content header {
   width: 960px;
   margin: 0 auto;
 }
-/* line 312, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#video-content header h1 {
   font-family: brannboll_fetregular, serif;
   font-size: 42px;
@@ -322,7 +368,7 @@ div#wrapper section#content-wrapper section#content section#video-content header
   text-shadow: 2px 2px #434343;
   width: 960px;
 }
-/* line 320, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#video-content header h2 {
   font-family: brandon_grotesque_regularRg, sans-serif;
   font-size: 20px;
@@ -333,12 +379,12 @@ div#wrapper section#content-wrapper section#content section#video-content header
   text-align: center;
   margin: -5px 0 40px 300px;
 }
-/* line 333, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#video-content div#video-wrapper {
   width: 960px;
   margin: 0 auto;
 }
-/* line 337, ../sass/style.scss */
+/* line 406, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#video-content div#video-wrapper div#video-bg {
   background: url("../images/create-video-bg.png") no-repeat;
   width: 1004px;
@@ -350,11 +396,11 @@ div#wrapper section#content-wrapper section#content section#video-content div#vi
 /* -------------------- */
 /* CAMPAIGN PAGE */
 /* -------------------- */
-/* line 366, ../sass/style.scss */
+/* line 435, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper {
   background-color: #b5a7a7;
 }
-/* line 370, ../sass/style.scss */
+/* line 439, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header {
   background: url("../images/home-bg.png") no-repeat;
   width: 100%;
@@ -363,7 +409,7 @@ div#wrapper section#content-wrapper section#content section#home-wrapper section
   background-repeat: no-repeat;
   height: 700px;
 }
-/* line 380, ../sass/style.scss */
+/* line 449, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header header h1 {
   background: url("../images/home-logo.png") no-repeat bottom left;
   height: 110px;
@@ -374,7 +420,7 @@ div#wrapper section#content-wrapper section#content section#home-wrapper section
   font-family: bebasneue, sans-serif;
   font-size: 3em;
 }
-/* line 399, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header div#home-burgers {
   background: url("../images/home-burgers.png") no-repeat;
   background-size: contain;
@@ -383,7 +429,7 @@ div#wrapper section#content-wrapper section#content section#home-wrapper section
   margin-right: auto;
   height: 429px;
 }
-/* line 412, ../sass/style.scss */
+/* line 481, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
   background-color: #eff3e4;
   width: 90%;
@@ -392,20 +438,20 @@ div#wrapper section#content-wrapper section#content section#home-wrapper section
   margin: -100px auto 0 auto;
   padding: 33px 0 33px 39px;
 }
-/* line 414, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper section#home-uitleg {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 422, ../sass/style.scss */
+/* line 491, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper header h1 {
   color: #686964;
   font-family: bebasneue, sans-serif;
   font-size: 2.5em;
   margin-bottom: 10px;
 }
-/* line 431, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p {
   font-family: brandon_grotesque_regularRg, sans-serif;
   font-size: 1.4em;
@@ -414,13 +460,13 @@ div#wrapper section#content-wrapper section#content section#home-wrapper section
   color: #2a2a2a;
   margin-bottom: 20px;
 }
-/* line 439, ../sass/style.scss */
+/* line 508, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p span {
   color: #e33951;
   text-transform: uppercase;
   font-size: 0.75em;
 }
-/* line 446, ../sass/style.scss */
+/* line 515, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a {
   color: #FFF;
   text-decoration: none;
@@ -429,12 +475,12 @@ div#wrapper section#content-wrapper section#content section#home-wrapper section
   font-size: 0.75em;
   padding: 5px 10px;
 }
-/* line 455, ../sass/style.scss */
+/* line 524, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a:last-child {
   background-color: #6bc8af;
   margin-left: 10px;
 }
-/* line 460, ../sass/style.scss */
+/* line 529, ../sass/style.scss */
 div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a:first-child {
   background-color: #fac00f;
   margin-right: 10px;
@@ -443,7 +489,7 @@ div#wrapper section#content-wrapper section#content section#home-wrapper section
 /* -------------------- */
 /* GALERY PAGE */
 /* -------------------- */
-/* line 483, ../sass/style.scss */
+/* line 552, ../sass/style.scss */
 section#content-wrapper section#content {
   /* -------------------- */
   /* 00s */
@@ -466,17 +512,17 @@ section#content-wrapper section#content {
   /* -------------------- */
   /* ALLE HAMBURGERS */
 }
-/* line 489, ../sass/style.scss */
+/* line 558, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s {
   background: url("../images/00s-banner-bg.png") no-repeat;
   background-size: cover;
   height: 603px;
 }
-/* line 495, ../sass/style.scss */
+/* line 564, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s header {
   margin-left: 200px;
 }
-/* line 499, ../sass/style.scss */
+/* line 568, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s header h1 {
   background: url("../images/00s-banner-title-triangles.png") no-repeat bottom left;
   padding: 45px 0 0 25px;
@@ -484,13 +530,13 @@ section#content-wrapper section#content section#banner-00s header h1 {
   font-size: 70px;
   color: #FFF;
 }
-/* line 508, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s header h1 span {
   position: absolute;
   left: -9999px;
   display: none;
 }
-/* line 515, ../sass/style.scss */
+/* line 584, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s header h2 {
   font-family: brandon_grotesque_regularRg, sans-serif;
   font-size: 30px;
@@ -498,26 +544,26 @@ section#content-wrapper section#content section#banner-00s header h2 {
   width: 400px;
   margin: -50px 0 0 400px;
 }
-/* line 522, ../sass/style.scss */
+/* line 591, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s header h2 span {
   color: #ffec5b;
 }
-/* line 526, ../sass/style.scss */
+/* line 595, ../sass/style.scss */
 section#content-wrapper section#content section#banner-00s header h2 span#rood {
   color: #fd7878;
   font-weight: bolder;
 }
-/* line 538, ../sass/style.scss */
+/* line 607, ../sass/style.scss */
 section#content-wrapper section#content section#banner-80s {
   background: url("../images/80s-banner-bg.png") no-repeat;
   background-size: cover;
   height: 603px;
 }
-/* line 544, ../sass/style.scss */
+/* line 613, ../sass/style.scss */
 section#content-wrapper section#content section#banner-80s header {
   margin-left: 200px;
 }
-/* line 548, ../sass/style.scss */
+/* line 617, ../sass/style.scss */
 section#content-wrapper section#content section#banner-80s header h1 {
   background: url("../images/80s-banner-80s.png") no-repeat bottom left;
   padding: 80px 0 0 255px;
@@ -531,21 +577,21 @@ section#content-wrapper section#content section#banner-80s header h1 {
   color: #50c8b8;
   text-shadow: -4px 4px #000;
 }
-/* line 568, ../sass/style.scss */
+/* line 637, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s {
   background-color: #83d6b8;
 }
-/* line 571, ../sass/style.scss */
+/* line 640, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting {
   width: 960px;
   margin: 0 auto;
   background-color: #353535;
 }
-/* line 578, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s header {
   padding-top: 40px;
 }
-/* line 582, ../sass/style.scss */
+/* line 651, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -557,22 +603,22 @@ section#content-wrapper section#content div#achtergrond00s header h1 {
   border-bottom: #ffea63 3px solid;
   margin: 0 0 40px 40px;
 }
-/* line 598, ../sass/style.scss */
+/* line 667, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s div#hamburgerImage {
   float: left;
   width: 375px;
   margin: 10px 0 20px 60px;
 }
-/* line 605, ../sass/style.scss */
+/* line 674, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#list-things {
   float: left;
   width: 375px;
 }
-/* line 611, ../sass/style.scss */
+/* line 680, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios {
   margin: 30px 0 0 50px;
 }
-/* line 616, ../sass/style.scss */
+/* line 685, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li {
   font-family: brandon_grotesque_regularRg, sans-serif;
   text-transform: uppercase;
@@ -580,7 +626,7 @@ section#content-wrapper section#content div#achtergrond00s section#list-things u
   font-size: 25px;
   margin-bottom: 35px;
 }
-/* line 623, ../sass/style.scss */
+/* line 692, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li a {
   height: 65px;
   width: 160px;
@@ -591,25 +637,25 @@ section#content-wrapper section#content div#achtergrond00s section#list-things u
   font-size: 20px;
   font-weight: bolder;
 }
-/* line 635, ../sass/style.scss */
+/* line 704, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li a img {
   margin-right: 5px;
 }
-/* line 641, ../sass/style.scss */
+/* line 710, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li span {
   color: #6ee8ca;
 }
-/* line 651, ../sass/style.scss */
+/* line 720, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#bottomInfo {
   width: 960px;
   margin: 0 auto;
 }
-/* line 656, ../sass/style.scss */
+/* line 725, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten {
   width: 335px;
   float: left;
 }
-/* line 663, ../sass/style.scss */
+/* line 732, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -620,7 +666,7 @@ section#content-wrapper section#content div#achtergrond00s section#bottomInfo se
   width: 300px;
   border-bottom: #ffea63 3px solid;
 }
-/* line 676, ../sass/style.scss */
+/* line 745, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten p {
   float: left;
   font-size: 24px;
@@ -629,7 +675,7 @@ section#content-wrapper section#content div#achtergrond00s section#bottomInfo se
   color: #565656;
   margin: 0 40px;
 }
-/* line 685, ../sass/style.scss */
+/* line 754, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten ul {
   float: left;
   font-size: 22px;
@@ -637,17 +683,17 @@ section#content-wrapper section#content div#achtergrond00s section#bottomInfo se
   color: #FFF;
   text-transform: uppercase;
 }
-/* line 693, ../sass/style.scss */
+/* line 762, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten ul li {
   margin: 0 0 20px 0;
 }
-/* line 704, ../sass/style.scss */
+/* line 773, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#voteBtns {
   width: 335px;
   float: left;
   margin-left: 100px;
 }
-/* line 711, ../sass/style.scss */
+/* line 780, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#voteBtns header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -658,7 +704,7 @@ section#content-wrapper section#content div#achtergrond00s section#voteBtns head
   width: 300px;
   border-bottom: #ffea63 3px solid;
 }
-/* line 724, ../sass/style.scss */
+/* line 793, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#voteBtns ul li {
   width: 300px;
   padding: 5px 0 8px 0;
@@ -673,16 +719,16 @@ section#content-wrapper section#content div#achtergrond00s section#voteBtns ul l
   text-transform: uppercase;
   font-size: 18px;
 }
-/* line 740, ../sass/style.scss */
+/* line 809, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#voteBtns ul li a {
   text-decoration: none;
   color: #fd7878;
 }
-/* line 744, ../sass/style.scss */
+/* line 813, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#voteBtns ul li a img {
   margin-left: 10px;
 }
-/* line 758, ../sass/style.scss */
+/* line 827, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s {
   background-color: #fcc567;
   /* -------------------- */
@@ -690,18 +736,18 @@ section#content-wrapper section#content div#achtergrond80s {
   /* -------------------- */
   /* ALLE HAMBURGERS */
 }
-/* line 761, ../sass/style.scss */
+/* line 830, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#burgerSamenvatting {
   width: 960px;
   margin: 0 auto;
   background: url("../images/80s-patterened.png");
   z-index: 11;
 }
-/* line 769, ../sass/style.scss */
+/* line 838, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s header {
   padding-top: 40px;
 }
-/* line 773, ../sass/style.scss */
+/* line 842, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s header h1 {
   font-family: brannboll_fetregular, serif;
   color: #e72c6c;
@@ -711,29 +757,29 @@ section#content-wrapper section#content div#achtergrond80s header h1 {
   background: url("../images/80s-detail-summary-line.png") no-repeat bottom left;
   padding-bottom: 1px;
 }
-/* line 788, ../sass/style.scss */
+/* line 857, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s div#hamburgerImage {
   float: left;
   width: 375px;
   margin: 20px 0 20px 30px;
 }
-/* line 795, ../sass/style.scss */
+/* line 864, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#list-things {
   float: left;
   width: 375px;
 }
-/* line 801, ../sass/style.scss */
+/* line 870, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios {
   margin: 30px 0 0 50px;
 }
-/* line 806, ../sass/style.scss */
+/* line 875, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li {
   font-family: american_purpose_casual_01Rg, serif;
   color: #e72c6c;
   font-size: 35px;
   margin-bottom: 20px;
 }
-/* line 812, ../sass/style.scss */
+/* line 881, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li a {
   height: 65px;
   width: 160px;
@@ -745,32 +791,32 @@ section#content-wrapper section#content div#achtergrond80s section#list-things u
   color: #ffffff;
   text-decoration: none;
 }
-/* line 825, ../sass/style.scss */
+/* line 894, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li a img {
   margin-right: 5px;
 }
-/* line 831, ../sass/style.scss */
+/* line 900, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li span {
   color: #50c8b8;
 }
-/* line 841, ../sass/style.scss */
+/* line 910, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#bottomInfo {
   width: 960px;
   margin: 0 auto;
 }
-/* line 846, ../sass/style.scss */
+/* line 915, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten {
   width: 335px;
   float: left;
 }
-/* line 853, ../sass/style.scss */
+/* line 922, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten header h1 {
   font-family: brannboll_fetregular, serif;
   color: #e72c6c;
   text-shadow: 2px 2px #ecf0aa;
   font-size: 38px;
 }
-/* line 864, ../sass/style.scss */
+/* line 933, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten p {
   float: left;
   font-size: 27px;
@@ -778,31 +824,31 @@ section#content-wrapper section#content div#achtergrond80s section#bottomInfo se
   color: #e72c6c;
   margin: 0 40px;
 }
-/* line 872, ../sass/style.scss */
+/* line 941, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten ul {
   float: left;
   font-size: 27px;
   font-family: american_purpose_casual_01Rg, serif;
   color: #fff;
 }
-/* line 878, ../sass/style.scss */
+/* line 947, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten ul li {
   margin: 0 0 20px 0;
 }
-/* line 889, ../sass/style.scss */
+/* line 958, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#voteBtns {
   width: 335px;
   float: left;
   margin-left: 100px;
 }
-/* line 896, ../sass/style.scss */
+/* line 965, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#voteBtns header h1 {
   font-family: brannboll_fetregular, serif;
   color: #e72c6c;
   text-shadow: 2px 2px #ecf0aa;
   font-size: 38px;
 }
-/* line 907, ../sass/style.scss */
+/* line 976, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#voteBtns ul li {
   background-color: #ecf0aa;
   font-family: american_purpose_casual_01Rg, serif;
@@ -815,23 +861,23 @@ section#content-wrapper section#content div#achtergrond80s section#voteBtns ul l
   border-radius: 15px;
   text-align: center;
 }
-/* line 919, ../sass/style.scss */
+/* line 988, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#voteBtns ul li a {
   text-decoration: none;
   color: #e72c6c;
 }
-/* line 923, ../sass/style.scss */
+/* line 992, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#voteBtns ul li a img {
   margin-left: 10px;
 }
-/* line 936, ../sass/style.scss */
+/* line 1005, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s {
   width: 960px;
   margin: 0 auto 0 auto;
   color: #de606b;
   background: url("../images/80s-patterened.png");
 }
-/* line 944, ../sass/style.scss */
+/* line 1013, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s header h1 {
   font-family: brannboll_fetregular, serif;
   color: #e72c6c;
@@ -841,19 +887,19 @@ section#content-wrapper section#content div#achtergrond80s section#top380s heade
   width: 300px;
   margin: 0 0 40px 40px;
 }
-/* line 955, ../sass/style.scss */
+/* line 1024, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers {
   width: 820px;
   margin: 25px auto 0 auto;
 }
-/* line 961, ../sass/style.scss */
+/* line 1030, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 968, ../sass/style.scss */
+/* line 1037, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger div#voteCountFirst {
   background: url("../images/50s-vote-count-best.png") no-repeat;
   height: 97px;
@@ -866,14 +912,14 @@ section#content-wrapper section#content div#achtergrond80s section#top380s div#b
   left: 60px;
   top: 50px;
 }
-/* line 984, ../sass/style.scss */
+/* line 1053, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger p {
   color: #50c8b8;
   font-size: 25px;
   font-family: american_purpose_casual_01Rg, serif;
   margin-bottom: 10px;
 }
-/* line 992, ../sass/style.scss */
+/* line 1061, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger ul.actions li {
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
@@ -885,19 +931,19 @@ section#content-wrapper section#content div#achtergrond80s section#top380s div#b
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 1003, ../sass/style.scss */
+/* line 1072, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger ul.actions li a {
   color: #edeed7;
   text-decoration: none;
 }
-/* line 1014, ../sass/style.scss */
+/* line 1083, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 1021, ../sass/style.scss */
+/* line 1090, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger div#voteCountSecond {
   background: url("../images/50s-vote-count-second.png") no-repeat;
   height: 97px;
@@ -910,14 +956,14 @@ section#content-wrapper section#content div#achtergrond80s section#top380s div#b
   left: 60px;
   top: 50px;
 }
-/* line 1038, ../sass/style.scss */
+/* line 1107, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger p {
   color: #ea475f;
   font-size: 25px;
   font-family: american_purpose_casual_01Rg, serif;
   margin-bottom: 10px;
 }
-/* line 1046, ../sass/style.scss */
+/* line 1115, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger ul.actions li {
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
@@ -929,18 +975,18 @@ section#content-wrapper section#content div#achtergrond80s section#top380s div#b
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 1057, ../sass/style.scss */
+/* line 1126, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger ul.actions li a {
   color: #edeed7;
   text-decoration: none;
 }
-/* line 1068, ../sass/style.scss */
+/* line 1137, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger {
   position: relative;
   float: left;
   width: 230px;
 }
-/* line 1074, ../sass/style.scss */
+/* line 1143, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger div#voteCountThird {
   background: url("../images/50s-vote-count-third.png") no-repeat;
   height: 97px;
@@ -953,14 +999,14 @@ section#content-wrapper section#content div#achtergrond80s section#top380s div#b
   left: 60px;
   top: 50px;
 }
-/* line 1091, ../sass/style.scss */
+/* line 1160, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger p {
   color: #ffb537;
   font-size: 25px;
   font-family: american_purpose_casual_01Rg, serif;
   margin-bottom: 10px;
 }
-/* line 1099, ../sass/style.scss */
+/* line 1168, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger ul.actions li {
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
@@ -972,21 +1018,21 @@ section#content-wrapper section#content div#achtergrond80s section#top380s div#b
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 1110, ../sass/style.scss */
+/* line 1179, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger ul.actions li a {
   color: #edeed7;
   text-decoration: none;
 }
-/* line 1120, ../sass/style.scss */
+/* line 1189, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s {
   width: 960px;
   margin: 30 auto 0 auto;
 }
-/* line 1124, ../sass/style.scss */
+/* line 1193, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s header {
   float: left;
 }
-/* line 1127, ../sass/style.scss */
+/* line 1196, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s header h1 {
   font-family: brannboll_fetregular, serif;
   color: #e72c6c;
@@ -994,12 +1040,12 @@ section#content-wrapper section#content div#achtergrond80s section#allTheBugers0
   font-size: 38px;
   margin: 0 0 40px 40px;
 }
-/* line 1137, ../sass/style.scss */
+/* line 1206, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField {
   float: left;
   width: 260px;
 }
-/* line 1143, ../sass/style.scss */
+/* line 1212, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField form div input {
   border: none;
   font-size: 20px;
@@ -1016,12 +1062,12 @@ section#content-wrapper section#content div#achtergrond80s section#allTheBugers0
   background-repeat: no-repeat;
   background-position: 220px;
 }
-/* line 1165, ../sass/style.scss */
+/* line 1234, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow {
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 1169, ../sass/style.scss */
+/* line 1238, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary {
   color: #f6e993;
   position: relative;
@@ -1030,12 +1076,12 @@ section#content-wrapper section#content div#achtergrond80s section#allTheBugers0
   font-family: american_purpose_casual_01Rg, serif;
   color: #e72c6c;
 }
-/* line 1179, ../sass/style.scss */
+/* line 1248, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary p {
   margin: 10px 0;
   font-size: 24px;
 }
-/* line 1187, ../sass/style.scss */
+/* line 1256, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li {
   font-family: american_purpose_casual_01Rg, serif;
   background-color: #e72c6c;
@@ -1046,13 +1092,13 @@ section#content-wrapper section#content div#achtergrond80s section#allTheBugers0
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 1198, ../sass/style.scss */
+/* line 1267, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li a {
   color: #ffb537;
   text-decoration: none;
   font-size: 20px;
 }
-/* line 1207, ../sass/style.scss */
+/* line 1276, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary div.voteCount {
   position: absolute;
   top: -15px;
@@ -1065,26 +1111,26 @@ section#content-wrapper section#content div#achtergrond80s section#allTheBugers0
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
 }
-/* line 1222, ../sass/style.scss */
+/* line 1291, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow div.line {
   background-color: #fbf9f3;
   height: 1px;
   margin-bottom: 20px;
 }
-/* line 1238, ../sass/style.scss */
+/* line 1307, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s {
   /* -------------------- */
   /* DETAIL PAGE */
   /* -------------------- */
 }
-/* line 1240, ../sass/style.scss */
+/* line 1309, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 {
   width: 960px;
   margin: 0 auto 0 auto;
   color: #de606b;
   background-color: #353535;
 }
-/* line 1249, ../sass/style.scss */
+/* line 1318, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -1096,19 +1142,19 @@ section#content-wrapper section#content div#achtergrond00s section#top3 header h
   border-bottom: #ffea63 3px solid;
   margin: 0 0 40px 40px;
 }
-/* line 1262, ../sass/style.scss */
+/* line 1331, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers {
   width: 820px;
   margin: 25px auto 0 auto;
 }
-/* line 1268, ../sass/style.scss */
+/* line 1337, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 1275, ../sass/style.scss */
+/* line 1344, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger div#voteCountFirst {
   background: url("../images/50s-vote-count-best.png") no-repeat;
   height: 97px;
@@ -1121,7 +1167,7 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 1291, ../sass/style.scss */
+/* line 1360, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger p {
   color: #6ee8ca;
   font-size: 20px;
@@ -1129,7 +1175,7 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 1300, ../sass/style.scss */
+/* line 1369, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger ul.actions li {
   text-transform: uppercase;
   font-size: 14px;
@@ -1140,19 +1186,19 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   text-align: center;
   padding: 10px 10px;
 }
-/* line 1310, ../sass/style.scss */
+/* line 1379, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger ul.actions li a {
   color: #6ee8ca;
   text-decoration: none;
 }
-/* line 1321, ../sass/style.scss */
+/* line 1390, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 1328, ../sass/style.scss */
+/* line 1397, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger div#voteCountSecond {
   background: url("../images/50s-vote-count-second.png") no-repeat;
   height: 97px;
@@ -1165,7 +1211,7 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 1344, ../sass/style.scss */
+/* line 1413, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger p {
   color: #fd7878;
   font-size: 20px;
@@ -1173,7 +1219,7 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 1353, ../sass/style.scss */
+/* line 1422, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger ul.actions li {
   text-transform: uppercase;
   font-size: 14px;
@@ -1184,18 +1230,18 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   text-align: center;
   padding: 10px 10px;
 }
-/* line 1363, ../sass/style.scss */
+/* line 1432, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger ul.actions li a {
   color: #fd7878;
   text-decoration: none;
 }
-/* line 1374, ../sass/style.scss */
+/* line 1443, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger {
   position: relative;
   float: left;
   width: 230px;
 }
-/* line 1380, ../sass/style.scss */
+/* line 1449, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger div#voteCountThird {
   background: url("../images/50s-vote-count-third.png") no-repeat;
   height: 97px;
@@ -1208,7 +1254,7 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 1396, ../sass/style.scss */
+/* line 1465, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger p {
   color: #ffea63;
   font-size: 20px;
@@ -1216,7 +1262,7 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 1405, ../sass/style.scss */
+/* line 1474, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger ul.actions li {
   text-transform: uppercase;
   font-size: 14px;
@@ -1227,21 +1273,21 @@ section#content-wrapper section#content div#achtergrond00s section#top3 div#burg
   text-align: center;
   padding: 10px 10px;
 }
-/* line 1415, ../sass/style.scss */
+/* line 1484, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger ul.actions li a {
   color: #ffea63;
   text-decoration: none;
 }
-/* line 1426, ../sass/style.scss */
+/* line 1495, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s {
   width: 960px;
   margin: 30 auto 0 auto;
 }
-/* line 1430, ../sass/style.scss */
+/* line 1499, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s header {
   float: left;
 }
-/* line 1433, ../sass/style.scss */
+/* line 1502, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -1252,12 +1298,12 @@ section#content-wrapper section#content div#achtergrond00s section#allTheBugers0
   width: 550px;
   border-bottom: #ffea63 3px solid;
 }
-/* line 1445, ../sass/style.scss */
+/* line 1514, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField {
   float: left;
   width: 260px;
 }
-/* line 1451, ../sass/style.scss */
+/* line 1520, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div input {
   border: 5px #fd7878 solid;
   color: #fd7878;
@@ -1275,12 +1321,12 @@ section#content-wrapper section#content div#achtergrond00s section#allTheBugers0
   background-repeat: no-repeat;
   background-position: 220px;
 }
-/* line 1478, ../sass/style.scss */
+/* line 1547, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow {
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 1482, ../sass/style.scss */
+/* line 1551, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary {
   color: #f6e993;
   position: relative;
@@ -1290,12 +1336,12 @@ section#content-wrapper section#content div#achtergrond00s section#allTheBugers0
   color: #FFF;
   text-transform: uppercase;
 }
-/* line 1493, ../sass/style.scss */
+/* line 1562, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary p {
   margin: 10px 0;
   font-size: 18px;
 }
-/* line 1501, ../sass/style.scss */
+/* line 1570, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li {
   border: 5px #FFF solid;
   text-decoration: none;
@@ -1305,13 +1351,13 @@ section#content-wrapper section#content div#achtergrond00s section#allTheBugers0
   margin-top: 10px;
   padding: 7px 0 7px 0;
 }
-/* line 1511, ../sass/style.scss */
+/* line 1580, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li a {
   color: #FFF;
   text-decoration: none;
   font-size: 14px;
 }
-/* line 1520, ../sass/style.scss */
+/* line 1589, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary div.voteCount {
   position: absolute;
   top: -15px;
@@ -1324,19 +1370,19 @@ section#content-wrapper section#content div#achtergrond00s section#allTheBugers0
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
 }
-/* line 1535, ../sass/style.scss */
+/* line 1604, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow div.line {
   background-color: #fbf9f3;
   height: 1px;
   margin-bottom: 20px;
 }
-/* line 1549, ../sass/style.scss */
+/* line 1618, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting {
   background-color: #333;
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 1556, ../sass/style.scss */
+/* line 1625, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -1348,30 +1394,30 @@ section#content-wrapper section#content div#achtergrond00s section#burgerSamenva
   border-bottom: #ffea63 3px solid;
   margin: 0 0 20px 40px;
 }
-/* line 1570, ../sass/style.scss */
+/* line 1639, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting div#hamburgerImage {
   float: left;
   width: 273px;
   margin: 25px 0 0 86px;
 }
-/* line 1578, ../sass/style.scss */
+/* line 1647, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things {
   float: left;
   width: 400px;
   margin: 25px 0 0 86px;
 }
-/* line 1585, ../sass/style.scss */
+/* line 1654, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li {
   font-size: 30px;
   color: #fd7878;
   width: 400px;
   margin-bottom: 45px;
 }
-/* line 1591, ../sass/style.scss */
+/* line 1660, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li span {
   color: #78d1b2;
 }
-/* line 1595, ../sass/style.scss */
+/* line 1664, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li span#votes {
   background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
   height: 76px;
@@ -1380,30 +1426,30 @@ section#content-wrapper section#content div#achtergrond00s section#burgerSamenva
   font-family: brandon_grotesque_regularRg, sans-serif;
   color: #fffcf1;
 }
-/* line 1604, ../sass/style.scss */
+/* line 1673, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a {
   text-decoration: none;
   color: #fd7878;
   text-align: center;
   padding: 10px 10px;
 }
-/* line 1611, ../sass/style.scss */
+/* line 1680, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a img {
   margin-right: 10px;
 }
-/* line 1622, ../sass/style.scss */
+/* line 1691, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo {
   width: 960px;
   margin: 40px auto 0 auto;
 }
-/* line 1629, ../sass/style.scss */
+/* line 1698, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten {
   float: left;
   width: 300px;
   font-size: 20px;
   font-family: bebasneue, sans-serif;
 }
-/* line 1637, ../sass/style.scss */
+/* line 1706, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -1415,27 +1461,27 @@ section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredie
   border-bottom: #ffea63 3px solid;
   margin: 0 0 20px 40px;
 }
-/* line 1651, ../sass/style.scss */
+/* line 1720, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten p {
   float: left;
   color: #fffcf1;
   margin: 25px 40px 0 0;
 }
-/* line 1657, ../sass/style.scss */
+/* line 1726, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten ul {
   float: left;
 }
-/* line 1661, ../sass/style.scss */
+/* line 1730, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten ul li {
   color: #FFFF;
   margin-bottom: 15px;
 }
-/* line 1673, ../sass/style.scss */
+/* line 1742, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns {
   margin-left: 150px;
   float: left;
 }
-/* line 1681, ../sass/style.scss */
+/* line 1750, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns header h1 {
   font-family: nevis, sans-serif;
   text-transform: uppercase;
@@ -1447,7 +1493,7 @@ section#content-wrapper section#content div#achtergrond00s #bottomInfo section#v
   border-bottom: #ffea63 3px solid;
   margin: 0 0 20px 0;
 }
-/* line 1696, ../sass/style.scss */
+/* line 1765, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li {
   width: 300px;
   font-size: 20px;
@@ -1455,22 +1501,22 @@ section#content-wrapper section#content div#achtergrond00s #bottomInfo section#v
   padding: 10px 10px;
   margin: 15px 0 15px 0;
 }
-/* line 1705, ../sass/style.scss */
+/* line 1774, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li a {
   color: #fd7878;
   text-decoration: none;
 }
-/* line 1709, ../sass/style.scss */
+/* line 1778, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li a img {
   margin: 0 0 0 15px;
 }
-/* line 1726, ../sass/style.scss */
+/* line 1795, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s {
   background: url("../images/50s-banner-bg.png") no-repeat;
   background-size: cover;
   height: 337px;
 }
-/* line 1731, ../sass/style.scss */
+/* line 1800, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s div#logo {
   background: url("../images/50s-logo.png") no-repeat bottom center;
   width: 87px;
@@ -1478,22 +1524,22 @@ section#content-wrapper section#content section#banner-50s div#logo {
   margin: 0 0 0 215px;
   padding-top: 10px;
 }
-/* line 1739, ../sass/style.scss */
+/* line 1808, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header {
   color: #fffcf1;
   text-shadow: 2px 2px #434343;
 }
-/* line 1744, ../sass/style.scss */
+/* line 1813, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header h1 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 150px;
   margin: 10px 0 0 150px;
 }
-/* line 1749, ../sass/style.scss */
+/* line 1818, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header h1 span {
   font-size: 50px;
 }
-/* line 1755, ../sass/style.scss */
+/* line 1824, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header h2 {
   font-family: southern_aire_personal_use_Rg, serif;
   font-size: 65px;
@@ -1501,21 +1547,21 @@ section#content-wrapper section#content section#banner-50s header h2 {
   top: -130px;
   left: 300px;
 }
-/* line 1766, ../sass/style.scss */
+/* line 1835, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s {
   background-color: #df4452;
   /* -------------------- */
   /* DETAIL PAGE */
   /* -------------------- */
 }
-/* line 1770, ../sass/style.scss */
+/* line 1839, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 {
   width: 960px;
   margin: 0 auto 0 auto;
   color: #de606b;
   background-color: #fbf9f4;
 }
-/* line 1779, ../sass/style.scss */
+/* line 1848, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 header h1 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 46px;
@@ -1524,19 +1570,19 @@ section#content-wrapper section#content div#achtergrond50s section#top3 header h
   background: url("../images/50s-title-line.png") no-repeat;
   background-position: 40px 83px;
 }
-/* line 1791, ../sass/style.scss */
+/* line 1860, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers {
   width: 820px;
   margin: 25px auto 0 auto;
 }
-/* line 1797, ../sass/style.scss */
+/* line 1866, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 1803, ../sass/style.scss */
+/* line 1872, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger div#voteCountFirst {
   background: url("../images/50s-vote-count-best.png") no-repeat;
   height: 97px;
@@ -1549,14 +1595,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 1819, ../sass/style.scss */
+/* line 1888, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger p {
   color: #58bfa6;
   font-size: 30px;
   font-family: bebasneue, sans-serif;
   margin-bottom: 10px;
 }
-/* line 1827, ../sass/style.scss */
+/* line 1896, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li {
   margin-bottom: 10px;
   width: 187px;
@@ -1564,21 +1610,21 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   background-color: #58bfa6;
   padding: 5px 10px;
 }
-/* line 1834, ../sass/style.scss */
+/* line 1903, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li a {
   text-decoration: none;
   color: #FFF;
   font-family: bebasneue, sans-serif;
   font-size: 20px;
 }
-/* line 1847, ../sass/style.scss */
+/* line 1916, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 1854, ../sass/style.scss */
+/* line 1923, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger div#voteCountSecond {
   background: url("../images/50s-vote-count-second.png") no-repeat;
   height: 97px;
@@ -1591,14 +1637,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 1870, ../sass/style.scss */
+/* line 1939, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger p {
   color: #fd7878;
   font-size: 30px;
   font-family: bebasneue, sans-serif;
   margin-bottom: 10px;
 }
-/* line 1878, ../sass/style.scss */
+/* line 1947, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li {
   margin-bottom: 10px;
   width: 187px;
@@ -1606,20 +1652,20 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   background-color: #fd7878;
   padding: 5px 10px;
 }
-/* line 1886, ../sass/style.scss */
+/* line 1955, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li a {
   text-decoration: none;
   color: #FFF;
   font-family: bebasneue, sans-serif;
   font-size: 20px;
 }
-/* line 1899, ../sass/style.scss */
+/* line 1968, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger {
   position: relative;
   float: left;
   width: 230px;
 }
-/* line 1905, ../sass/style.scss */
+/* line 1974, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger div#voteCountThird {
   background: url("../images/50s-vote-count-third.png") no-repeat;
   height: 97px;
@@ -1632,14 +1678,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 1921, ../sass/style.scss */
+/* line 1990, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger p {
   color: #ebce11;
   font-size: 30px;
   font-family: bebasneue, sans-serif;
   margin-bottom: 10px;
 }
-/* line 1929, ../sass/style.scss */
+/* line 1998, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li {
   margin-bottom: 10px;
   width: 187px;
@@ -1647,23 +1693,23 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   background-color: #ebce11;
   padding: 5px 10px;
 }
-/* line 1938, ../sass/style.scss */
+/* line 2007, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li a {
   text-decoration: none;
   color: #FFF;
   font-family: bebasneue, sans-serif;
   font-size: 20px;
 }
-/* line 1952, ../sass/style.scss */
+/* line 2021, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s {
   width: 960px;
   margin: 30 auto 0 auto;
 }
-/* line 1956, ../sass/style.scss */
+/* line 2025, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header {
   float: left;
 }
-/* line 1960, ../sass/style.scss */
+/* line 2029, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header h1 {
   color: #FFF;
   font-family: american_purpose_casual_01Rg, serif;
@@ -1672,12 +1718,12 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   padding-bottom: 8px;
   width: 550px;
 }
-/* line 1970, ../sass/style.scss */
+/* line 2039, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField {
   float: left;
   width: 260px;
 }
-/* line 1976, ../sass/style.scss */
+/* line 2045, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div input {
   border: none;
   width: 260px;
@@ -1690,12 +1736,12 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   background-repeat: no-repeat;
   background-position: 220px;
 }
-/* line 1996, ../sass/style.scss */
+/* line 2065, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow {
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 2000, ../sass/style.scss */
+/* line 2069, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary {
   color: #f6e993;
   position: relative;
@@ -1704,24 +1750,24 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   font-family: bebasneue, sans-serif;
   font-size: 30px;
 }
-/* line 2010, ../sass/style.scss */
+/* line 2079, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary p {
   margin-top: 10px;
 }
-/* line 2016, ../sass/style.scss */
+/* line 2085, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li {
   background-color: #f6e993;
   text-align: center;
   margin-top: 5px;
   padding: 3px 0 7px 0;
 }
-/* line 2023, ../sass/style.scss */
+/* line 2092, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li a {
   color: #df4452;
   text-decoration: none;
   font-size: 21px;
 }
-/* line 2031, ../sass/style.scss */
+/* line 2100, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary div.voteCount {
   position: absolute;
   top: -15px;
@@ -1734,19 +1780,19 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
 }
-/* line 2046, ../sass/style.scss */
+/* line 2115, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow div.line {
   background-color: #fbf9f3;
   height: 1px;
   margin-bottom: 20px;
 }
-/* line 2060, ../sass/style.scss */
+/* line 2129, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting {
   background-color: #fbf9f4;
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 2067, ../sass/style.scss */
+/* line 2136, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting header h1 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 46px;
@@ -1755,19 +1801,19 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   padding: 30px 0 5px 0;
   margin: 0 0 0 50px;
 }
-/* line 2081, ../sass/style.scss */
+/* line 2150, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting div#hamburgerImage {
   float: left;
   width: 273px;
   margin: 25px 0 0 86px;
 }
-/* line 2089, ../sass/style.scss */
+/* line 2158, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things {
   float: left;
   width: 400px;
   margin: 25px 0 0 86px;
 }
-/* line 2096, ../sass/style.scss */
+/* line 2165, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li {
   font-family: bebasneue, sans-serif;
   font-size: 30px;
@@ -1775,11 +1821,11 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   width: 400px;
   margin-bottom: 45px;
 }
-/* line 2103, ../sass/style.scss */
+/* line 2172, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span {
   color: #78d1b2;
 }
-/* line 2107, ../sass/style.scss */
+/* line 2176, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span#votes {
   background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
   height: 76px;
@@ -1788,7 +1834,7 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   font-family: american_purpose_casual_01Rg, serif;
   color: #fffcf1;
 }
-/* line 2116, ../sass/style.scss */
+/* line 2185, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a {
   text-decoration: none;
   color: #fffcf1;
@@ -1796,23 +1842,23 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   text-align: center;
   padding: 10px 10px;
 }
-/* line 2123, ../sass/style.scss */
+/* line 2192, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a img {
   margin-right: 10px;
 }
-/* line 2134, ../sass/style.scss */
+/* line 2203, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo {
   width: 960px;
   margin: 40px auto 0 auto;
 }
-/* line 2141, ../sass/style.scss */
+/* line 2210, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten {
   float: left;
   width: 300px;
   font-size: 20px;
   font-family: bebasneue, sans-serif;
 }
-/* line 2149, ../sass/style.scss */
+/* line 2218, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten header h1 {
   color: #fffcf1;
   font-size: 40px;
@@ -1820,28 +1866,28 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredie
   background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
   padding-bottom: 10px;
 }
-/* line 2162, ../sass/style.scss */
+/* line 2231, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten p {
   float: left;
   color: #fffcf1;
   margin: 25px 40px 0 0;
 }
-/* line 2168, ../sass/style.scss */
+/* line 2237, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul {
   float: left;
   margin: 25px 0 0 0;
 }
-/* line 2173, ../sass/style.scss */
+/* line 2242, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul li {
   color: #e4cf41;
   margin-bottom: 15px;
 }
-/* line 2185, ../sass/style.scss */
+/* line 2254, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns {
   margin-left: 150px;
   float: left;
 }
-/* line 2193, ../sass/style.scss */
+/* line 2262, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns header h1 {
   color: #fffcf1;
   font-size: 40px;
@@ -1850,7 +1896,7 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
   background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
   padding-bottom: 10px;
 }
-/* line 2207, ../sass/style.scss */
+/* line 2276, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li {
   width: 220px;
   background-color: #e4cf41;
@@ -1859,22 +1905,22 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
   padding: 10px 10px;
   margin: 15px 0 15px 0;
 }
-/* line 2217, ../sass/style.scss */
+/* line 2286, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a {
   color: #fbf9f4;
   text-decoration: none;
 }
-/* line 2221, ../sass/style.scss */
+/* line 2290, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a img {
   margin: 0 0 0 15px;
 }
 
-/* line 2237, ../sass/style.scss */
+/* line 2308, ../sass/style.scss */
 .dummy {
   clear: both;
 }
 
-/* line 2244, ../sass/style.scss */
+/* line 2315, ../sass/style.scss */
 section#searchField form div input:focus {
   outline: none;
 }
