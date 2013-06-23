@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 17:32:27
-         compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6420771251c7104ef13332-16701676%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 17:28:59
+         compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:140369914851c7143b894898-55681824%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'cbf964ad0f50ecdbba317fc5bb7190412b584b83' => 
+    '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
     array (
-      0 => 'bulk/templates/pages/partials/gallery80s.tpl',
-      1 => 1372001540,
+      0 => 'bulk/templates/pages/partials/gallery50s.tpl',
+      1 => 1372001075,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6420771251c7104ef13332-16701676',
+  'nocache_hash' => '140369914851c7143b894898-55681824',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c7104f007f95_86203008',
   'variables' => 
   array (
     'besteBurger' => 0,
@@ -26,19 +24,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c7143b8e0243_34931584',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c7104f007f95_86203008')) {function content_51c7104f007f95_86203008($_smarty_tpl) {?><section id="banner-80s">
-    <header>
-        <h1>THE PRESENT</h1>
-    </header>
-</section>
+<?php if ($_valid && !is_callable('content_51c7143b8e0243_34931584')) {function content_51c7143b8e0243_34931584($_smarty_tpl) {?><!-- Header van de 50s -->
+    <section id="banner-50s">
+        <div id="logo">&nbsp;</div>
+        <header>
+            <h1>50<span>s</span></h1>
+            <h2>Rock a burger</h2>
+        </header>
+    </section>
 
 <!-- Alle hamburgers -->
-<div id="achtergrond80s">
+<div id="achtergrond50s">
 
-    <section id="top380s">
+    <section id="top3">
         <header>
-            <h1>Boogie burgers</h1>
+            <h1>these burgers are rocking our world</h1>
         </header>
 
         <div id="burgers">
@@ -53,8 +56,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <ul class="actions">
                     <li> <a href="<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 ">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=v<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['decade'];?>
-s&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 >View details</a></li>
                 </ul>
 
@@ -71,8 +73,7 @@ s&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
                <ul class="actions">
                    <li> <a href="<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
 ">Vote for this burger</a></li>
-                   <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['decade'];?>
-s&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
+                   <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
 >View details</a></li>
                </ul>
 
@@ -89,8 +90,7 @@ s&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
                  <ul class="actions">
                      <li> <a href="<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
 ">Vote for this burger</a></li>
-                     <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['decade'];?>
-s&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
+                     <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
 >View details</a></li>
                  </ul>
 
@@ -102,9 +102,9 @@ s&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
     </section>
 
     <!-- All the burgers -->
-    <section id="allTheBugers00s">
+    <section id="allTheBugers50s">
         <header>
-            <h1>View all the funky burgers</h1>
+            <h1>View all the fifties burgers</h1>
         </header>
 
         <section id="searchField">
@@ -115,7 +115,7 @@ s&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
 
         <div class="dummy">&nbsp;</div>
 
-<?php  $_smarty_tpl->tpl_vars['burger'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['burger']->_loop = false;
+        <?php  $_smarty_tpl->tpl_vars['burger'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['burger']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['alleBurgers']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
  $_smarty_tpl->tpl_vars['burger']->index=-1;
 foreach ($_from as $_smarty_tpl->tpl_vars['burger']->key => $_smarty_tpl->tpl_vars['burger']->value){
@@ -137,8 +137,7 @@ $_smarty_tpl->tpl_vars['burger']->_loop = true;
                     <ul class="actions">
                         <li> <a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
 ">Vote for this burger</a></li>
-                        <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['burger']->value['decade'];?>
-s&burgerId=<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
+                        <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
 >View details</a></li>
                     </ul>
                 </section>
@@ -151,8 +150,9 @@ s&burgerId=<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
         <?php }?>
         <?php } ?>
 
-<div class="dummy">&nbsp;</div>
+        <div class="dummy">&nbsp;</div>
+
 
     </section>
-</div>
-<?php }} ?>
+
+</div><?php }} ?>

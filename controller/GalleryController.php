@@ -132,9 +132,14 @@ class GalleryController extends AppController
                     // Creator id
                     $burger["creator_id"] = $alleBurgers[$i][7];
 
+                    // juiste decade inladen
+                    $burger["decade"] = $alleBurgers[$i][6];
+
                     // Naam van de creator ophalen
                     $naam = $userDAO->getUserForBurgerID($burger["creator_id"]);
                     $burger["user_name"] = $naam[0] . " " . $naam[1];
+
+
 
                     // Aantal likes per burger ophalen
                     $likes = $likeDAO->getLikesForBurger($burger["id"]);
