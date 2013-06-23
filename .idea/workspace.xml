@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Application.js" afterPath="$PROJECT_DIR$/assets/js/Application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Facebook.login.js" afterPath="$PROJECT_DIR$/assets/js/Facebook.login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" afterPath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/compile/e308f22c598710e988181cd423d1886f7d3f4734.file.detail00s.tpl.php" afterPath="$PROJECT_DIR$/bulk/compile/e308f22c598710e988181cd423d1886f7d3f4734.file.detail00s.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
@@ -55,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Facebook.login.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Facebook.login.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="38" selection-start="2462" selection-end="2462" vertical-scroll-proportion="-0.6502242">
+            <state line="82" column="38" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,25 +64,16 @@
       <file leaf-file-name="detail00s.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="45" selection-start="1523" selection-end="1535" vertical-scroll-proportion="-14.173913">
+            <state line="57" column="128" selection-start="1979" selection-end="1979" vertical-scroll-proportion="-17.217392">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail50s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="45" selection-start="1495" selection-end="1495" vertical-scroll-proportion="-14.869565">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail80s.tpl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="detail80s.tpl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="45" selection-start="1475" selection-end="1475" vertical-scroll-proportion="-37.565216">
+            <state line="56" column="128" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.58473283">
               <folding />
             </state>
           </provider>
@@ -125,10 +113,10 @@
         <option value="$PROJECT_DIR$/DAO/BurgerDAO.php" />
         <option value="$PROJECT_DIR$/controller/DetailController.php" />
         <option value="$PROJECT_DIR$/assets/js/Application.js" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
         <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
       </list>
     </option>
   </component>
@@ -521,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="661" selection-end="662" vertical-scroll-proportion="0.502994">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="19" selection-start="2734" selection-end="2759" vertical-scroll-proportion="0.023154847">
@@ -556,27 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="1523" selection-end="1535" vertical-scroll-proportion="-14.173913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="45" selection-start="1495" selection-end="1495" vertical-scroll-proportion="-14.869565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="1475" selection-end="1475" vertical-scroll-proportion="-37.565216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DAO/BurgerDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="12" selection-start="3261" selection-end="3261" vertical-scroll-proportion="-6.7826085">
@@ -586,7 +546,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="38" selection-start="2462" selection-end="2462" vertical-scroll-proportion="-0.6502242">
+        <state line="82" column="38" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="560" selection-end="565" vertical-scroll-proportion="0.44582042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="116" selection-start="1604" selection-end="1915" vertical-scroll-proportion="0.793049">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="128" selection-start="1979" selection-end="1979" vertical-scroll-proportion="-17.217392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="128" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.58473283">
           <folding />
         </state>
       </provider>
