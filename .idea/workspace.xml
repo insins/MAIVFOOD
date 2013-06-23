@@ -3,17 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/2b81e2c9d5bbd0d8a1664a492be33dd8ce760fbf.file.404.htm.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/8440fad56a6e193cbd984eebe94c35d3fb16dd17.file.create.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/cbf964ad0f50ecdbba317fc5bb7190412b584b83.file.gallery80s.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/ccb6298d2802003163a3ed70fd118ea09320492c.file.gallery.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e308f22c598710e988181cd423d1886f7d3f4734.file.detail00s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e73f98f04db3d94da10a23bd78d47db0ac2374b5.file.gallery00s.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/f434b1eca2b045a3051c0be1bf033ec6469488fc.file.detail80s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/fc0cd3b8865148ef361c6272012350025f041735.file.404.tpl.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/responsive.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/responsive.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MAIVFOOD.iml" afterPath="$PROJECT_DIR$/.idea/MAIVFOOD.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/responsive.css" afterPath="$PROJECT_DIR$/assets/css/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/responsive.scss" afterPath="$PROJECT_DIR$/assets/sass/responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/allerrors.log" afterPath="$PROJECT_DIR$/logs/allerrors.log" />
     </list>
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,34 +36,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="campaign.tpl" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="36" selection-start="289" selection-end="308" vertical-scroll-proportion="0.2687023">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="responsive.scss" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.25470334">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="responsive.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="24" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.74529666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campaign.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="13" selection-start="661" selection-end="662" vertical-scroll-proportion="-14.608696">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="19" selection-start="2734" selection-end="2759" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -93,9 +98,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="28" />
-    <option name="width" value="1424" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
     <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -124,6 +128,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,7 +309,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +331,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -344,14 +348,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="28" width="1424" height="815" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="815" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21698113" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937238" sideWeight="0.5013928" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -421,9 +425,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/gallery.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
@@ -449,9 +451,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="38" selection-start="1119" selection-end="1119" vertical-scroll-proportion="1.0154799">
-          <folding />
-        </state>
+        <state line="41" column="38" selection-start="1119" selection-end="1119" vertical-scroll-proportion="1.0154799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/AppController.php">
@@ -463,9 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="46" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.32934132">
-          <folding />
-        </state>
+        <state line="34" column="46" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.32934132" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
@@ -484,9 +482,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="114" selection-start="1564" selection-end="1564" vertical-scroll-proportion="1.3902054">
-          <folding />
-        </state>
+        <state line="55" column="114" selection-start="1564" selection-end="1564" vertical-scroll-proportion="1.3902054" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
@@ -505,28 +501,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7816794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="24" selection-start="820" selection-end="820" vertical-scroll-proportion="0.16519174">
+        <state line="12" column="23" selection-start="333" selection-end="352" vertical-scroll-proportion="0.23502994">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="289" selection-end="308" vertical-scroll-proportion="0.2687023">
+        <state line="21" column="13" selection-start="661" selection-end="662" vertical-scroll-proportion="-14.608696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="19" selection-start="2734" selection-end="2759" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.25470334">
+        <state line="123" column="24" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.74529666">
           <folding />
         </state>
       </provider>
