@@ -22,7 +22,6 @@ class GalleryController extends AppController
         {
              case "50s":
              $this->load50sGallery();
-             // subtemplate
              break;
 
              case "80s":
@@ -47,7 +46,9 @@ class GalleryController extends AppController
     // --------------
     private function load50sGallery(){
 
-        $this->checkAction();
+        // Decade invullen dan alle burgers ophalen
+        $decade = "50";
+        $this->getAllBurgersForDecade($decade);
 
         $subtemplate = $this->smarty->fetch('pages' . DS . 'partials' . DS . 'gallery50s.tpl');
         $this->smarty->assign('subtemplate', $subtemplate);
@@ -57,7 +58,9 @@ class GalleryController extends AppController
 
     private function load80sGallery(){
 
-        $this->checkAction();
+        // Decade invullen dan alle burgers ophalen
+        $decade = "50";
+        $this->getAllBurgersForDecade($decade);
 
         $subtemplate = $this->smarty->fetch('pages/partials/gallery80s.tpl');
         $this->smarty->assign('subtemplate', $subtemplate);
@@ -65,30 +68,22 @@ class GalleryController extends AppController
 
     private function load00sGallery(){
 
-        $this->checkAction();
+        // Decade invullen dan alle burgers ophalen
+        $decade = "50";
+        $this->getAllBurgersForDecade($decade);
 
         $subtemplate = $this->smarty->fetch('pages/partials/gallery00s.tpl');
         $this->smarty->assign('subtemplate', $subtemplate);
     }
 
-    // --------------
-    // CHECK FOR ACTION FUNCTIE
-    // --------------
-    private function checkAction(){
-        // Kijken of er een action gebeurt
-        $action = "";
+        // GET ALL BURGERS FOR DECADE FUNCTION
+    private function getAllBurgersForDecade($decade){
 
-        if(isset($_GET["action"]) && $_GET["action"] != ""){
-           $action = $_GET["action"];
-        }
 
-        // Een switch op de action gebeurt
-        if($action == "vote"){
-            if (!empty($_GET["burgerId"])){
-                $this->voteForBurger();
-            }
-        }
+
     }
+
+
 
 
 }

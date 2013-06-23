@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 00:23:43
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 13:03:39
          compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:173143917051c623ef604e71-25524563%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:200214300151c6d60b03eed7-52714368%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1371939620,
+      1 => 1371910887,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '173143917051c623ef604e71-25524563',
+  'nocache_hash' => '200214300151c6d60b03eed7-52714368',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c623ef936fa6_92289812',
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c6d60b0db343_12186227',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c623ef936fa6_92289812')) {function content_51c623ef936fa6_92289812($_smarty_tpl) {?><!-- Header van de 50s -->
+<?php if ($_valid && !is_callable('content_51c6d60b0db343_12186227')) {function content_51c6d60b0db343_12186227($_smarty_tpl) {?><!-- Header van de 50s -->
     <section id="banner-50s">
         <div id="logo">&nbsp;</div>
         <header>

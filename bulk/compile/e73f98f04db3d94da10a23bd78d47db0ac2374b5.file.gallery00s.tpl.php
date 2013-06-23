@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 01:07:43
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 13:03:43
          compiled from "bulk/templates/pages/partials/gallery00s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:200862344751c62e3fa0f993-54308139%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:76347968951c6d60f177035-82592178%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e73f98f04db3d94da10a23bd78d47db0ac2374b5' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery00s.tpl',
-      1 => 1371939620,
+      1 => 1371934005,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '200862344751c62e3fa0f993-54308139',
+  'nocache_hash' => '76347968951c6d60f177035-82592178',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c62e400401b4_71658628',
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c6d60f1f9238_44785409',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c62e400401b4_71658628')) {function content_51c62e400401b4_71658628($_smarty_tpl) {?><section id="banner-00s">
+<?php if ($_valid && !is_callable('content_51c6d60f1f9238_44785409')) {function content_51c6d60f1f9238_44785409($_smarty_tpl) {?><section id="banner-00s">
     <header>
         <h1>THE PRESENT</h1>
         <h2>With <span id="rood">contemporary</span> ingredients we&#8217;ll define the <span>future</span>.</h2>
