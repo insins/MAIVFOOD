@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/cbf964ad0f50ecdbba317fc5bb7190412b584b83.file.gallery80s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/ccb6298d2802003163a3ed70fd118ea09320492c.file.gallery.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e308f22c598710e988181cd423d1886f7d3f4734.file.detail00s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e73f98f04db3d94da10a23bd78d47db0ac2374b5.file.gallery00s.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/BurgerDAO.php" afterPath="$PROJECT_DIR$/DAO/BurgerDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/LikeDAO.php" afterPath="$PROJECT_DIR$/DAO/LikeDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO/UserDAO.php" afterPath="$PROJECT_DIR$/DAO/UserDAO.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/GalleryController.php" afterPath="$PROJECT_DIR$/controller/GalleryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/allerrors.log" afterPath="$PROJECT_DIR$/logs/allerrors.log" />
     </list>
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +34,16 @@
       <file leaf-file-name="gallery00s.tpl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="4" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.4011976">
+            <state line="56" column="14" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.95046437">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery80s.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="245" selection-end="1950" vertical-scroll-proportion="-9.73913">
               <folding />
             </state>
           </provider>
@@ -60,7 +52,7 @@
       <file leaf-file-name="gallery50s.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="6" selection-start="2142" selection-end="3433" vertical-scroll-proportion="-44.347828">
+            <state line="58" column="14" selection-start="2091" selection-end="2091" vertical-scroll-proportion="-26.695652">
               <folding />
             </state>
           </provider>
@@ -118,9 +110,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/DAO/UserDAO.php" />
         <option value="$PROJECT_DIR$/DAO/LikeDAO.php" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl" />
         <option value="$PROJECT_DIR$/controller/GalleryController.php" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl" />
       </list>
     </option>
@@ -531,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="3250" selection-end="3250" vertical-scroll-proportion="-24.869566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="47" selection-start="2151" selection-end="2151" vertical-scroll-proportion="0.0">
@@ -552,16 +537,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="245" selection-end="1950" vertical-scroll-proportion="-9.73913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="6" selection-start="2142" selection-end="3433" vertical-scroll-proportion="-44.347828">
+        <state line="58" column="14" selection-start="2091" selection-end="2091" vertical-scroll-proportion="-26.695652">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="4" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.4011976">
+        <state line="56" column="14" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.95046437">
           <folding />
         </state>
       </provider>

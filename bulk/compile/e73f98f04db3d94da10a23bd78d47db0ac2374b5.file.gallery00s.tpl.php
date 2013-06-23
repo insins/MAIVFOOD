@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 17:22:07
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 17:24:49
          compiled from "bulk/templates/pages/partials/gallery00s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:131601235751c711e8ad8555-53994070%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e73f98f04db3d94da10a23bd78d47db0ac2374b5' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery00s.tpl',
-      1 => 1372000926,
+      1 => 1372001088,
       2 => 'file',
     ),
   ),
@@ -19,6 +19,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_51c711e8ae5050_45324521',
   'variables' => 
   array (
+    'besteBurger' => 0,
+    'tweedeBurger' => 0,
+    'derdeBurger' => 0,
     'alleBurgers' => 0,
     'burger' => 0,
   ),
@@ -43,12 +46,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <!-- Top burger -->
             <section id="topBurger">
                 <image src="assets/images/50s-top-burger.png" />
-                <div id="voteCountFirst">115</div>
+                <div id="voteCountFirst"><?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['likes'];?>
+</div>
 
-                <p>Ines van helleputte</p>
+                <p><?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['user_name'];?>
+</p>
                 <ul class="actions">
-                    <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
+                    <li> <a href="<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
+">Vote for this burger</a></li>
+                    <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
+>View details</a></li>
                 </ul>
 
             </section>
@@ -56,12 +63,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <!-- Tweede beste burger -->
            <section id="secondBurger">
                <image src="assets/images/50s-top-burger.png" />
-               <div id="voteCountSecond">115</div>
+               <div id="voteCountSecond"><?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['likes'];?>
+</div>
 
-               <p>Ines van helleputte</p>
+               <p><?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['user_name'];?>
+</p>
                <ul class="actions">
-                   <li> <a href="1">Vote for this burger</a></li>
-                   <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
+                   <li> <a href="<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
+">Vote for this burger</a></li>
+                   <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
+>View details</a></li>
                </ul>
 
            </section>
@@ -69,12 +80,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <!-- DERDE burger -->
              <section id="thirdBurger">
                  <image src="assets/images/50s-top-burger.png" />
-                 <div id="voteCountThird">115</div>
+                 <div id="voteCountThird"><?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['likes'];?>
+</div>
 
-                 <p>Ines van helleputte</p>
+                 <p><?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['user_name'];?>
+</p>
                  <ul class="actions">
-                     <li> <a href="1">Vote for this burger</a></li>
-                     <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
+                     <li> <a href="<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
+">Vote for this burger</a></li>
+                     <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
+>View details</a></li>
                  </ul>
 
              </section>
