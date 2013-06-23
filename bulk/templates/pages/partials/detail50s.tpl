@@ -21,8 +21,8 @@
 
         <section id="list-things">
             <ul id="actios">
-                <li><span>by</span> Ines van helleputte</li>
-                <li><span id="votes">115</span> votes</li>
+                <li><span>by</span> {$burger.creator}</li>
+                <li><span id="votes"> {$burger.votes}</span> votes</li>
                 <li><a href="1"><img src="assets/images/50s-detail-like.png" />Vote for this burger</a></li>
             </ul>
         </section>
@@ -38,9 +38,9 @@
 
         <p>Includes</p>
         <ul>
-            <li>Ingredient</li>
-            <li>Ingredient</li>
-            <li>Ingredient</li>
+            {foreach $burger.ingredienten as $ingredient}
+                <li>{$ingredient}</li>
+            {/foreach}
         </ul>
 
         <div class="dummy">&nbsp;</div>
@@ -53,8 +53,7 @@
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png"
-                                                               width="10"/></a></li>
+            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
             <li id="tw"><a href="shareTwitter">Share it on Twitter<img
                     src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 

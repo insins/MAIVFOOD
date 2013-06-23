@@ -20,15 +20,15 @@ class GalleryController extends AppController
         // DECADE BEPALEN
         switch($this->decade)
         {
-             case "50s":
+             case "50":
              $this->load50sGallery();
              break;
 
-             case "80s":
+             case "80":
              $this->load80sGallery();
              break;
 
-             case "00s":
+             case "00":
              $this->load00sGallery();
              break;
 

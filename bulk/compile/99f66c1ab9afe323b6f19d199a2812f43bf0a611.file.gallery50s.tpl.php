@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 17:28:59
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 18:11:46
          compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:140369914851c7143b894898-55681824%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1372001075,
+      1 => 1372003869,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c7143b8e0243_34931584',
   'variables' => 
   array (
     'besteBurger' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c7143b8e0243_34931584',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c7143b8e0243_34931584')) {function content_51c7143b8e0243_34931584($_smarty_tpl) {?><!-- Header van de 50s -->
     <section id="banner-50s">
@@ -56,7 +56,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <ul class="actions">
                     <li> <a href="<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 ">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
+                    <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['decade'];?>
+&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 >View details</a></li>
                 </ul>
 
@@ -73,7 +74,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                <ul class="actions">
                    <li> <a href="<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
 ">Vote for this burger</a></li>
-                   <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
+                   <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['decade'];?>
+&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
 >View details</a></li>
                </ul>
 
@@ -90,7 +92,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                  <ul class="actions">
                      <li> <a href="<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
 ">Vote for this burger</a></li>
-                     <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
+                     <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['decade'];?>
+&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
 >View details</a></li>
                  </ul>
 
@@ -137,7 +140,8 @@ $_smarty_tpl->tpl_vars['burger']->_loop = true;
                     <ul class="actions">
                         <li> <a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
 ">Vote for this burger</a></li>
-                        <li> <a href=index.php?page=detail&decade=50s&burgerId=<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
+                        <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['burger']->value['decade'];?>
+&burgerId=<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
 >View details</a></li>
                     </ul>
                 </section>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 17:32:27
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 19:45:38
          compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6420771251c7104ef13332-16701676%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cbf964ad0f50ecdbba317fc5bb7190412b584b83' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery80s.tpl',
-      1 => 1372001540,
+      1 => 1372009381,
       2 => 'file',
     ),
   ),
@@ -54,7 +54,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <li> <a href="<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 ">Vote for this burger</a></li>
                     <li> <a href=index.php?page=detail&decade=v<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['decade'];?>
-s&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
+&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 >View details</a></li>
                 </ul>
 
@@ -72,7 +72,7 @@ s&burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
                    <li> <a href="<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
 ">Vote for this burger</a></li>
                    <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['decade'];?>
-s&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
+&burgerId=<?php echo $_smarty_tpl->tpl_vars['tweedeBurger']->value['id'];?>
 >View details</a></li>
                </ul>
 
@@ -138,7 +138,7 @@ $_smarty_tpl->tpl_vars['burger']->_loop = true;
                         <li> <a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
 ">Vote for this burger</a></li>
                         <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['burger']->value['decade'];?>
-s&burgerId=<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
+&burgerId=<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
 >View details</a></li>
                     </ul>
                 </section>

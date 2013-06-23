@@ -14,51 +14,156 @@ class DetailController extends AppController
 
         function filter()
         {
-
-
-            // DECADE BEPALEN
-            switch($this->decade)
-            {
-                 case "50s":
-                 $this->load50sDetail();
-                 // subtemplate
-                 break;
-
-                 case "80s":
-                 $this->load80sDetail();
-                 break;
-
-                 case "00s":
-                 $this->load00sDetail();
-                 break;
-
-                 default:
-                 $this->load50sGallery();
-                 break;
-            }
-
+            $this->getAllBurgerStuff();
             // Gallery tpl inladen
             return $this->smarty->fetch('pages' . DS . 'gallery.tpl');
         }
 
+        // ----------------------------------------
+        // BURGER INFORMATIE OPHALEN EN CHECKEN
+        // ----------------------------------------
+
+        private function getAllBurgerStuff(){
+
+        // Allereerst halen we de burger _ id op
+        // We kijken in welke decade we moeten zijn
+        // Laden de juiste template in
+            $burger_id = $this->getBurgerId();
+
+            // Als er geen burger id is dan tonen we de error page
+            if ($burger_id == "toonErrorPage"){
+                 $this->loadErrorPage;
+               }
+            // Als er wel een burger id is, dan laden we de burger info in
+            else{
+
+                $burgerDAO = new BurgerDAO();
+                $burgerFromDB = $burgerDAO->getBurgerDetailsForId($burger_id);
+
+                echo "<pre>";
+                var_dump($burgerFromDB);
+                echo "</pre>";
+
+                // Burger array aanmaken
+                $burger = Array();
+
+                // Burger ID meegeven
+                $burger["id"] = $burgerFromDB["id"];
+
+                // array met ingredienten maken
+                $ingredienten = Array();
+
+                // Kijken welk vlees er geselecteerd is
+                $ingredienten["meat"] = $burgerFromDB["meat_name"];
+                $ingredienten["vegetable"] = $burgerFromDB["vegetable_name"];
+
+                if($burgerFromDB["salad"] == 1){
+                    $ingredienten["salad"] = "salad";
+                }
+
+                if($burgerFromDB["tomato"] == 1){
+                   $ingredienten["tomato"] = "tomato";
+               }
+
+                // Sauzen ophalen
+                $sauzen = $burgerDAO->getSauzenForBurger($burger_id);
+
+                // index j
+                $j = 0;
+                // Sauzen overlopen en in de ingredientenlijst zetten
+                foreach ($sauzen as $saus){
+
+                    $index = "saus" . $j;
+                    $ingredienten[$index] = $sauzen[$j]["sauce_name"];
+
+                    $j++;
+
+                }
+
+                $burger["ingredienten"] = $ingredienten;
+
+                // Juiste decade meegeven
+                $burger["decade"] = $burgerFromDB["burger_decade"];
+
+
+                // We gaan de burger likes ophalen
+                $likeDAO = new LikeDAO();
+                $likes = $likeDAO->getLikesForBurger($burger_id);
+
+                // En we gaan de maker ophalen
+                $userDAO = new UserDAO();
+                $creator = $userDAO->getUserForBurgerID($burgerFromDB["user_id"]);
+
+                // Daarna steken we alles in het burger object
+                $burger["creator"] = $creator[0] . " " . $creator[1];
+                $burger["votes"] = $likes[0];
+
+
+                $this->smarty->assign('burger', $burger);
+
+
+                // En dan kunnen we de juiste detail page laten zien adhv de decade
+                switch($burgerFromDB["burger_decade"])
+                   {
+
+                    case "50":
+                    $this->load50sDetail();
+                    break;
+
+                    case "80":
+                    $this->load80sDetail();
+                    break;
+
+                    case "00":
+                    $this->load00sDetail();
+                    break;
+
+                    default:
+                    $this->loadErrorPage();
+                    break;
+                   }
+            }
+
+        }
+
+        // ----------------------------------------
+        // GET BURGER ID
+        // ----------------------------------------
+        private function getBurgerId(){
+
+            if(isset($_GET["burgerId"]) && !empty($_GET["burgerId"]) && $_GET["burgerId"] != ""){
+
+                $burger_id = $_GET["burgerId"];
+                return $burger_id;
+
+            }
+
+            // Er is geen burger id gevonden => We tonen de error page
+            $this->loadErrorPage();
+
+        }
+
+        // ----------------------------------------
+        // ERROR PAGE TONEN
+        // ----------------------------------------
+        private function loadErrorPage(){
+            $subtemplate = $this->smarty->fetch('pages' . DS . 'partials' . DS . '404.tpl');
+            $this->smarty->assign('subtemplate', $subtemplate);
+        }
 
         // --------------
         // 50S DETAIL
         // --------------
         private function load50sDetail(){
 
-
-            $subtemplate = $this->smarty->fetch('pages' . DS . 'partials' . DS . 'detail50s.tpl');
+            $subtemplate = $this->smarty->fetch('pages/partials/detail50s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
-
-
         }
 
         // --------------
         // 80S DETAIL
         // --------------
         private function load80sDetail(){
-
 
             $subtemplate = $this->smarty->fetch('pages/partials/detail80s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
@@ -69,21 +174,11 @@ class DetailController extends AppController
         // --------------
         private function load00sDetail(){
 
-
             $subtemplate = $this->smarty->fetch('pages/partials/detail00s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
         }
 
 
-        // --------------
-        // 50S GALLERYYY VOOR DEFAULT
-        // --------------
-        private function load50sGallery(){
 
 
-            $subtemplate = $this->smarty->fetch('pages' . DS . 'partials' . DS . 'gallery50s.tpl');
-            $this->smarty->assign('subtemplate', $subtemplate);
-
-
-        }
 }

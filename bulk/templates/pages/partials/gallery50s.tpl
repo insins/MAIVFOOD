@@ -24,7 +24,7 @@
                 <p>{$besteBurger.user_name}</p>
                 <ul class="actions">
                     <li> <a href="{$besteBurger.id}">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=50s&burgerId={$besteBurger.id}>View details</a></li>
+                    <li> <a href=index.php?page=detail&decade={$besteBurger.decade}&burgerId={$besteBurger.id}>View details</a></li>
                 </ul>
 
             </section>
@@ -37,7 +37,7 @@
                <p>{$tweedeBurger.user_name}</p>
                <ul class="actions">
                    <li> <a href="{$tweedeBurger.id}">Vote for this burger</a></li>
-                   <li> <a href=index.php?page=detail&decade=50s&burgerId={$tweedeBurger.id}>View details</a></li>
+                   <li> <a href=index.php?page=detail&decade={$tweedeBurger.decade}&burgerId={$tweedeBurger.id}>View details</a></li>
                </ul>
 
            </section>
@@ -50,7 +50,7 @@
                  <p>{$derdeBurger.user_name}</p>
                  <ul class="actions">
                      <li> <a href="{$derdeBurger.id}">Vote for this burger</a></li>
-                     <li> <a href=index.php?page=detail&decade=50s&burgerId={$derdeBurger.id}>View details</a></li>
+                     <li> <a href=index.php?page=detail&decade={$derdeBurger.decade}&burgerId={$derdeBurger.id}>View details</a></li>
                  </ul>
 
              </section>
@@ -87,7 +87,7 @@
                     <p>{$burger.user_name}</p>
                     <ul class="actions">
                         <li> <a href="{$burger.id}">Vote for this burger</a></li>
-                        <li> <a href=index.php?page=detail&decade=50s&burgerId={$burger.id}>View details</a></li>
+                        <li> <a href=index.php?page=detail&decade={$burger.decade}&burgerId={$burger.id}>View details</a></li>
                     </ul>
                 </section>
 

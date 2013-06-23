@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 17:12:18
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 19:47:24
          compiled from "bulk/templates/pages/partials/detail50s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:28408742151c710529f5877-90590540%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6e0fd51da328da0c8115217f2a9aa142f50496ca' => 
     array (
       0 => 'bulk/templates/pages/partials/detail50s.tpl',
-      1 => 1371924397,
+      1 => 1372009603,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
   'unifunc' => 'content_51c71052a04b22_01186496',
+  'variables' => 
+  array (
+    'burger' => 0,
+    'ingredient' => 0,
+  ),
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c71052a04b22_01186496')) {function content_51c71052a04b22_01186496($_smarty_tpl) {?><!-- Header van de 50s -->
     <section id="banner-50s">
@@ -42,8 +47,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <section id="list-things">
             <ul id="actios">
-                <li><span>by</span> Ines van helleputte</li>
-                <li><span id="votes">115</span> votes</li>
+                <li><span>by</span> <?php echo $_smarty_tpl->tpl_vars['burger']->value['creator'];?>
+</li>
+                <li><span id="votes"> <?php echo $_smarty_tpl->tpl_vars['burger']->value['votes'];?>
+</span> votes</li>
                 <li><a href="1"><img src="assets/images/50s-detail-like.png" />Vote for this burger</a></li>
             </ul>
         </section>
@@ -59,9 +66,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <p>Includes</p>
         <ul>
-            <li>Ingredient</li>
-            <li>Ingredient</li>
-            <li>Ingredient</li>
+            <?php  $_smarty_tpl->tpl_vars['ingredient'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ingredient']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['burger']->value['ingredienten']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['ingredient']->key => $_smarty_tpl->tpl_vars['ingredient']->value){
+$_smarty_tpl->tpl_vars['ingredient']->_loop = true;
+?>
+                <li><?php echo $_smarty_tpl->tpl_vars['ingredient']->value;?>
+</li>
+            <?php } ?>
         </ul>
 
         <div class="dummy">&nbsp;</div>
@@ -74,8 +86,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png"
-                                                               width="10"/></a></li>
+            <li id="fb"><a href="shareFB">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
             <li id="tw"><a href="shareTwitter">Share it on Twitter<img
                     src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 

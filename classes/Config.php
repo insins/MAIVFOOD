@@ -31,15 +31,15 @@ class Config
                 "link_text"=>"Gallery",
                 "submenu"=> array(
                     array(
-                        "page_id"=>"50s",
+                        "page_id"=>"50",
                         "link_text"=>"The 50s"
                     ),
                     array(
-                        "page_id"=>"80s",
+                        "page_id"=>"80",
                         "link_text"=>"The 80s"
                     ),
                     array(
-                        "page_id"=>"00s",
+                        "page_id"=>"00",
                         "link_text"=>"The 00s"
                     )
                 )
