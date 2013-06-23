@@ -340,3 +340,19 @@
 [23-Jun-2013 18:41:07 UTC] PHP Notice:  Undefined index: decade_decade in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/controller/DetailController.php on line 106
 [23-Jun-2013 18:41:09 UTC] PHP Notice:  Undefined index: decade_decade in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/controller/DetailController.php on line 106
 >>>>>>> c23f4b5de49222f3d48dfe05a4dc86b096da662a
+[23-Jun-2013 23:36:11] PHP Notice:  Undefined index: meat_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 57
+[23-Jun-2013 23:36:11] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 58
+[23-Jun-2013 23:37:54] PHP Notice:  Undefined index: meat_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
+[23-Jun-2013 23:37:54] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
+[23-Jun-2013 23:38:11] PHP Notice:  Undefined index: meat_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
+[23-Jun-2013 23:38:11] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
+[23-Jun-2013 23:38:32] PHP Notice:  Undefined index: meat_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
+[23-Jun-2013 23:38:32] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
+[23-Jun-2013 23:38:32] PHP Notice:  Undefined index: meat_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
+[23-Jun-2013 23:38:32] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
+[23-Jun-2013 23:38:33] PHP Notice:  Undefined index: meat_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
+[23-Jun-2013 23:38:33] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
+[23-Jun-2013 23:39:45] PHP Notice:  Undefined index: meat_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
+[23-Jun-2013 23:39:45] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
+[23-Jun-2013 23:40:13] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
+[23-Jun-2013 23:43:26] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60

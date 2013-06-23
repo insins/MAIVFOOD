@@ -109,4 +109,44 @@ class BurgerDAO
               }
 
     }
+
+    // MEAT OPHALEN
+    public function getMeatforBurger($meat_id){
+
+        $sql = "SELECT meat_name FROM maiv_food_meats WHERE id = :meat_id";
+
+
+        try{
+              $stmt = $this->dbh->prepare($sql);
+              $stmt->bindValue(":meat_id", $meat_id);
+              $stmt->execute();
+              $result = $stmt->fetch();
+
+              return $result;
+
+              }
+              catch(PDOException $e) {
+                  return $e->getMessage();
+              }
+    }
+
+    // VEGGIE OPHALEN
+    public function getVegetableForBurger($veggie_id){
+
+        $sql = "SELECT vegetable_name FROM maiv_food_vegetables WHERE id = :veggie_id";
+
+
+        try{
+              $stmt = $this->dbh->prepare($sql);
+              $stmt->bindValue(":veggie_id", $veggie_id);
+              $stmt->execute();
+              $result = $stmt->fetch();
+
+              return $result;
+
+              }
+              catch(PDOException $e) {
+                  return $e->getMessage();
+              }
+    }
 }
