@@ -103,7 +103,7 @@ class DetailController extends AppController
 
 
                 // En dan kunnen we de juiste detail page laten zien adhv de decade
-                switch($this->decade)
+                switch($burgerFromDB['burger_decade'])
                    {
 
                     case "50":
