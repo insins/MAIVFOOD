@@ -32,6 +32,8 @@
     require WWW_ROOT . "DAO" . DS . "DatabasePDO.php";
     require WWW_ROOT . "DAO" . DS . "UserDAO.php";
     require WWW_ROOT . "DAO" . DS . "LikeDAO.php";
+    require WWW_ROOT . "DAO" . DS . "BurgerDAO.php";
+
 
 
 

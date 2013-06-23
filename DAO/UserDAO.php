@@ -69,4 +69,29 @@ class UserDAO
        }
     }
 
+    /*  ------------------------------------
+           GEEF DE USER MEE VOOR DE BURGER ID
+        ------------------------------------ */
+        public function getUserForBurgerID($user_id){
+
+            $sql = "SELECT first_name, last_name FROM `maiv_food_users` WHERE user_id = :user_id";
+            try{
+
+              $stmt = $this->dbh->prepare($sql);
+              $stmt->bindValue(":user_id", $user_id);
+              $stmt->execute();
+              $result = $stmt->fetch();
+
+              // Als het resultaat niet "" is dan id ophalen, anders -1
+              return $result;
+
+              }
+              catch(PDOException $e) {
+                  //trace ($e->getMessage());
+                  return $e->getMessage();
+              }
+
+        }
+
+
 }

@@ -61,4 +61,21 @@ class LikeDAO
            return $e->getMessage();
        }
     }
+
+    public function getLikesForBurger($burger_id){
+
+        $sql = "SELECT COUNT(*) AS count FROM maiv_food_user_likes where burger_id = :burger_id";
+        try{
+               $stmt = $this->dbh->prepare($sql);
+               $stmt->bindValue(":burger_id", $burger_id);
+               $stmt->execute();
+               $result = $stmt->fetch();
+
+                return $result;
+               }
+               catch(PDOException $e) {
+                  return $e->getMessage();
+              }
+
+    }
 }
