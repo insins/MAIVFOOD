@@ -1,7 +1,56 @@
 
 $(function(){
     console.log('Application.js up and running');
+
+    $("input").click(zoeken);
+
 });
+
+function zoeken(e){
+
+    console.log("Ik probeer te zoeken");
+    $("input").val('');
+    toonZoekResultaten();
+    $("input").keydown(toonZoekResultaten);
+
+}
+
+function toonZoekResultaten(e){
+    console.log("ik toon zoekresultaten");
+    var api = new Api("zoekApi");
+    var zoekQuery = $("input").val() + "%";
+
+    var baseUrl = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/api/user/getUsersForSearchQuery";
+    $.ajax({
+
+        url : baseUrl,
+        type : 'post',
+        dataType : 'json',
+        data: {zoekQuery: zoekQuery},
+        success : function(data){
+
+            console.log("DATA " + JSON.stringify(data));
+            $('#zoekresultaten').empty();
+
+            $.each(data, function(index,value){
+
+                var item = '<li>';
+                item += '<a href="http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/index.php?page=detail&burgerId=' + value.id + '">'  + value.first_name + " " +  value.last_name + '</a>';
+                $('#zoekresultaten').append(item).fadeIn();
+            });
+
+
+        },
+        error : function(){
+            console.log(arguments);
+        }
+
+    });
+
+
+
+
+}
 
 function shareBurgerOnFace(target,userDetails){
         // Burger ID
@@ -127,3 +176,4 @@ Api.prototype = (function(){
     }
 
 })();
+
