@@ -1,31 +1,17 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 15:12:40
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 15:48:16
          compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3103470151c845c84efec8-80196710%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 14:57:59
-         compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:50643427051c84257e784a4-86679681%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 85cba943f981f5d3288cd393db83d27a5c72b2eb
+<?php /*%%SmartyHeaderCode:107762632651c84e20d60684-26656286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cbf964ad0f50ecdbba317fc5bb7190412b584b83' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery80s.tpl',
-<<<<<<< HEAD
       1 => 1372078735,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3103470151c845c84efec8-80196710',
-=======
-      1 => 1372078596,
-      2 => 'file',
-    ),
-  ),
-  'nocache_hash' => '50643427051c84257e784a4-86679681',
->>>>>>> 85cba943f981f5d3288cd393db83d27a5c72b2eb
+  'nocache_hash' => '107762632651c84e20d60684-26656286',
   'function' => 
   array (
   ),
@@ -38,17 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51c845c85d9fa7_35171020',
+  'unifunc' => 'content_51c84e20e47ce1_32540155',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c845c85d9fa7_35171020')) {function content_51c845c85d9fa7_35171020($_smarty_tpl) {?><section id="banner-80s">
-=======
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c84257ed5fe6_93052889',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c84257ed5fe6_93052889')) {function content_51c84257ed5fe6_93052889($_smarty_tpl) {?><section id="banner-80s">
->>>>>>> 85cba943f981f5d3288cd393db83d27a5c72b2eb
+<?php if ($_valid && !is_callable('content_51c84e20e47ce1_32540155')) {function content_51c84e20e47ce1_32540155($_smarty_tpl) {?><section id="banner-80s">
     <header>
         <h1>THE PRESENT</h1>
     </header>
