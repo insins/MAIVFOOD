@@ -1,39 +1,20 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 02:37:52
-=======
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:14
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 13:23:03
          compiled from "bulk/templates/index.htm" */ ?>
-<?php /*%%SmartyHeaderCode:122196348351c76b026903d9-92475228%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 01:02:52
->>>>>>> 21a506e39c8fb38a65aa9e4a366cbfd655cc703f
-         compiled from "bulk/templates/index.htm" */ ?>
-<?php /*%%SmartyHeaderCode:146316846851c7591c88b1e6-18014142%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php /*%%SmartyHeaderCode:128096805751c82c1707dcf8-72244745%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1f60b181d356074d67921bb7c799bed71d2db354' => 
     array (
       0 => 'bulk/templates/index.htm',
-      1 => 1372033325,
+      1 => 1372072885,
       2 => 'file',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '122196348351c76b026903d9-92475228',
+  'nocache_hash' => '128096805751c82c1707dcf8-72244745',
   'function' => 
   array (
   ),
-=======
-  'nocache_hash' => '146316846851c7591c88b1e6-18014142',
-  'function' => 
-  array (
-  ),
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51c7591c96b321_26372210',
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
   'variables' => 
   array (
     'menu' => 0,
@@ -43,22 +24,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'content' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c76b02918f25_94469062',
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51c82c1716e806_45873651',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c76b02918f25_94469062')) {function content_51c76b02918f25_94469062($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
-=======
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c7591c96b321_26372210')) {function content_51c7591c96b321_26372210($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php if ($_valid && !is_callable('content_51c82c1716e806_45873651')) {function content_51c82c1716e806_45873651($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
 <html>
 <head>
     <title>BURGER KING's battle of the decades</title>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
     <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"/>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
 <!-- html5 content -->

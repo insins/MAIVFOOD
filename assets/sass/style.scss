@@ -454,6 +454,7 @@ div#wrapper{
         div#video-wrapper{
           width: 960px;
           margin: 0 auto;
+          z-index:9;
 
           div#video-bg{
             background: url("../images/create-video-bg.png") no-repeat;

@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 02:39:15
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 14:50:20
          compiled from "bulk/templates/pages/create.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:30581826351c771fd9b8e36-25624719%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:26157215251c82c16f3fed6-08596600%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '8440fad56a6e193cbd984eebe94c35d3fb16dd17' => 
     array (
       0 => 'bulk/templates/pages/create.tpl',
-      1 => 1371945157,
+      1 => 1372078218,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '30581826351c771fd9b8e36-25624719',
+  'nocache_hash' => '26157215251c82c16f3fed6-08596600',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51c771fdb32545_98654489',
+  'unifunc' => 'content_51c82c17076891_93744063',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c771fdb32545_98654489')) {function content_51c771fdb32545_98654489($_smarty_tpl) {?><!-- create a burger -->
+<?php if ($_valid && !is_callable('content_51c82c17076891_93744063')) {function content_51c82c17076891_93744063($_smarty_tpl) {?><!-- create a burger -->
 
     <!-- MAKE THE BEST BURGER
     AND WIN A CAR -->
@@ -66,16 +66,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <!-- FILMPJE -->
     <section id="video-content">
             <header>
-                <h1>If you didn't get it</h1>
-                <h2>Just watch our video</h2>
+                <h1>Check out our promovideo</h1>
+                <h2>It's awesome</h2>
             </header>
 
          <div id="video-wrapper">
 
 
             <video width="944" height="566" controls>
-              <source src="movie.mp4" type="video/mp4">
-              <source src="movie.ogg" type="video/ogg">
+              <source src="assets/video/movie.mp4" type="video/mp4">
+              <source src="assets/video/movie.ogg" type="video/ogg">
+                <source src="assets/video/movie.webm" type="video/webm">
                 Your browser does not support the video tag.
             </video>
 
