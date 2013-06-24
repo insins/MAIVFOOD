@@ -31,8 +31,12 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2532" column="40" selection-start="66506" selection-end="66506" vertical-scroll-proportion="0.55676514">
-              <folding />
+            <state line="2543" column="40" selection-start="66855" selection-end="66855" vertical-scroll-proportion="0.55676514">
+              <folding>
+                <marker date="1372083233000" expanded="true" signature="10377:10753" placeholder="{...}" />
+                <marker date="1372083233000" expanded="true" signature="10489:10641" placeholder="{...}" />
+                <marker date="1372083233000" expanded="true" signature="10697:10742" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -605,8 +609,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2532" column="40" selection-start="66506" selection-end="66506" vertical-scroll-proportion="0.55676514">
-          <folding />
+        <state line="2543" column="40" selection-start="66855" selection-end="66855" vertical-scroll-proportion="0.55676514">
+          <folding>
+            <marker date="1372083233000" expanded="true" signature="10377:10753" placeholder="{...}" />
+            <marker date="1372083233000" expanded="true" signature="10489:10641" placeholder="{...}" />
+            <marker date="1372083233000" expanded="true" signature="10697:10742" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
