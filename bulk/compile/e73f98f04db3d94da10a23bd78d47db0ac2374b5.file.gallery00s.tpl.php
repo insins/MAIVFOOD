@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 16:15:02
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 16:24:47
          compiled from "bulk/templates/pages/partials/gallery00s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:167270831551c854665b50d6-61095338%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e73f98f04db3d94da10a23bd78d47db0ac2374b5' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery00s.tpl',
-      1 => 1372078596,
+      1 => 1372078735,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51c85466616771_22000580',
   'variables' => 
   array (
     'besteBurger' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c85466616771_22000580',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c85466616771_22000580')) {function content_51c85466616771_22000580($_smarty_tpl) {?><section id="banner-00s">
     <header>
