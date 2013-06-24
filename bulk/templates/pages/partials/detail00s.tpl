@@ -55,7 +55,7 @@
             <li id="fb"><a href="{$burger.id}">Share it on Facebook<img src="assets/images/00s-detail-fb-share-btn.png"
             width="10"/></a></li>
             <li id="tw"><a href="https://twitter.com/share?text=I%20voted%20for%20{$burger.creator}%20%60s%20burger%2ECreate%20a%20burger%20yourself%20and%20win%20a%20car%2E%20More%20on%20burgerking%2Ecom">
-                            Share it on Twitter<img src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
+                            Share it on Twitter<img src="assets/images/00s-detail-twitter-sharebtn.png" width="25px"  /></a></li>
 
         </ul>
 

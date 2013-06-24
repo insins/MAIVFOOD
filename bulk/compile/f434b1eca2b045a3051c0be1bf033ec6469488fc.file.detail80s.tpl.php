@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:36:11
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 01:59:53
          compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:207234986051c76a4b97c5b3-01522892%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f434b1eca2b045a3051c0be1bf033ec6469488fc' => 
     array (
       0 => 'bulk/templates/pages/partials/detail80s.tpl',
-      1 => 1372009612,
+      1 => 1372031991,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c76a4bac20a4_93466346',
   'variables' => 
   array (
     'burger' => 0,
     'ingredient' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c76a4bac20a4_93466346',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c76a4bac20a4_93466346')) {function content_51c76a4bac20a4_93466346($_smarty_tpl) {?><!-- Header van de 80s -->
     <section id="banner-80s">
@@ -85,9 +85,11 @@ $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
             <header><h1>I like this one!</h1></header>
 
         <ul>
-            <li id="fb"><a href="shareFB">Share it on Facebook <img src="assets/images/80s-detail-fb-share-btn.png" width="10"/></a></li>
-            <li id="tw"><a href="shareTwitter">Share it on Twitter<img
-                    src="assets/images/80s-detail-twitter-sharebtn.png" width="25px" /></a></li>
+            <li id="fb"><a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
+">Share it on Facebook <img src="assets/images/80s-detail-fb-share-btn.png" width="10"/></a></li>
+            <li id="tw"><a href="https://twitter.com/share?text=I%20voted%20for%20<?php echo $_smarty_tpl->tpl_vars['burger']->value['creator'];?>
+%20%60s%20burger%2ECreate%20a%20burger%20yourself%20and%20win%20a%20car%2E%20More%20on%20burgerking%2Ecom">
+                            Share it on Twitter<img src="assets/images/80s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 
         </ul>
 

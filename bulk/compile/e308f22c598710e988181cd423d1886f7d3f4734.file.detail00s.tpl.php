@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 00:14:33
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 01:56:33
          compiled from "bulk/templates/pages/partials/detail00s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:71611466551c76c36a249d5-22974855%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e308f22c598710e988181cd423d1886f7d3f4734' => 
     array (
       0 => 'bulk/templates/pages/partials/detail00s.tpl',
-      1 => 1372025647,
+      1 => 1372031792,
       2 => 'file',
     ),
   ),
@@ -88,8 +88,9 @@ $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
             <li id="fb"><a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
 ">Share it on Facebook<img src="assets/images/00s-detail-fb-share-btn.png"
             width="10"/></a></li>
-            <li id="tw"><a href="shareTwitter">Share it on Twitter<img
-                    src="assets/images/00s-detail-twitter-sharebtn.png" width="25px" /></a></li>
+            <li id="tw"><a href="https://twitter.com/share?text=I%20voted%20for%20<?php echo $_smarty_tpl->tpl_vars['burger']->value['creator'];?>
+%20%60s%20burger%2ECreate%20a%20burger%20yourself%20and%20win%20a%20car%2E%20More%20on%20burgerking%2Ecom">
+                            Share it on Twitter<img src="assets/images/00s-detail-twitter-sharebtn.png" width="25px"  /></a></li>
 
         </ul>
 
