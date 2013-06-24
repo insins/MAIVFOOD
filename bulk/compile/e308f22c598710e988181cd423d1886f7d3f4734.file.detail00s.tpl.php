@@ -1,66 +1,47 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:51
-         compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:118809535251c76b27dd1ca5-53977217%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 01:59:53
-         compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:207234986051c76a4b97c5b3-01522892%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 01:56:33
+         compiled from "bulk/templates/pages/partials/detail00s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:71611466551c76c36a249d5-22974855%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'f434b1eca2b045a3051c0be1bf033ec6469488fc' => 
+    'e308f22c598710e988181cd423d1886f7d3f4734' => 
     array (
-      0 => 'bulk/templates/pages/partials/detail80s.tpl',
-      1 => 1372031991,
+      0 => 'bulk/templates/pages/partials/detail00s.tpl',
+      1 => 1372031792,
       2 => 'file',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '118809535251c76b27dd1ca5-53977217',
-  'function' => 
-  array (
-  ),
-=======
-  'nocache_hash' => '207234986051c76a4b97c5b3-01522892',
+  'nocache_hash' => '71611466551c76c36a249d5-22974855',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c76a4bac20a4_93466346',
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+  'unifunc' => 'content_51c76c36a80059_15219230',
   'variables' => 
   array (
     'burger' => 0,
     'ingredient' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c76b27eb7384_75941353',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<<<<<<< HEAD
-<?php if ($_valid && !is_callable('content_51c76b27eb7384_75941353')) {function content_51c76b27eb7384_75941353($_smarty_tpl) {?><!-- Header van de 80s -->
-=======
-<?php if ($_valid && !is_callable('content_51c76a4bac20a4_93466346')) {function content_51c76a4bac20a4_93466346($_smarty_tpl) {?><!-- Header van de 80s -->
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
-    <section id="banner-80s">
-        <div id="logo">&nbsp;</div>
+<?php if ($_valid && !is_callable('content_51c76c36a80059_15219230')) {function content_51c76c36a80059_15219230($_smarty_tpl) {?><!-- Header van de 00s -->
+    <section id="banner-00s">
         <header>
-            <h1>Burger fever</h1>
+            <h1>THE PRESENT</h1>
+            <h2>With <span id="rood">contemporary</span> ingredients we&#8217;ll define the <span>future</span>.</h2>
         </header>
     </section>
 
 <!-- Alle hamburgers -->
-<div id="achtergrond80s">
+<div id="achtergrond00s">
 
     <!-- top venstertje met samenvatting over burger -->
     <section id="burgerSamenvatting">
 
-        <header><h1>This burger has some swing</h1></header>
+        <header><h1>This burger is something special!</h1></header>
 
         <div id="hamburgerImage">
-            <img src="assets/images/80s-burger-overzicht.png" width="435" height="238" />
+            <img src="assets/images/00s-detail-burger.png" />
         </div>
 
         <section id="list-things">
@@ -105,10 +86,11 @@ $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
 
         <ul>
             <li id="fb"><a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
-">Share it on Facebook <img src="assets/images/80s-detail-fb-share-btn.png" width="10"/></a></li>
+">Share it on Facebook<img src="assets/images/00s-detail-fb-share-btn.png"
+            width="10"/></a></li>
             <li id="tw"><a href="https://twitter.com/share?text=I%20voted%20for%20<?php echo $_smarty_tpl->tpl_vars['burger']->value['creator'];?>
 %20%60s%20burger%2ECreate%20a%20burger%20yourself%20and%20win%20a%20car%2E%20More%20on%20burgerking%2Ecom">
-                            Share it on Twitter<img src="assets/images/80s-detail-twitter-sharebtn.png" width="25px" /></a></li>
+                            Share it on Twitter<img src="assets/images/00s-detail-twitter-sharebtn.png" width="25px"  /></a></li>
 
         </ul>
 

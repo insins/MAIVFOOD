@@ -2,4 +2,71 @@
 /* RESPONSIVE STYLESHEET */
 /* -------------------- */
 /* START SASSING HERE */
+@media screen and (max-width: 960px) {
+  /* line 16, ../sass/responsive.scss */
+  div#wrapper section#menu ul {
+    width: 90%;
+  }
+  /* line 30, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header header h1 {
+    font-size: 250%;
+  }
+  /* line 34, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header div#home-burgers {
+    width: 90%;
+  }
+  /* line 38, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+    margin: -15% auto 0 auto;
+  }
+}
+@media screen and (max-width: 784px) {
+  /* line 57, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+    margin: -23% auto 0 auto;
+  }
+  /* line 61, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper header h1 {
+    font-size: 1.9em;
+  }
+  /* line 66, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 490px) {
+  /* line 81, ../sass/responsive.scss */
+  div#wrapper section#menu {
+    width: 100%;
+  }
+  /* line 82, ../sass/responsive.scss */
+  div#wrapper section#menu ul {
+    width: 90%;
+  }
+  /* line 86, ../sass/responsive.scss */
+  div#wrapper section#menu ul li {
+    font-size: 1.5em;
+  }
+  /* line 102, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header header h1 {
+    font-size: 1.3em;
+  }
+  /* line 108, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+    margin: -60% auto 0 auto;
+  }
+  /* line 114, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper header h1 {
+    font-size: 1.8em;
+  }
+  /* line 119, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p {
+    font-size: 1.4em;
+  }
+  /* line 122, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a {
+    margin-top: 15%;
+    width: 70%;
+  }
+}
 /* END SASSING HERE */

@@ -38,11 +38,7 @@ class DetailController extends AppController
             else{
 
                 $burgerDAO = new BurgerDAO();
-                $burgerFromDB = $burgerDAO->getBurgerDetailsForId($burger_id);
-
-                echo "<pre>";
-                var_dump($burgerFromDB);
-                echo "</pre>";
+                $burgerFromDB = $burgerDAO->getBurgerinfoByBurgerid($burger_id);
 
                 // Burger array aanmaken
                 $burger = Array();
@@ -54,8 +50,15 @@ class DetailController extends AppController
                 $ingredienten = Array();
 
                 // Kijken welk vlees er geselecteerd is
-                $ingredienten["meat"] = $burgerFromDB["meat_name"];
-                $ingredienten["vegetable"] = $burgerFromDB["vegetable_name"];
+                // Meat uit de DB halen
+                $meat = $burgerDAO->getMeatforBurger($burgerFromDB["meat_id"]);
+
+                // Vegetable uit DB halen
+                $vegetable = $burgerDAO->getVegetableForBurger($burgerFromDB["vegetable_id"]);
+
+                $ingredienten["meat"] = $meat[0];
+                $ingredienten["vegetable"] = $vegetable[0];
+
 
                 if($burgerFromDB["salad"] == 1){
                     $ingredienten["salad"] = "salad";
@@ -155,7 +158,6 @@ class DetailController extends AppController
         // 50S DETAIL
         // --------------
         private function load50sDetail(){
-            trace('hello from 50s');
             $subtemplate = $this->smarty->fetch('pages/partials/detail50s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
         }
@@ -164,7 +166,6 @@ class DetailController extends AppController
         // 80S DETAIL
         // --------------
         private function load80sDetail(){
-            trace('hello from 80s');
             $subtemplate = $this->smarty->fetch('pages/partials/detail80s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
         }
@@ -173,7 +174,6 @@ class DetailController extends AppController
         // 00S DETAIL
         // --------------
         private function load00sDetail(){
-            trace('hello from 00s');
             $subtemplate = $this->smarty->fetch('pages/partials/detail00s.tpl');
             $this->smarty->assign('subtemplate', $subtemplate);
         }

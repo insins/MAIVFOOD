@@ -1,66 +1,48 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:51
-         compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:118809535251c76b27dd1ca5-53977217%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 01:59:53
-         compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:207234986051c76a4b97c5b3-01522892%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 00:39:32
+         compiled from "bulk/templates/pages/partials/detail50s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:31958427951c768eb25a292-28943467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'f434b1eca2b045a3051c0be1bf033ec6469488fc' => 
+    '6e0fd51da328da0c8115217f2a9aa142f50496ca' => 
     array (
-      0 => 'bulk/templates/pages/partials/detail80s.tpl',
-      1 => 1372031991,
+      0 => 'bulk/templates/pages/partials/detail50s.tpl',
+      1 => 1372026952,
       2 => 'file',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '118809535251c76b27dd1ca5-53977217',
-  'function' => 
-  array (
-  ),
-=======
-  'nocache_hash' => '207234986051c76a4b97c5b3-01522892',
+  'nocache_hash' => '31958427951c768eb25a292-28943467',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c76a4bac20a4_93466346',
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+  'unifunc' => 'content_51c768eb2e7106_18716696',
   'variables' => 
   array (
     'burger' => 0,
     'ingredient' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c76b27eb7384_75941353',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<<<<<<< HEAD
-<?php if ($_valid && !is_callable('content_51c76b27eb7384_75941353')) {function content_51c76b27eb7384_75941353($_smarty_tpl) {?><!-- Header van de 80s -->
-=======
-<?php if ($_valid && !is_callable('content_51c76a4bac20a4_93466346')) {function content_51c76a4bac20a4_93466346($_smarty_tpl) {?><!-- Header van de 80s -->
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
-    <section id="banner-80s">
+<?php if ($_valid && !is_callable('content_51c768eb2e7106_18716696')) {function content_51c768eb2e7106_18716696($_smarty_tpl) {?><!-- Header van de 50s -->
+    <section id="banner-50s">
         <div id="logo">&nbsp;</div>
         <header>
-            <h1>Burger fever</h1>
+            <h1>50<span>s</span></h1>
+            <h2>Rock a burger</h2>
         </header>
     </section>
 
 <!-- Alle hamburgers -->
-<div id="achtergrond80s">
+<div id="achtergrond50s">
 
     <!-- top venstertje met samenvatting over burger -->
     <section id="burgerSamenvatting">
 
-        <header><h1>This burger has some swing</h1></header>
+        <header><h1>This burger is rocking!</h1></header>
 
         <div id="hamburgerImage">
-            <img src="assets/images/80s-burger-overzicht.png" width="435" height="238" />
+            <img src="assets/images/detail-50s-burger.png" />
         </div>
 
         <section id="list-things">
@@ -84,14 +66,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <p>Includes</p>
         <ul>
-        <?php  $_smarty_tpl->tpl_vars['ingredient'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ingredient']->_loop = false;
+            <?php  $_smarty_tpl->tpl_vars['ingredient'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ingredient']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['burger']->value['ingredienten']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['ingredient']->key => $_smarty_tpl->tpl_vars['ingredient']->value){
 $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
 ?>
-            <li><?php echo $_smarty_tpl->tpl_vars['ingredient']->value;?>
+                <li><?php echo $_smarty_tpl->tpl_vars['ingredient']->value;?>
 </li>
-        <?php } ?>
+            <?php } ?>
         </ul>
 
         <div class="dummy">&nbsp;</div>
@@ -105,10 +87,10 @@ $_smarty_tpl->tpl_vars['ingredient']->_loop = true;
 
         <ul>
             <li id="fb"><a href="<?php echo $_smarty_tpl->tpl_vars['burger']->value['id'];?>
-">Share it on Facebook <img src="assets/images/80s-detail-fb-share-btn.png" width="10"/></a></li>
+">Share it on Facebook<img src="assets/images/50s-detail-fb-share-btn.png" width="10"/></a></li>
             <li id="tw"><a href="https://twitter.com/share?text=I%20voted%20for%20<?php echo $_smarty_tpl->tpl_vars['burger']->value['creator'];?>
 %20%60s%20burger%2ECreate%20a%20burger%20yourself%20and%20win%20a%20car%2E%20More%20on%20burgerking%2Ecom">
-                            Share it on Twitter<img src="assets/images/80s-detail-twitter-sharebtn.png" width="25px" /></a></li>
+                Share it on Twitter<img src="assets/images/50s-detail-twitter-sharebtn.png" width="25px" /></a></li>
 
         </ul>
 

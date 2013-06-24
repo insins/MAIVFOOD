@@ -1,27 +1,17 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:18
-         compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:198949987051c76b06ed7135-63941023%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:30:17
-         compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:97365524451c768e975cf26-59857482%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:30:23
+         compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1136313951c768efcfc965-33020173%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
+    'cbf964ad0f50ecdbba317fc5bb7190412b584b83' => 
     array (
-      0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1372003869,
+      0 => 'bulk/templates/pages/partials/gallery80s.tpl',
+      1 => 1372009381,
       2 => 'file',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '198949987051c76b06ed7135-63941023',
-=======
-  'nocache_hash' => '97365524451c768e975cf26-59857482',
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+  'nocache_hash' => '1136313951c768efcfc965-33020173',
   'function' => 
   array (
   ),
@@ -34,31 +24,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c76b071c1812_49255389',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c76b071c1812_49255389')) {function content_51c76b071c1812_49255389($_smarty_tpl) {?><!-- Header van de 50s -->
-=======
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c768e9887d34_67393346',
+  'unifunc' => 'content_51c768efdd6759_82934034',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c768e9887d34_67393346')) {function content_51c768e9887d34_67393346($_smarty_tpl) {?><!-- Header van de 50s -->
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
-    <section id="banner-50s">
-        <div id="logo">&nbsp;</div>
-        <header>
-            <h1>50<span>s</span></h1>
-            <h2>Rock a burger</h2>
-        </header>
-    </section>
+<?php if ($_valid && !is_callable('content_51c768efdd6759_82934034')) {function content_51c768efdd6759_82934034($_smarty_tpl) {?><section id="banner-80s">
+    <header>
+        <h1>THE PRESENT</h1>
+    </header>
+</section>
 
 <!-- Alle hamburgers -->
-<div id="achtergrond50s">
+<div id="achtergrond80s">
 
-    <section id="top3">
+    <section id="top380s">
         <header>
-            <h1>these burgers are rocking our world</h1>
+            <h1>Boogie burgers</h1>
         </header>
 
         <div id="burgers">
@@ -73,7 +53,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <ul class="actions">
                     <li> <a href="<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 ">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['decade'];?>
+                    <li> <a href=index.php?page=detail&decade=v<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['decade'];?>
 &burgerId=<?php echo $_smarty_tpl->tpl_vars['besteBurger']->value['id'];?>
 >View details</a></li>
                 </ul>
@@ -110,7 +90,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                      <li> <a href="<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
 ">Vote for this burger</a></li>
                      <li> <a href=index.php?page=detail&decade=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['decade'];?>
-&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
+s&burgerId=<?php echo $_smarty_tpl->tpl_vars['derdeBurger']->value['id'];?>
 >View details</a></li>
                  </ul>
 
@@ -122,9 +102,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </section>
 
     <!-- All the burgers -->
-    <section id="allTheBugers50s">
+    <section id="allTheBugers00s">
         <header>
-            <h1>View all the fifties burgers</h1>
+            <h1>View all the funky burgers</h1>
         </header>
 
         <section id="searchField">
@@ -135,7 +115,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="dummy">&nbsp;</div>
 
-        <?php  $_smarty_tpl->tpl_vars['burger'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['burger']->_loop = false;
+<?php  $_smarty_tpl->tpl_vars['burger'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['burger']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['alleBurgers']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
  $_smarty_tpl->tpl_vars['burger']->index=-1;
 foreach ($_from as $_smarty_tpl->tpl_vars['burger']->key => $_smarty_tpl->tpl_vars['burger']->value){
@@ -171,9 +151,8 @@ $_smarty_tpl->tpl_vars['burger']->_loop = true;
         <?php }?>
         <?php } ?>
 
-        <div class="dummy">&nbsp;</div>
-
+<div class="dummy">&nbsp;</div>
 
     </section>
-
-</div><?php }} ?>
+</div>
+<?php }} ?>

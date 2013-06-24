@@ -3,6 +3,18 @@ $(function(){
     console.log('Application.js up and running');
 });
 
+function shareBurgerOnFace(target,userDetails){
+        // Burger ID
+    var click = new Object({});
+    click.href = target.href;
+    url = click.href.toString();
+    url = url.split('/');
+    var burger_id = url.reverse()[0];
+
+    fb_publish(burger_id);
+
+}
+
 function performAjaxAction(target,userDetails)
 {
 	console.log(target,userDetails);
@@ -74,10 +86,10 @@ function performAjaxAction(target,userDetails)
     });
 
 }
-
 var Api = function(name){
     this.name = name;
 };
+
 Api.prototype = (function(){
 
     var baseUrl = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/api";

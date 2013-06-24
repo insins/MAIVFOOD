@@ -1,27 +1,17 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:18
-         compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:198949987051c76b06ed7135-63941023%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:30:17
-         compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:97365524451c768e975cf26-59857482%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:44:20
+         compiled from "bulk/templates/pages/partials/gallery00s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:124367864651c76c3485fa16-82555833%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
+    'e73f98f04db3d94da10a23bd78d47db0ac2374b5' => 
     array (
-      0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1372003869,
+      0 => 'bulk/templates/pages/partials/gallery00s.tpl',
+      1 => 1372003818,
       2 => 'file',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '198949987051c76b06ed7135-63941023',
-=======
-  'nocache_hash' => '97365524451c768e975cf26-59857482',
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+  'nocache_hash' => '124367864651c76c3485fa16-82555833',
   'function' => 
   array (
   ),
@@ -34,31 +24,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c76b071c1812_49255389',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c76b071c1812_49255389')) {function content_51c76b071c1812_49255389($_smarty_tpl) {?><!-- Header van de 50s -->
-=======
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c768e9887d34_67393346',
+  'unifunc' => 'content_51c76c349119f1_18228553',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c768e9887d34_67393346')) {function content_51c768e9887d34_67393346($_smarty_tpl) {?><!-- Header van de 50s -->
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
-    <section id="banner-50s">
-        <div id="logo">&nbsp;</div>
-        <header>
-            <h1>50<span>s</span></h1>
-            <h2>Rock a burger</h2>
-        </header>
-    </section>
+<?php if ($_valid && !is_callable('content_51c76c349119f1_18228553')) {function content_51c76c349119f1_18228553($_smarty_tpl) {?><section id="banner-00s">
+    <header>
+        <h1>THE PRESENT</h1>
+        <h2>With <span id="rood">contemporary</span> ingredients we&#8217;ll define the <span>future</span>.</h2>
+    </header>
+</section>
 
 <!-- Alle hamburgers -->
-<div id="achtergrond50s">
+<div id="achtergrond00s">
 
     <section id="top3">
         <header>
-            <h1>these burgers are rocking our world</h1>
+            <h1>these burgers have it!</h1>
         </header>
 
         <div id="burgers">
@@ -121,8 +102,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     </section>
 
-    <!-- All the burgers -->
-    <section id="allTheBugers50s">
+    <section id="allTheBugers00s">
         <header>
             <h1>View all the fifties burgers</h1>
         </header>
