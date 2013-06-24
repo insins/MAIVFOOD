@@ -19,12 +19,12 @@
             <!-- Top burger -->
             <section id="topBurger">
                 <image src="assets/images/50s-top-burger.png" />
-                <div id="voteCountFirst">115</div>
+                <div id="voteCountFirst">{$besteBurger.likes}</div>
 
-                <p>Ines van helleputte</p>
+                <p>{$besteBurger.user_name}</p>
                 <ul class="actions">
-                    <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
+                    <li> <a href="{$besteBurger.id}">Vote for this burger</a></li>
+                    <li> <a href=index.php?page=detail&decade={$besteBurger.decade}&burgerId={$besteBurger.id}>View details</a></li>
                 </ul>
 
             </section>
@@ -32,12 +32,12 @@
             <!-- Tweede beste burger -->
            <section id="secondBurger">
                <image src="assets/images/50s-top-burger.png" />
-               <div id="voteCountSecond">115</div>
+               <div id="voteCountSecond">{$tweedeBurger.likes}</div>
 
-               <p>Ines van helleputte</p>
+               <p>{$tweedeBurger.user_name}</p>
                <ul class="actions">
-                   <li> <a href="1">Vote for this burger</a></li>
-                   <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
+                   <li> <a href="{$tweedeBurger.id}">Vote for this burger</a></li>
+                   <li> <a href=index.php?page=detail&decade={$tweedeBurger.decade}&burgerId={$tweedeBurger.id}>View details</a></li>
                </ul>
 
            </section>
@@ -45,12 +45,12 @@
             <!-- DERDE burger -->
              <section id="thirdBurger">
                  <image src="assets/images/50s-top-burger.png" />
-                 <div id="voteCountThird">115</div>
+                 <div id="voteCountThird">{$derdeBurger.likes}</div>
 
-                 <p>Ines van helleputte</p>
+                 <p>{$derdeBurger.user_name}</p>
                  <ul class="actions">
-                     <li> <a href="1">Vote for this burger</a></li>
-                     <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
+                     <li> <a href="{$derdeBurger.id}">Vote for this burger</a></li>
+                     <li> <a href=index.php?page=detail&decade={$derdeBurger.decade}&burgerId={$derdeBurger.id}>View details</a></li>
                  </ul>
 
              </section>
@@ -74,45 +74,32 @@
 
         <div class="dummy">&nbsp;</div>
 
+        {foreach $alleBurgers as $burger}
+
         <!-- Alle burger in een rijtje -->
-        <section class="burgerRow">
-            <section class="burgerSummary">
-                <image src="assets/images/50s-overzicht-burger.png" />
-                <div class="voteCount"">115</div>
+            {if $burger@index%3 == 0}
+            <section class="burgerRow">
+            {/if}
+                <section class="burgerSummary">
+                    <image src="assets/images/50s-overzicht-burger.png" />
+                    <div class="voteCount"">{$burger.likes}</div>
 
-                <p>Ines van helleputte</p>
-                <ul class="actions">
-                    <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
-                </ul>
-            </section>
+                    <p>{$burger.user_name}</p>
+                    <ul class="actions">
+                        <li> <a href="{$burger.id}">Vote for this burger</a></li>
+                        <li> <a href=index.php?page=detail&decade={$burger.decade}&burgerId={$burger.id}>View details</a></li>
+                    </ul>
+                </section>
 
-            <section class="burgerSummary">
-                <image src="assets/images/50s-overzicht-burger.png" />
-                <div class="voteCount"">115</div>
+        {if $burger@index%3 == 2}
+            <div class="dummy">&nbsp;</div>
+            <div class="line">&nbsp;</div>
+        </section>
 
-                <p>Ines van helleputte</p>
-                <ul class="actions">
-                    <li> <a href="1">Vote for this burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
-                </ul>
-            </section>
-
-            <section class="burgerSummary">
-                <image src="assets/images/50s-overzicht-burger.png" />
-                <div class="voteCount"">115</div>
-
-                <p>Ines van helleputte</p>
-                <ul class="actions">
-                    <li> <a href="1">Vote for this
-                        burger</a></li>
-                    <li> <a href=index.php?page=detail&decade=50s&burgerId=1>View details</a></li>
-                </ul>
-            </section>
+        {/if}
+        {/foreach}
 
         <div class="dummy">&nbsp;</div>
-        <div class="line">&nbsp;</div>
-        </section">
 
 
     </section>

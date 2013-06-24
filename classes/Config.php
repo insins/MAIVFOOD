@@ -7,9 +7,9 @@ class Config
     // db consts
     const DB_TYPE = 'mysql';
     const DB_HOST = 'localhost'; // mysqlstudent
-    const DB_USER = 'usr_food';
+    const DB_USER = 'ines';
     const DB_PASS = 'test';
-    const DB_NAME = 'maiv_food';
+    const DB_NAME = '20122013_food';
     const DB_PORT = 3306;
 
     function __construct(){
@@ -31,15 +31,15 @@ class Config
                 "link_text"=>"Gallery",
                 "submenu"=> array(
                     array(
-                        "page_id"=>"50s",
+                        "page_id"=>"50",
                         "link_text"=>"The 50s"
                     ),
                     array(
-                        "page_id"=>"80s",
+                        "page_id"=>"80",
                         "link_text"=>"The 80s"
                     ),
                     array(
-                        "page_id"=>"00s",
+                        "page_id"=>"00",
                         "link_text"=>"The 00s"
                     )
                 )

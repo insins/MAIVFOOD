@@ -20,16 +20,15 @@ class GalleryController extends AppController
         // DECADE BEPALEN
         switch($this->decade)
         {
-             case "50s":
+             case "50":
              $this->load50sGallery();
-             // subtemplate
              break;
 
-             case "80s":
+             case "80":
              $this->load80sGallery();
              break;
 
-             case "00s":
+             case "00":
              $this->load00sGallery();
              break;
 
@@ -47,7 +46,9 @@ class GalleryController extends AppController
     // --------------
     private function load50sGallery(){
 
-        $this->checkAction();
+        // Decade invullen dan alle burgers ophalen
+        $decade = "50";
+        $this->getAllBurgersForDecade($decade);
 
         $subtemplate = $this->smarty->fetch('pages' . DS . 'partials' . DS . 'gallery50s.tpl');
         $this->smarty->assign('subtemplate', $subtemplate);
@@ -55,40 +56,126 @@ class GalleryController extends AppController
 
     }
 
+    // --------------
+    // 80S GALLERYYY
+    // --------------
     private function load80sGallery(){
 
-        $this->checkAction();
+        // Decade invullen dan alle burgers ophalen
+        $decade = "80";
+        $this->getAllBurgersForDecade($decade);
 
         $subtemplate = $this->smarty->fetch('pages/partials/gallery80s.tpl');
         $this->smarty->assign('subtemplate', $subtemplate);
     }
 
+    // --------------
+    // 00S GALLERYYY
+    // --------------
     private function load00sGallery(){
 
-        $this->checkAction();
+        // Decade invullen dan alle burgers ophalen
+        $decade = "00";
+        $this->getAllBurgersForDecade($decade);
 
+        // Juiste template inladen
         $subtemplate = $this->smarty->fetch('pages/partials/gallery00s.tpl');
         $this->smarty->assign('subtemplate', $subtemplate);
     }
 
     // --------------
-    // CHECK FOR ACTION FUNCTIE
+    // GET ALL BURGERS FOR GALLERY
     // --------------
-    private function checkAction(){
-        // Kijken of er een action gebeurt
-        $action = "";
 
-        if(isset($_GET["action"]) && $_GET["action"] != ""){
-           $action = $_GET["action"];
-        }
+        // De decade hebben we al bepaald via de GET
+        // Dus we hebben die al meegegeven als variabele
+    private function getAllBurgersForDecade($decade){
 
-        // Een switch op de action gebeurt
-        if($action == "vote"){
-            if (!empty($_GET["burgerId"])){
-                $this->voteForBurger();
+       $burgerDAO = new BurgerDAO();
+       $alleBurgers = $burgerDAO->getAllBurgersForDecade($decade);
+
+        // Resultaat chekcen
+        if($alleBurgers == "noBurgersWereFound"){
+
+            echo "error geen burgers gevonden";
+
+        }else{
+
+            // Hier zullen alle burger object in gepusht worden
+            $alleBurgersKlaar = Array();
+
+            $i = 0;
+
+            $userDAO = new UserDAO();
+            $likeDAO = new LikeDAO();
+
+            // Overlopen van de like scores
+            // doen we ook al in de for each
+            $besteBurger = Array();
+            $tweedeBurger = Array();
+            $derdeBurger = Array();
+
+            // De likes van allen gaan eerst op nul
+            $besteBurger["likes"] = 0;
+            $tweedeBurger["likes"] = 0;
+            $derdeBurger["likes"] = 0;
+
+
+            foreach ($alleBurgers as $burger){
+
+                    // Nieuwe burger aanmaken
+                    $burger = Array();
+
+                    // Burger_id
+                    $burger["id"] = $alleBurgers[$i][0];
+
+                    // Creator id
+                    $burger["creator_id"] = $alleBurgers[$i][7];
+
+                    // juiste decade inladen
+                    $burger["decade"] = $alleBurgers[$i][6];
+
+                    // Naam van de creator ophalen
+                    $naam = $userDAO->getUserForBurgerID($burger["creator_id"]);
+                    $burger["user_name"] = $naam[0] . " " . $naam[1];
+
+
+
+                    // Aantal likes per burger ophalen
+                    $likes = $likeDAO->getLikesForBurger($burger["id"]);
+                    $burger["likes"] = $likes[0];
+
+                    // Likes overlopen
+                    if($burger["likes"] > $besteBurger["likes"]){
+                        $besteBurger = $burger;
+                    }
+                    else if($burger["likes"] > $tweedeBurger["likes"]){
+                        $tweedeBurger = $burger;
+                    }
+                    else if($burger["likes"] > $derdeBurger["likes"]){
+                        $derdeBurger = $burger;
+                    }
+
+                    array_push($alleBurgersKlaar, $burger);
+                    $i ++;
             }
+
+
+            // Burgers doorgeven voor top 3
+            $this->smarty->assign('besteBurger', $besteBurger);
+            $this->smarty->assign('tweedeBurger', $tweedeBurger);
+            $this->smarty->assign('derdeBurger', $derdeBurger);
+
+            // Alle burgers doorgeven zodat ze in template geladen kunnen worden
+            $this->smarty->assign('alleBurgers', $alleBurgersKlaar);
+
+
+
         }
+
     }
+
+
 
 
 }

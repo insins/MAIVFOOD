@@ -18,9 +18,9 @@ function setupAPI(){
     window.fbAsyncInit = (function(){
         // init the FB JS SDK
         FB.init({
-            appId      : '268486403291969', // App ID from the App Dashboard
+            appId      : '616766485000843', // App ID from the App Dashboard
             //channelUrl : '//http://student.howest.be/tycho.martins/20122013/MAIII/RECORD/',
-            channelUrl : 'http://localhost/devine/20122013/MAIV/MAIVFOOD/', // Channel File for x-domain communication
+            channelUrl : 'http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD', // Channel File for x-domain communication
             status     : true, // check the login status upon init?
             cookie     : true, // set sessions cookies to allow your server to access the session?
             xfbml      : true  // parse XFBML tags on this page?,
@@ -47,6 +47,11 @@ function setupAPI(){
     })();
 
     $('.actions li:first-child a').click(deployFacebook);
+    $('#voteBtns ul li:first-child a').click(deployFacebookShare);
+
+    // -------------------------------------------
+    // INLOGGEN OP FB + LIKEN
+    // -------------------------------------------
 
 function deployFacebook(e){
     if(userConnected == false){
@@ -58,7 +63,7 @@ function deployFacebook(e){
                 console.log('userclosedwindow');
             }
 
-        },{scope: 'email'});
+        },{scope: 'email', scope:'publish_stream'});
 
     } else {
         if(e !== null)fetchUserDetails(e.currentTarget);
@@ -73,4 +78,68 @@ function fetchUserDetails(target){
         performAjaxAction(target,response);
     });
 }
+
+    // -------------------------------------------
+    // VOOR TE SHAREN (EERST INLOGGEN)
+    // -------------------------------------------
+
+    function deployFacebookShare(e){
+        if(userConnected == false){
+            FB.login(function(response){
+                if(response.authResponse !== null){
+                    fetchUserDetails();
+                } else {
+                    // user closed window?
+                    console.log('userclosedwindow');
+                }
+
+            },{scope: 'email'});
+
+        } else {
+            if(e !== null)fetchUserDetailsShare(e.currentTarget);
+        }
+
+        if(e !== null) e.preventDefault();
+    }
+
+    function fetchUserDetailsShare(target){
+
+        FB.api("/me", function(response){
+            shareBurgerOnFace(target, response);
+        });
+    }
 }
+
+
+// PUBLISH THE MESSAGE ON FACEBOOK
+function fb_publish(burgerID) {
+
+    var url = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/index.php?page=detail&decade=50&burgerId=" + burgerID;
+
+     FB.ui(
+       {
+         method: 'stream.publish',
+         message: 'This one will be BK next burger',
+         attachment: {
+           name: 'I voted for a burger in the battle of centuries',
+           caption: 'This one will be BK next burger',
+           description: (
+             'Which burger will be the best of all ages and who will win a car?'
+           ),
+           href: url
+         },
+         action_links: [
+           { text: 'Create a burger yourself', href: 'http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/index.php?page=create' }
+         ],
+         user_prompt_message: 'Create a burger yourself'
+       },
+
+       function(response) {
+         if (response && response.post_id) {
+           console.log('Post was published.');
+         } else {
+           console.log('Post was not published.');
+         }
+       }
+     );
+  }

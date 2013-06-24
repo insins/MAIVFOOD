@@ -6,4 +6,132 @@
 
 /* START SASSING HERE */
 
+// Homepage "campaign"
+// RESPONSIVE
+@media screen and (max-width: 960px){
+
+  div#wrapper{
+
+    section#menu{
+      ul{
+        width: 90%;
+      }
+    }
+
+    section#content-wrapper
+    {
+      section#content
+      {
+        section#home-wrapper{
+        // Banner foto
+        section#home-header{
+
+          header{
+            h1{
+              font-size: 250%;
+            }
+          }
+          div#home-burgers{
+            width: 90%;
+          }
+        }
+          section#home-uitleg-wrapper{
+            margin: -15% auto 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 784px){
+
+  div#wrapper{
+
+    section#content-wrapper{
+
+      section#content{
+
+        section#home-wrapper{
+
+          section#home-uitleg-wrapper{
+            margin: -23% auto 0 auto;
+
+            header{
+              h1{
+                font-size: 1.9em;
+              }
+            }
+
+            p{
+              font-size: 1.2em;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 490px){
+
+  div#wrapper{
+
+    section#menu{
+      ul{
+
+        width:90%;
+
+        li{
+          font-size: 1.5em;
+        }
+      }
+      width: 100%;
+    }
+
+    section#content-wrapper{
+
+      section#content{
+
+        section#home-wrapper{
+
+          section#home-header{
+
+            header{
+              h1{
+                font-size: 1.3em;
+              }
+            }
+          }
+
+          section#home-uitleg-wrapper{
+
+            margin: -60% auto 0 auto;
+
+
+            header{
+              h1{
+                font-size: 1.8em;
+              }
+            }
+
+            p{
+              font-size: 1.4em;
+
+              a{
+                margin-top: 15%;
+                width: 70%;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
 /* END SASSING HERE */

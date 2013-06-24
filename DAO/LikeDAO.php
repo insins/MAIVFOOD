@@ -20,7 +20,7 @@ class LikeDAO
     ------------------------------------ */
     public function chechUserLikedBurger($user_id, $burger_id){
 
-        $sql = "SELECT * from maiv_food_likes WHERE user_id = :user_id AND burger_id = :burger_id";
+        $sql = "SELECT * from maiv_food_user_likes WHERE user_id = :user_id AND burger_id = :burger_id";
 
         try{
           $stmt = $this->dbh->prepare($sql);
@@ -30,16 +30,13 @@ class LikeDAO
           $result = $stmt->fetch();
 
        // Als het resultaat niet "" is dan id ophalen, anders -1
-          if($result != ""){
-              return true;
-          }
-           else{
-               return false;
-           }
-
+            if ($stmt->rowCount() > 0) {
+                 return true;
+             } else {
+                 return false;
+             }
           }
           catch(PDOException $e) {
-              trace ($e->getMessage());
               return $e->getMessage();
           }
 
@@ -48,9 +45,9 @@ class LikeDAO
     /*  ------------------------------------
         LIKE INSERTEN IN DE DB
     ------------------------------------ */
-    public function insertLike($burger_id, $user_id){
+    public function insertLike($user_id, $burger_id){
 
-        $sql = "INSERT INTO maiv_food_likes(user_id, burger_id) VALUES(:user_id,:burger_id)";
+        $sql = "INSERT INTO maiv_food_user_likes(user_id, burger_id) VALUES(:user_id,:burger_id)";
 
         try{
             $stmt = $this->dbh->prepare($sql);
@@ -61,8 +58,24 @@ class LikeDAO
 
         }
         catch(PDOException $e) {
-           trace ($e->getMessage());
            return $e->getMessage();
        }
+    }
+
+    public function getLikesForBurger($burger_id){
+
+        $sql = "SELECT COUNT(*) AS count FROM maiv_food_user_likes where burger_id = :burger_id";
+        try{
+               $stmt = $this->dbh->prepare($sql);
+               $stmt->bindValue(":burger_id", $burger_id);
+               $stmt->execute();
+               $result = $stmt->fetch();
+
+                return $result;
+               }
+               catch(PDOException $e) {
+                  return $e->getMessage();
+              }
+
     }
 }
