@@ -5,12 +5,20 @@ class Config
     const CPL_DIR = "bulk/compile";
 
     // db consts
+
     const DB_TYPE = 'mysql';
+    const DB_HOST = 'mysqlstudent'; // mysqlstudent
+    const DB_USER = 'tychomartiwahwu3';
+    const DB_PASS = 'Aegadaeh5yee';
+    const DB_NAME = 'tychomartiwahwu3';
+    const DB_PORT = 3306;
+
+    /*const DB_TYPE = 'mysql';
     const DB_HOST = 'localhost'; // mysqlstudent
     const DB_USER = 'ines';
     const DB_PASS = 'test';
     const DB_NAME = '20122013_food';
-    const DB_PORT = 3306;
+    const DB_PORT = 3306;*/
 
     function __construct(){
         

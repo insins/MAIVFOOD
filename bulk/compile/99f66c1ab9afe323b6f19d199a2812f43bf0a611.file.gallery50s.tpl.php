@@ -1,27 +1,17 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:18
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-24 10:49:04
          compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:198949987051c76b06ed7135-63941023%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:30:17
-         compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:97365524451c768e975cf26-59857482%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php /*%%SmartyHeaderCode:80095236651c8080028cae4-48676970%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1372003869,
+      1 => 1372010849,
       2 => 'file',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '198949987051c76b06ed7135-63941023',
-=======
-  'nocache_hash' => '97365524451c768e975cf26-59857482',
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+  'nocache_hash' => '80095236651c8080028cae4-48676970',
   'function' => 
   array (
   ),
@@ -34,17 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c76b071c1812_49255389',
+  'unifunc' => 'content_51c8080047e541_58534399',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c76b071c1812_49255389')) {function content_51c76b071c1812_49255389($_smarty_tpl) {?><!-- Header van de 50s -->
-=======
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c768e9887d34_67393346',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c768e9887d34_67393346')) {function content_51c768e9887d34_67393346($_smarty_tpl) {?><!-- Header van de 50s -->
->>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<?php if ($_valid && !is_callable('content_51c8080047e541_58534399')) {function content_51c8080047e541_58534399($_smarty_tpl) {?><!-- Header van de 50s -->
     <section id="banner-50s">
         <div id="logo">&nbsp;</div>
         <header>

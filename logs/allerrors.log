@@ -360,3 +360,8 @@
 [23-Jun-2013 23:40:13] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
 [23-Jun-2013 23:43:26] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
 >>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+[24-Jun-2013 08:44:33 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php on line 5
+[24-Jun-2013 08:47:20 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php on line 5
+[24-Jun-2013 08:47:34 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php on line 5
+[24-Jun-2013 09:23:23 UTC] PHP Warning:  require_once(/Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/smarty/libs/Smarty.class.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/index.php on line 25
+[24-Jun-2013 09:23:23 UTC] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/smarty/libs/Smarty.class.php' (include_path='.:/Applications/MAMP/bin/php/php5.4.3/lib/php') in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/index.php on line 25
