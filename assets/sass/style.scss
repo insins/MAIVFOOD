@@ -422,7 +422,6 @@ div#wrapper{
       // ---------------------------
       section#video-content{
         padding-top: 75px;
-        padding-bottom: 75px;
         background-color: #00c0a7;
 
           // TEKST IF YOU DIDN'T GET IT
@@ -453,29 +452,19 @@ div#wrapper{
 
           // VIDEO
         div#video-wrapper{
-          width: 944px;
-          height: 566px;
+          width: 960px;
           margin: 0 auto;
-          position: relative;
 
-           div#surfplank{
-             background: url("../images/create-surfplank.png") no-repeat;
-             width: 226px;
-             height: 386px;
-              position: absolute;
-              bottom: -15%;
-              left: -15%;
-              z-index: 10;
+          div#video-bg{
+            background: url("../images/create-video-bg.png") no-repeat;
+            width: 1004px;
+            height: 386px;
+            margin: -320px 0 0 -15px;
+            z-index: 10;
            }
 
-           div#ijsje{
-            background: url("../images/create-ijsje.png") no-repeat;
-            position: absolute;
-            width: 80px;
-            height: 159px;
-            bottom: -5%;
-            right: -5%;
-            z-index: 10;
+           video{
+            z-index: 9;
            }
 
         }
