@@ -103,4 +103,32 @@ class UserDAO
         }
 
 
+    /* ALLE USERS FOR SEARCHQUERY */
+    public function getAllUsersForSearchQuery($query){
+
+           $sql = "SELECT maiv_food_users.user_id, first_name, last_name, maiv_food_burgers.id FROM maiv_food_users
+           INNER JOIN maiv_food_burgers
+           ON  maiv_food_users.user_id =maiv_food_burgers.user_id
+           WHERE maiv_food_users.first_name LIKE :query OR maiv_food_users.last_name like :query";
+
+           try{
+
+             $stmt = $this->dbh->prepare($sql);
+             $stmt->bindValue(":query", $query);
+             $stmt->execute();
+             $result = $stmt->fetchAll();
+
+             // Als het resultaat niet "" is dan id ophalen, anders -1
+             return $result;
+
+             }
+             catch(PDOException $e) {
+                 //trace ($e->getMessage());
+                 return $e->getMessage();
+             }
+
+
+    }
+
+
 }

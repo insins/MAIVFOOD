@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 23:44:20
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 14:32:59
          compiled from "bulk/templates/pages/partials/gallery00s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:124367864651c76c3485fa16-82555833%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e73f98f04db3d94da10a23bd78d47db0ac2374b5' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery00s.tpl',
-      1 => 1372003818,
+      1 => 1372077173,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c76c349119f1_18228553',
   'variables' => 
   array (
     'besteBurger' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_51c76c349119f1_18228553',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c76c349119f1_18228553')) {function content_51c76c349119f1_18228553($_smarty_tpl) {?><section id="banner-00s">
     <header>
@@ -104,12 +104,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     <section id="allTheBugers00s">
         <header>
-            <h1>View all the fifties burgers</h1>
+            <h1>View all the nillies burgers</h1>
         </header>
 
         <section id="searchField">
             <form>
-                <div><input type="text" name="search" value="search for a creator"></div>
+                <div><input type="text" name="search" value="search for a creator">
+                <ul id="zoekresultaten">
+
+                </ul></div>
             </form>
         </section>
 
