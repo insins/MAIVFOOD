@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="" />
+=======
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" afterPath="" />
@@ -41,6 +44,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-size.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-size.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-sizing.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-sizing.scssc" />
     </list>
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,17 +61,34 @@
     <disable_hints />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MAIVFOOD" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="2793" column="0" selection-start="73095" selection-end="73095" vertical-scroll-proportion="0.93273544">
+=======
+<<<<<<< HEAD
+            <state line="2592" column="0" selection-start="67249" selection-end="67249" vertical-scroll-proportion="0.0">
+=======
+            <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-3.75">
+=======
       <file leaf-file-name="Facebook.login.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,24 +102,33 @@
         <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery80s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
+      <file leaf-file-name="AppController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/AppController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+=======
             <state line="88" column="35" selection-start="2914" selection-end="2996" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail80s.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="26" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="-16.25">
+=======
             <state line="24" column="40" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
@@ -107,7 +137,11 @@
       <file leaf-file-name="detail50s.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="21" column="11" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+=======
             <state line="25" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
@@ -116,7 +150,11 @@
       <file leaf-file-name="detail00s.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
             <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
@@ -134,7 +172,29 @@
       <file leaf-file-name="gallery00s.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="9" column="71" selection-start="572" selection-end="572" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restapi.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/restapi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="32" selection-start="1842" selection-end="1842" vertical-scroll-proportion="-12.583333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDAO.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="130" column="74" selection-start="4404" selection-end="4404" vertical-scroll-proportion="0.7475884">
+=======
             <state line="62" column="36" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
@@ -143,7 +203,15 @@
       <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="-11.130435">
+=======
+<<<<<<< HEAD
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+            <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
               <folding />
             </state>
           </provider>
@@ -175,9 +243,19 @@
         <option value="$PROJECT_DIR$/assets/js/Application.js" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl" />
+=======
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
         <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
         <option value="$PROJECT_DIR$/assets/sass/style.scss" />
+        <option value="$PROJECT_DIR$/classes/Config.php" />
+        <option value="$PROJECT_DIR$/controller/AppController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bulk/templates/index.htm" />
+        <option value="$PROJECT_DIR$/api/restapi.php" />
+        <option value="$PROJECT_DIR$/DAO/UserDAO.php" />
       </list>
     </option>
   </component>
@@ -185,7 +263,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="815" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,6 +300,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
+=======
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MAIVFOOD" />
@@ -370,14 +450,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig" serverName="student.howest.food" serverId="2a8e289d-154a-4e98-a127-d84dd3950b7b" autoUpload="true">
+    <servers>
+      <server id="2a8e289d-154a-4e98-a127-d84dd3950b7b">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/wwwroot/20122013/MAIV/FOOD" local="$PROJECT_DIR$" web="20122013/MAIV/FOOD" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="60595076-6e26-4650-bfb8-227798e3c008">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="7314dd24-e725-4bea-94f9-5d0527721d09">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="b0ea5af3-ff73-4f99-ad6b-8754dddab603">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="c2855e33-bdba-4f10-b7ab-cb7e8e80c9a2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -388,10 +512,30 @@
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
-      <method />
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="FtpUpload" enabled="false">
+          <server_id />
+          <server_name />
+        </option>
+        <option name="PhingTarget" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
@@ -418,7 +562,11 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+<<<<<<< HEAD
     <option name="IGNORE_EXTERNALS" value="false" />
+=======
+    <configuration useDefault="false">$USER_HOME$/.subversion_IDEA</configuration>
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -430,14 +578,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="815" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <editor active="false" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.059760958" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22740315" sideWeight="0.9402391" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937238" sideWeight="0.5013928" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -445,8 +603,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -474,6 +632,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -483,6 +642,7 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
@@ -505,6 +665,36 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/controller/DetailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="69" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.497006" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="46" selection-start="3078" selection-end="3113" vertical-scroll-proportion="0.023952097" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="407" selection-end="407" vertical-scroll-proportion="0.28742516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="12" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-14.565217" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="117" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0">
+=======
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="10" selection-start="407" selection-end="407" vertical-scroll-proportion="0.28742516" />
@@ -532,10 +722,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/restapi.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="50" column="25" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.74251497" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+=======
+        <state line="77" column="39" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/DAO/LikeDAO.php">
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="86" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.0">
           <folding />
@@ -544,63 +756,156 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="88" column="35" selection-start="2914" selection-end="2996" vertical-scroll-proportion="0.0">
+=======
+        <state line="112" column="34" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.51026857">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="24" column="40" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+        <state line="50" column="25" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.74251497">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="39" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="36" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+        <state line="2592" column="0" selection-start="67249" selection-end="67249" vertical-scroll-proportion="0.0">
+=======
     <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/classes/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-3.75">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="35" selection-start="2914" selection-end="2996" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="39" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="40" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="36" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="-16.25">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="71" selection-start="572" selection-end="572" vertical-scroll-proportion="-5.625">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="-11.130435">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/api/restapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="32" selection-start="1842" selection-end="1842" vertical-scroll-proportion="-12.583333">
+=======
+    <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="55" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
+    <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="2793" column="0" selection-start="73095" selection-end="73095" vertical-scroll-proportion="0.93273544">
+=======
+<<<<<<< HEAD
+        <state line="130" column="74" selection-start="4404" selection-end="4404" vertical-scroll-proportion="0.7475884">
+=======
+        <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+>>>>>>> 1bfb4ac7c6f65ad665e3b48331a3f633138c0ae8
           <folding />
         </state>
       </provider>

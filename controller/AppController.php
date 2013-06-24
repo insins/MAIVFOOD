@@ -1,6 +1,4 @@
 <?php
-// set to online path
-require_once('/Applications/MAMP/htdocs/smarty/libs/Smarty.class.php');
 
 class AppController
 {

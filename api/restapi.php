@@ -14,10 +14,6 @@ require WWW_ROOT. "DAO" .DIRECTORY_SEPARATOR. 'LikeDAO.php';
 
 $app = new Slim();
 
-$app->get('/hello',function(){
-	echo "hello world";
-});
-
 
 // CHECKEN USER BESTAAT
 // INDIEN NIET GEVONDEN -> ADDEN IN DE DB
@@ -82,10 +78,21 @@ $app->get('/like/check',function(){
 /* functies om van ios naar db te gaan */
 /* ------------------------ */
 
-$app->post('/user/insertburger/', function(){
+$app->get('/hello',function(){
+    echo "hello world";
+});
 
-	$request = Slim::getInstance()->request();
-	echo "HELLO WORLD TO IOS";
+$app->post('/hellopost', function(){
+    $request = Slim::getInstance()->request();
+    $post = $request->post();
+    $dao = new UserDAO();
+    $result = $dao->insertBurgerForUser($post['userdata']['id'],$post);
+    echo $result;
+});
+
+$app->get('/user/insertburger/:id', function($id){
+	//$request = Slim::getInstance()->request();
+    echo $id;
 
 });
 

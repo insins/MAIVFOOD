@@ -74,6 +74,12 @@
   }
 }
 
+@media screen and (max-width: 320px){
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header{
+    height: 100px;
+  }
+}
+
 @media screen and (max-width: 490px){
 
   div#wrapper{

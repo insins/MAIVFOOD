@@ -21,6 +21,8 @@
     require_once WWW_ROOT . "classes" . DS . "Config.php";
 
     // controllers
+    // set to online path
+    require_once(WWW_ROOT . 'smarty/libs/Smarty.class.php');
     require_once WWW_ROOT . "controller" . DS . "AppController.php";
     require_once WWW_ROOT . "controller" . DS . "CampaignController.php";
     require_once WWW_ROOT . "controller" . DS . "CreateController.php";
