@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2013-06-23 22:22:52
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 02:37:52
          compiled from "bulk/templates/pages/campaign.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:45694323951c7591c849871-60161987%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6fc1e9c8124881d5de817766906311b5c7d4961f' => 
     array (
       0 => 'bulk/templates/pages/campaign.tpl',
-      1 => 1371898986,
+      1 => 1371945157,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
+  'version' => 'Smarty-3.1.13',
   'unifunc' => 'content_51c7591c8881d4_80162056',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c7591c8881d4_80162056')) {function content_51c7591c8881d4_80162056($_smarty_tpl) {?><section id="home-wrapper">
 
