@@ -1,30 +1,53 @@
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 02:51:12
+=======
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:51
+         compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:118809535251c76b27dd1ca5-53977217%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
 <?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 01:59:53
+>>>>>>> 21a506e39c8fb38a65aa9e4a366cbfd655cc703f
          compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:207234986051c76a4b97c5b3-01522892%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f434b1eca2b045a3051c0be1bf033ec6469488fc' => 
     array (
       0 => 'bulk/templates/pages/partials/detail80s.tpl',
-      1 => 1372031991,
+      1 => 1372033325,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
+  'nocache_hash' => '118809535251c76b27dd1ca5-53977217',
+  'function' => 
+  array (
+  ),
+=======
   'nocache_hash' => '207234986051c76a4b97c5b3-01522892',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.8',
+  'version' => 'Smarty-3.1.13',
   'unifunc' => 'content_51c76a4bac20a4_93466346',
+>>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
   'variables' => 
   array (
     'burger' => 0,
     'ingredient' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.11',
+  'unifunc' => 'content_51c76b27eb7384_75941353',
 ),false); /*/%%SmartyHeaderCode%%*/?>
+<<<<<<< HEAD
+<?php if ($_valid && !is_callable('content_51c76b27eb7384_75941353')) {function content_51c76b27eb7384_75941353($_smarty_tpl) {?><!-- Header van de 80s -->
+=======
 <?php if ($_valid && !is_callable('content_51c76a4bac20a4_93466346')) {function content_51c76a4bac20a4_93466346($_smarty_tpl) {?><!-- Header van de 80s -->
+>>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
     <section id="banner-80s">
         <div id="logo">&nbsp;</div>
         <header>

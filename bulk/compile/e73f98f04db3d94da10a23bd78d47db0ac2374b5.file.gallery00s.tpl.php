@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 14:32:59
+=======
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 02:50:18
+>>>>>>> 35928026e87921d78dfda2b52f3e236bcd9a06e9
          compiled from "bulk/templates/pages/partials/gallery00s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:124367864651c76c3485fa16-82555833%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e73f98f04db3d94da10a23bd78d47db0ac2374b5' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery00s.tpl',
+<<<<<<< HEAD
       1 => 1372077173,
+=======
+      1 => 1372033325,
+>>>>>>> 35928026e87921d78dfda2b52f3e236bcd9a06e9
       2 => 'file',
     ),
   ),
@@ -15,7 +23,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+<<<<<<< HEAD
   'version' => 'Smarty-3.1.8',
+=======
+  'version' => 'Smarty-3.1.13',
+>>>>>>> 35928026e87921d78dfda2b52f3e236bcd9a06e9
   'unifunc' => 'content_51c76c349119f1_18228553',
   'variables' => 
   array (
