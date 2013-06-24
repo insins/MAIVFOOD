@@ -39,6 +39,18 @@ $app->post('/user/checkExistance', function(){
     exit();
 });
 
+// EERST ALLE BURGERS OPHALEN SAMEN MET DE NAAM VAN DE CREATOR
+//
+$app->post('/user/getUsersForSearchQuery', function(){
+
+    $query = Slim::getInstance()->request()->post();
+    $dao = new UserDAO();
+    $result = $dao->getAllUsersForSearchQuery($query['zoekQuery'], $query["decade"]);
+
+    echo json_encode($result);
+    exit();
+});
+
 // LIKE CHECKEN
 // ALS HET NIET BESTAAT -> IN DE DB STEKEN
 $app->get('/like/check',function(){

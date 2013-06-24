@@ -360,8 +360,25 @@
 [23-Jun-2013 23:40:13] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 61
 [23-Jun-2013 23:43:26] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
 >>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
+<<<<<<< HEAD
 [24-Jun-2013 08:44:33 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php on line 5
 [24-Jun-2013 08:47:20 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php on line 5
 [24-Jun-2013 08:47:34 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php on line 5
 [24-Jun-2013 09:23:23 UTC] PHP Warning:  require_once(/Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/smarty/libs/Smarty.class.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/index.php on line 25
 [24-Jun-2013 09:23:23 UTC] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/smarty/libs/Smarty.class.php' (include_path='.:/Applications/MAMP/bin/php/php5.4.3/lib/php') in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/index.php on line 25
+=======
+<<<<<<< HEAD
+[24-Jun-2013 14:57:11] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/bulk/compile/ccb6298d2802003163a3ed70fd118ea09320492c.file.gallery.tpl.php on line 8
+=======
+[24-Jun-2013 13:21:48 Europe/Brussels] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/MAIVFOOD/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php on line 8
+<<<<<<< HEAD
+[24-Jun-2013 15:09:23 Europe/Brussels] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/MAIVFOOD/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php on line 11
+=======
+>>>>>>> 2c3e107c8eaf72e9787681540c05256f40772193
+<<<<<<< HEAD
+[24-Jun-2013 15:52:09] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php on line 5
+=======
+>>>>>>> 85cba943f981f5d3288cd393db83d27a5c72b2eb
+[24-Jun-2013 15:47:58 Europe/Brussels] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/MAIVFOOD/bulk/compile/cbf964ad0f50ecdbba317fc5bb7190412b584b83.file.gallery80s.tpl.php on line 5
+>>>>>>> 65efa85abccf4c043d3e703c3195bb9307031cf2
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096

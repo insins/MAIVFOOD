@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.11, created on 2013-06-24 10:48:50
          compiled from "bulk/templates/index.htm" */ ?>
 <?php /*%%SmartyHeaderCode:143145816551c807f250aa90-64472245%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 16:22:18
+         compiled from "bulk/templates/index.htm" */ ?>
+<?php /*%%SmartyHeaderCode:57581387651c85466620256-70755168%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1f60b181d356074d67921bb7c799bed71d2db354' => 
     array (
       0 => 'bulk/templates/index.htm',
+<<<<<<< HEAD
       1 => 1372063435,
       2 => 'file',
     ),
@@ -15,6 +22,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+=======
+      1 => 1372072885,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '57581387651c85466620256-70755168',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51c854666873f9_92069473',
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
   'variables' => 
   array (
     'menu' => 0,
@@ -24,17 +43,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'content' => 0,
   ),
   'has_nocache_code' => false,
+<<<<<<< HEAD
   'version' => 'Smarty-3.1.11',
   'unifunc' => 'content_51c807f288d576_78236691',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c807f288d576_78236691')) {function content_51c807f288d576_78236691($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
+=======
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51c854666873f9_92069473')) {function content_51c854666873f9_92069473($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
 <html>
 <head>
     <title>BURGER KING's battle of the decades</title>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
     <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"/>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
 <!-- html5 content -->

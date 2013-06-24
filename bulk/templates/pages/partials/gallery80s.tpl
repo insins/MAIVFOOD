@@ -65,7 +65,10 @@
 
         <section id="searchField">
             <form>
-                <div><input type="text" name="search" value="search for a creator"></div>
+                <div><input type="text" name="search" value="search for a creator">
+                <ul id="zoekresultaten">
+
+                </ul></div>
             </form>
         </section>
 

@@ -60,12 +60,15 @@
 
     <section id="allTheBugers00s">
         <header>
-            <h1>View all the fifties burgers</h1>
+            <h1>View all the nillies burgers</h1>
         </header>
 
         <section id="searchField">
             <form>
-                <div><input type="text" name="search" value="search for a creator"></div>
+                <div><input type="text" name="search" value="search for a creator">
+                <ul id="zoekresultaten">
+
+                </ul></div>
             </form>
         </section>
 

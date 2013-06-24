@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="" />
+=======
+    <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/style.scss" afterPath="$PROJECT_DIR$/assets/sass/style.scss" />
+    </list>
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,16 +34,36 @@
       <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="2592" column="0" selection-start="67249" selection-end="67249" vertical-scroll-proportion="0.0">
+=======
+            <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-3.75">
+=======
+      <file leaf-file-name="Facebook.login.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="55" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
@@ -44,7 +72,11 @@
       <file leaf-file-name="AppController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/AppController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+=======
+            <state line="88" column="35" selection-start="2914" selection-end="2996" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
@@ -53,16 +85,46 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="26" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="-16.25">
+=======
+            <state line="24" column="40" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="campaign.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+      <file leaf-file-name="detail50s.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="21" column="11" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+=======
+            <state line="25" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail00s.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+            <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery50s.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="39" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,15 +133,7 @@
       <file leaf-file-name="gallery00s.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
-          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="9" column="71" selection-start="572" selection-end="572" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
@@ -99,15 +153,22 @@
         <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="130" column="74" selection-start="4404" selection-end="4404" vertical-scroll-proportion="0.7475884">
+=======
+            <state line="62" column="36" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/create.tpl">
+      <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+            <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
               <folding />
             </state>
           </provider>
@@ -129,12 +190,22 @@
         <option value="$PROJECT_DIR$/assets/sass/responsive.scss" />
         <option value="$PROJECT_DIR$/DAO/BurgerDAO.php" />
         <option value="$PROJECT_DIR$/controller/DetailController.php" />
+        <option value="$PROJECT_DIR$/bulk/templates/index.htm" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl" />
+        <option value="$PROJECT_DIR$/DAO/UserDAO.php" />
+        <option value="$PROJECT_DIR$/api/restapi.php" />
         <option value="$PROJECT_DIR$/assets/js/Application.js" />
         <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl" />
+=======
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
         <option value="$PROJECT_DIR$/assets/sass/style.scss" />
         <option value="$PROJECT_DIR$/classes/Config.php" />
         <option value="$PROJECT_DIR$/controller/AppController.php" />
@@ -177,6 +248,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,9 +257,207 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAIVFOOD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +588,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22740315" sideWeight="0.9402391" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937238" sideWeight="0.5013928" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -388,6 +662,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/controller/DetailController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="69" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.497006" />
@@ -416,10 +691,45 @@
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="117" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="407" selection-end="407" vertical-scroll-proportion="0.28742516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/create.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="36" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="39" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="11" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
@@ -430,62 +740,116 @@
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+=======
+    <entry file="file://$PROJECT_DIR$/DAO/LikeDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="810" selection-end="810" vertical-scroll-proportion="0.5696595" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/create.tpl">
+    <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2592" column="0" selection-start="67249" selection-end="67249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="71" selection-start="572" selection-end="572" vertical-scroll-proportion="-5.625">
+        <state line="112" column="34" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.51026857">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/restapi.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+        <state line="50" column="25" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.74251497">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2592" column="0" selection-start="67249" selection-end="67249" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/classes/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-3.75">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="35" selection-start="2914" selection-end="2996" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="40" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="53" selection-start="688" selection-end="688" vertical-scroll-proportion="-16.25">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="71" selection-start="572" selection-end="572" vertical-scroll-proportion="-5.625">
+=======
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/api/restapi.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="32" selection-start="1842" selection-end="1842" vertical-scroll-proportion="-12.583333">
+=======
+    <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="55" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="130" column="74" selection-start="4404" selection-end="4404" vertical-scroll-proportion="0.7475884">
+=======
+        <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
+>>>>>>> 8eb6e8bcf59722be9419f185b08cb9d7ed075096
           <folding />
         </state>
       </provider>

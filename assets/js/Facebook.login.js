@@ -48,6 +48,7 @@ function setupAPI(){
 
     $('.actions li:first-child a').click(deployFacebook);
     $('#voteBtns ul li:first-child a').click(deployFacebookShare);
+    $('#actios li:last-child a').click(deployFacebook);
 
     // -------------------------------------------
     // INLOGGEN OP FB + LIKEN
