@@ -197,30 +197,30 @@ div#wrapper section#menu ul li a {
 div#wrapper section#menu ul li :hover {
   color: #f6e993;
   transition-property: color;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   transition-timing-function: linear;
   -webkit-transition-property: color;
-  -webkit-transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
 /* line 152, ../sass/style.scss */
 div#wrapper section#menu ul li:first-child :hover {
   color: #fd7878;
   transition-property: color;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   transition-timing-function: linear;
   -webkit-transition-property: color;
-  -webkit-transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
 /* line 163, ../sass/style.scss */
 div#wrapper section#menu ul li:last-child :hover {
   color: #6ee8ca;
   transition-property: color;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   transition-timing-function: linear;
   -webkit-transition-property: color;
-  -webkit-transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
 
@@ -1648,10 +1648,10 @@ section#content-wrapper section#content div#achtergrond00s section#allTheBugers0
 section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 1914, ../sass/style.scss */
@@ -1740,10 +1740,10 @@ section#content-wrapper section#content div#achtergrond00s section#burgerSamenva
 section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2028, ../sass/style.scss */
@@ -1824,10 +1824,10 @@ section#content-wrapper section#content div#achtergrond00s #bottomInfo section#v
 section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2143, ../sass/style.scss */
@@ -1942,10 +1942,10 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2275, ../sass/style.scss */
@@ -1995,10 +1995,10 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2338, ../sass/style.scss */
@@ -2047,10 +2047,10 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2402, ../sass/style.scss */
@@ -2112,10 +2112,10 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten li a:hover {
   color: #ebce11;
   transition-property: color;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: color;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2470, ../sass/style.scss */
@@ -2167,10 +2167,10 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2536, ../sass/style.scss */
@@ -2223,10 +2223,10 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2612, ../sass/style.scss */
@@ -2317,10 +2317,10 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul a:hover {
   opacity: 0.6;
   transition-property: opacity;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
 }
 /* line 2736, ../sass/style.scss */

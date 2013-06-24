@@ -141,33 +141,33 @@ div#wrapper
       li :hover{
         color: $yellow;
         transition-property:color;
-        transition-duration:1s;
+        transition-duration:0.5s;
         transition-timing-function:linear;
 
         -webkit-transition-property:color;
-        -webkit-transition-duration:1s;
+        -webkit-transition-duration:0.5s;
         -webkit-transition-timing-function:linear;
       }
 
       li:first-child :hover{
         color: $red;
         transition-property:color;
-        transition-duration:1s;
+        transition-duration:0.5s;
         transition-timing-function:linear;
 
         -webkit-transition-property:color;
-        -webkit-transition-duration:1s;
+        -webkit-transition-duration:0.5s;
         -webkit-transition-timing-function:linear;
       }
 
       li:last-child :hover{
         color: $green;
         transition-property:color;
-        transition-duration:1s;
+        transition-duration:0.5s;
         transition-timing-function:linear;
 
         -webkit-transition-property:color;
-        -webkit-transition-duration:1s;
+        -webkit-transition-duration:0.5s;
         -webkit-transition-timing-function:linear;
       }
 
@@ -1902,11 +1902,11 @@ section#content-wrapper{
                 li:hover{
                   opacity: 0.6;
                   transition-property:opacity;
-                  transition-duration:0.5s;
+                  transition-duration:0.2s;
                   transition-timing-function:linear;
 
                   -webkit-transition-property:opacity;
-                  -webkit-transition-duration:0.5s;
+                  -webkit-transition-duration:0.2s;
                   -webkit-transition-timing-function:linear;
                 }
               }
@@ -2011,11 +2011,11 @@ section#content-wrapper{
               a:hover{
                 opacity: 0.6;
                 transition-property:opacity;
-                transition-duration:0.5s;
+                transition-duration:0.2s;
                 transition-timing-function:linear;
 
                 -webkit-transition-property:opacity;
-                -webkit-transition-duration:0.5s;
+                -webkit-transition-duration:0.2s;
                 -webkit-transition-timing-function:linear;
               }
             }
@@ -2121,11 +2121,11 @@ section#content-wrapper{
             li:hover{
               opacity: 0.6;
               transition-property:opacity;
-              transition-duration:0.5s;
+              transition-duration:0.2s;
               transition-timing-function:linear;
 
               -webkit-transition-property:opacity;
-              -webkit-transition-duration:0.5s;
+              -webkit-transition-duration:0.2s;
               -webkit-transition-timing-function:linear;
             }
             }
@@ -2259,11 +2259,11 @@ section#content-wrapper{
                     li:hover{
                       opacity: 0.6;
                       transition-property:opacity;
-                      transition-duration:0.5s;
+                      transition-duration:0.2s;
                       transition-timing-function:linear;
 
                       -webkit-transition-property:opacity;
-                      -webkit-transition-duration:0.5s;
+                      -webkit-transition-duration:0.2s;
                       -webkit-transition-timing-function:linear;
                     }
                   }
@@ -2324,11 +2324,11 @@ section#content-wrapper{
                         li:hover{
                           opacity: 0.6;
                           transition-property:opacity;
-                          transition-duration:0.5s;
+                          transition-duration:0.2s;
                           transition-timing-function:linear;
 
                           -webkit-transition-property:opacity;
-                          -webkit-transition-duration:0.5s;
+                          -webkit-transition-duration:0.2s;
                           -webkit-transition-timing-function:linear;
                         }
                       }
@@ -2386,11 +2386,11 @@ section#content-wrapper{
                       li:hover{
                         opacity: 0.6;
                         transition-property:opacity;
-                        transition-duration:0.5s;
+                        transition-duration:0.2s;
                         transition-timing-function:linear;
 
                         -webkit-transition-property:opacity;
-                        -webkit-transition-duration:0.5s;
+                        -webkit-transition-duration:0.2s;
                         -webkit-transition-timing-function:linear;
                       }
                     }
@@ -2457,11 +2457,11 @@ section#content-wrapper{
                         a:hover{
                           color:#ebce11;
                           transition-property:color;
-                          transition-duration:0.5s;
+                          transition-duration:0.2s;
                           transition-timing-function:linear;
 
                           -webkit-transition-property:color;
-                          -webkit-transition-duration:0.5s;
+                          -webkit-transition-duration:0.2s;
                           -webkit-transition-timing-function:linear;
                         }
 
@@ -2524,11 +2524,11 @@ section#content-wrapper{
                     li:hover{
                       opacity: 0.6;
                       transition-property:opacity;
-                      transition-duration:0.5s;
+                      transition-duration:0.2s;
                       transition-timing-function:linear;
 
                       -webkit-transition-property:opacity;
-                      -webkit-transition-duration:0.5s;
+                      -webkit-transition-duration:0.2s;
                       -webkit-transition-timing-function:linear;
                     }
                   }
@@ -2601,11 +2601,11 @@ section#content-wrapper{
                 li:hover{
                   opacity: 0.6;
                   transition-property:opacity;
-                  transition-duration:0.5s;
+                  transition-duration:0.2s;
                   transition-timing-function:linear;
 
                   -webkit-transition-property:opacity;
-                  -webkit-transition-duration:0.5s;
+                  -webkit-transition-duration:0.2s;
                   -webkit-transition-timing-function:linear;
                 }
 
@@ -2725,11 +2725,11 @@ section#content-wrapper{
                 a:hover{
                   opacity: 0.6;
                   transition-property:opacity;
-                  transition-duration:0.5s;
+                  transition-duration:0.2s;
                   transition-timing-function:linear;
 
                   -webkit-transition-property:opacity;
-                  -webkit-transition-duration:0.5s;
+                  -webkit-transition-duration:0.2s;
                   -webkit-transition-timing-function:linear;
                 }
 
