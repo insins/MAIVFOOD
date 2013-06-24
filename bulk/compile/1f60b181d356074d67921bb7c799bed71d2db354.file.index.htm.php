@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 15:52:43
          compiled from "bulk/templates/index.htm" */ ?>
 <?php /*%%SmartyHeaderCode:119517642651c84f2b4d5aa6-33453187%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 15:48:16
+         compiled from "bulk/templates/index.htm" */ ?>
+<?php /*%%SmartyHeaderCode:143938157351c84e20e5e304-19050873%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 65efa85abccf4c043d3e703c3195bb9307031cf2
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1f60b181d356074d67921bb7c799bed71d2db354' => 
     array (
       0 => 'bulk/templates/index.htm',
+<<<<<<< HEAD
       1 => 1372078597,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '119517642651c84f2b4d5aa6-33453187',
+=======
+      1 => 1372072885,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '143938157351c84e20e5e304-19050873',
+>>>>>>> 65efa85abccf4c043d3e703c3195bb9307031cf2
   'function' => 
   array (
   ),
@@ -24,10 +38,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'content' => 0,
   ),
   'has_nocache_code' => false,
+<<<<<<< HEAD
   'version' => 'Smarty-3.1.8',
   'unifunc' => 'content_51c84f2b53baa6_76900517',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c84f2b53baa6_76900517')) {function content_51c84f2b53baa6_76900517($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
+=======
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51c84e210305f9_98297014',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51c84e210305f9_98297014')) {function content_51c84e210305f9_98297014($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
+>>>>>>> 65efa85abccf4c043d3e703c3195bb9307031cf2
 <html>
 <head>
     <title>BURGER KING's battle of the decades</title>

@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 15:59:27
          compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:57313112251c850bf5de680-58498161%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 15:48:16
+         compiled from "bulk/templates/pages/partials/gallery80s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:107762632651c84e20d60684-26656286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 65efa85abccf4c043d3e703c3195bb9307031cf2
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cbf964ad0f50ecdbba317fc5bb7190412b584b83' => 
     array (
       0 => 'bulk/templates/pages/partials/gallery80s.tpl',
-      1 => 1372078596,
+      1 => 1372078735,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '57313112251c850bf5de680-58498161',
+=======
+  'nocache_hash' => '107762632651c84e20d60684-26656286',
+>>>>>>> 65efa85abccf4c043d3e703c3195bb9307031cf2
   'function' => 
   array (
   ),
@@ -24,10 +34,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
+<<<<<<< HEAD
   'version' => 'Smarty-3.1.8',
   'unifunc' => 'content_51c850bf63c766_91399914',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51c850bf63c766_91399914')) {function content_51c850bf63c766_91399914($_smarty_tpl) {?><section id="banner-80s">
+=======
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51c84e20e47ce1_32540155',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51c84e20e47ce1_32540155')) {function content_51c84e20e47ce1_32540155($_smarty_tpl) {?><section id="banner-80s">
+>>>>>>> 65efa85abccf4c043d3e703c3195bb9307031cf2
     <header>
         <h1>THE PRESENT</h1>
     </header>

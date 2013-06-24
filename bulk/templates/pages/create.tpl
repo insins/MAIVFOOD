@@ -46,20 +46,21 @@
     <section id="video-content">
             <header>
                 <h1>Check out our promovideo</h1>
-                <h2>It's awesome</h2>
+                <h2>It's super awesome</h2>
             </header>
 
          <div id="video-wrapper">
 
 
-            <video width="944" height="566" controls>
+            <video id="video-player" width="944" height="566" controls>
               <source src="assets/video/movie.mp4" type="video/mp4">
               <source src="assets/video/movie.ogg" type="video/ogg">
                 <source src="assets/video/movie.webm" type="video/webm">
                 Your browser does not support the video tag.
             </video>
 
-             <div id="video-bg">&nbsp;</div>
+             <div id="surfplank">&nbsp;</div>
+             <div id="ijsje">&nbsp;</div>
 
          </div>
     </section>
