@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/cbf964ad0f50ecdbba317fc5bb7190412b584b83.file.gallery80s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/ccb6298d2802003163a3ed70fd118ea09320492c.file.gallery.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e308f22c598710e988181cd423d1886f7d3f4734.file.detail00s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/f434b1eca2b045a3051c0be1bf033ec6469488fc.file.detail80s.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/style.scss" afterPath="$PROJECT_DIR$/assets/sass/style.scss" />
     </list>
     <ignored path="MAIVFOOD.iws" />
@@ -34,7 +27,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2783" column="0" selection-start="72669" selection-end="72669" vertical-scroll-proportion="0.85650223">
+            <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
               <folding />
             </state>
           </provider>
@@ -606,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2783" column="0" selection-start="72669" selection-end="72669" vertical-scroll-proportion="0.85650223">
+        <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
           <folding />
         </state>
       </provider>
