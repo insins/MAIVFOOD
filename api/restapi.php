@@ -49,7 +49,7 @@ $app->post('/user/getUsersForSearchQuery', function(){
 
     $query = Slim::getInstance()->request()->post();
     $dao = new UserDAO();
-    $result = $dao->getAllUsersForSearchQuery($query['zoekQuery']);
+    $result = $dao->getAllUsersForSearchQuery($query['zoekQuery'], $query["decade"]);
 
     echo json_encode($result);
     exit();
