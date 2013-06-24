@@ -422,7 +422,6 @@ div#wrapper{
       // ---------------------------
       section#video-content{
         padding-top: 75px;
-        padding-bottom: 75px;
         background-color: #00c0a7;
 
           // TEKST IF YOU DIDN'T GET IT
@@ -453,29 +452,19 @@ div#wrapper{
 
           // VIDEO
         div#video-wrapper{
-          width: 944px;
-          height: 566px;
+          width: 960px;
           margin: 0 auto;
-          position: relative;
 
-           div#surfplank{
-             background: url("../images/create-surfplank.png") no-repeat;
-             width: 226px;
-             height: 386px;
-              position: absolute;
-              bottom: -15%;
-              left: -15%;
-              z-index: 10;
+          div#video-bg{
+            background: url("../images/create-video-bg.png") no-repeat;
+            width: 1004px;
+            height: 386px;
+            margin: -320px 0 0 -15px;
+            z-index: 10;
            }
 
-           div#ijsje{
-            background: url("../images/create-ijsje.png") no-repeat;
-            position: absolute;
-            width: 80px;
-            height: 159px;
-            bottom: -5%;
-            right: -5%;
-            z-index: 10;
+           video{
+            z-index: 9;
            }
 
         }
@@ -1171,7 +1160,7 @@ section#content-wrapper{
                 height: 97px;
                 width: 97px;
                 font-family: american_purpose_casual_01Rg, serif;
-                padding: 30px 0 0 23px;
+                padding: 30px 20px 0 40px;
                 color: #FFF;
                 font-size: 43px;
 
@@ -1245,7 +1234,7 @@ section#content-wrapper{
                     height: 97px;
                     width: 97px;
                     font-family: american_purpose_casual_01Rg, serif;
-                    padding: 30px 0 0 23px;
+                    padding: 30px 20px 0 40px;
                     color: #FFF;
                     font-size: 43px;
 
@@ -1310,7 +1299,7 @@ section#content-wrapper{
                   height: 97px;
                   width: 97px;
                   font-family: american_purpose_casual_01Rg, serif;
-                  padding: 30px 0 0 23px;
+                  padding: 30px 20px 0 40px;
                   color: #FFF;
                   font-size: 43px;
 
@@ -1512,7 +1501,7 @@ section#content-wrapper{
                 background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
                 width: 53px;
                 height: 53px;
-                padding: 18px 0 0 18px;
+                padding: 18px 0 0 23px;
                 color: #df4452;
                 font-size: 20px;
                 font-family: american_purpose_casual_01Rg, serif;
@@ -1579,7 +1568,7 @@ section#content-wrapper{
                 height: 97px;
                 width: 97px;
                 font-family: brandon_grotesque_regularRg, sans-serif;
-                padding: 30px 0 0 23px;
+                padding: 30px 20px 0 40px;
                 color: #FFF;
                 font-size: 43px;
 
@@ -1645,7 +1634,7 @@ section#content-wrapper{
                     width: 97px;
                     color: #FFF;
                     font-family: brandon_grotesque_regularRg, sans-serif;
-                    padding: 30px 0 0 23px;
+                    padding: 30px 20px 0 40px;
                     font-size: 43px;
 
                     // Positioneren
@@ -1707,7 +1696,7 @@ section#content-wrapper{
                   height: 97px;
                   width: 97px;
                   font-family: brandon_grotesque_regularRg, sans-serif;
-                  padding: 30px 0 0 23px;
+                  padding: 30px 20px 0 40px;
                   color: #FFF;
                   font-size: 43px;
 
@@ -1918,7 +1907,7 @@ section#content-wrapper{
                 background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
                 width: 53px;
                 height: 53px;
-                padding: 18px 0 0 18px;
+                padding: 18px 0 0 22px;
                 color: #df4452;
                 font-size: 20px;
                 font-family: american_purpose_casual_01Rg, serif;
@@ -1991,7 +1980,7 @@ section#content-wrapper{
                 background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
                 height: 76px;
                 width: 76px;
-                padding: 24px 20px;
+                padding: 22px 33px;
                 font-family: brandon_grotesque_regularRg, sans-serif;
                 color: #fffcf1;
               }
@@ -2144,6 +2133,7 @@ section#content-wrapper{
           background: url("../images/50s-banner-bg.png") no-repeat;
           background-size: cover;
           height: 337px;
+          width: 100%;
 
           div#logo{
             background: url("../images/50s-logo.png") no-repeat bottom center;
@@ -2222,7 +2212,7 @@ section#content-wrapper{
                     background: url("../images/50s-vote-count-best.png") no-repeat;
                     height: 97px;
                     width: 97px;
-                    padding: 34px 0 0 26px;
+                    padding: 34px 0 0 35px;
                     color: #FFF;
                     font-family: american_purpose_casual_01Rg, serif;
                     font-size: 43px;
@@ -2284,7 +2274,7 @@ section#content-wrapper{
                         background: url("../images/50s-vote-count-second.png") no-repeat;
                         height: 97px;
                         width: 97px;
-                        padding: 34px 0 0 26px;
+                        padding: 34px 0 0 35px;
                         color: #FFF;
                         font-family: american_purpose_casual_01Rg, serif;
                         font-size: 43px;
@@ -2346,7 +2336,7 @@ section#content-wrapper{
                       background: url("../images/50s-vote-count-third.png") no-repeat;
                       height: 97px;
                       width: 97px;
-                      padding: 34px 0 0 26px;
+                      padding: 34px 0 0 35px;
                       color: #FFF;
                       font-family: american_purpose_casual_01Rg, serif;
                       font-size: 43px;
@@ -2540,7 +2530,7 @@ section#content-wrapper{
                     background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
                     width: 53px;
                     height: 53px;
-                    padding: 18px 0 0 18px;
+                    padding: 18px 0 0 23px;
                     color: #df4452;
                     font-size: 20px;
                     font-family: american_purpose_casual_01Rg, serif;
@@ -2598,6 +2588,7 @@ section#content-wrapper{
 
               ul#actios{
 
+<<<<<<< HEAD
                 li:hover{
                   opacity: 0.6;
                   transition-property:opacity;
@@ -2609,6 +2600,8 @@ section#content-wrapper{
                   -webkit-transition-timing-function:linear;
                 }
 
+=======
+>>>>>>> 99a6035863c1a10d25905d62e325dee19ddc9d79
                 li{
                   font-family: bebasneue, sans-serif;
                   font-size: 30px;
@@ -2619,13 +2612,14 @@ section#content-wrapper{
 
                   span{
                     color: #78d1b2;
+                    padding: 20px;
                   }
 
                   span#votes{
                     background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
                     height: 76px;
                     width: 76px;
-                    padding: 25px 25px 25px 25px;
+                    padding: 25px 33px 25px 30px;
                     font-family: american_purpose_casual_01Rg, serif;
                     color: #fffcf1;
                   }
@@ -2636,10 +2630,22 @@ section#content-wrapper{
                     background-color: #7bd3b4;
                     text-align: center;
                     padding: 10px 10px;
+                    opacity:1;
 
                     img{
                       margin-right: 10px;
                     }
+                  }
+
+                  a:hover{
+                    opacity: 0.6;
+                    transition-property:opacity;
+                    transition-duration:0.5s;
+                    transition-timing-function:linear;
+
+                    -webkit-transition-property:opacity;
+                    -webkit-transition-duration:0.5s;
+                    -webkit-transition-timing-function:linear;
                   }
                 }
               }

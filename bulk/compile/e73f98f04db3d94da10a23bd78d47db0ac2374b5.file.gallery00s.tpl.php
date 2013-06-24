@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 15:49:01
-         compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:169429916051c84e4d048718-92521503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.8, created on 2013-06-24 16:15:02
+         compiled from "bulk/templates/pages/partials/gallery00s.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:167270831551c854665b50d6-61095338%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '99f66c1ab9afe323b6f19d199a2812f43bf0a611' => 
+    'e73f98f04db3d94da10a23bd78d47db0ac2374b5' => 
     array (
-      0 => 'bulk/templates/pages/partials/gallery50s.tpl',
-      1 => 1372078735,
+      0 => 'bulk/templates/pages/partials/gallery00s.tpl',
+      1 => 1372078596,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '169429916051c84e4d048718-92521503',
+  'nocache_hash' => '167270831551c854665b50d6-61095338',
   'function' => 
   array (
   ),
@@ -24,24 +24,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51c84e4d19c5b6_25195862',
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_51c85466616771_22000580',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c84e4d19c5b6_25195862')) {function content_51c84e4d19c5b6_25195862($_smarty_tpl) {?><!-- Header van de 50s -->
-    <section id="banner-50s">
-        <div id="logo">&nbsp;</div>
-        <header>
-            <h1>50<span>s</span></h1>
-            <h2>Rock a burger</h2>
-        </header>
-    </section>
+<?php if ($_valid && !is_callable('content_51c85466616771_22000580')) {function content_51c85466616771_22000580($_smarty_tpl) {?><section id="banner-00s">
+    <header>
+        <h1>THE PRESENT</h1>
+        <h2>With <span id="rood">contemporary</span> ingredients we&#8217;ll define the <span>future</span>.</h2>
+    </header>
+</section>
 
 <!-- Alle hamburgers -->
-<div id="achtergrond50s">
+<div id="achtergrond00s">
 
     <section id="top3">
         <header>
-            <h1>these burgers are rocking our world</h1>
+            <h1>these burgers have it!</h1>
         </header>
 
         <div id="burgers">
@@ -104,10 +102,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     </section>
 
-    <!-- All the burgers -->
-    <section id="allTheBugers50s">
+    <section id="allTheBugers00s">
         <header>
-            <h1>View all the fifties burgers</h1>
+            <h1>View all the nillies burgers</h1>
         </header>
 
         <section id="searchField">
