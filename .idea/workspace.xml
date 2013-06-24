@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6e0fd51da328da0c8115217f2a9aa142f50496ca.file.detail50s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/cbf964ad0f50ecdbba317fc5bb7190412b584b83.file.gallery80s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/ccb6298d2802003163a3ed70fd118ea09320492c.file.gallery.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e308f22c598710e988181cd423d1886f7d3f4734.file.detail00s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e73f98f04db3d94da10a23bd78d47db0ac2374b5.file.gallery00s.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/f434b1eca2b045a3051c0be1bf033ec6469488fc.file.detail80s.tpl.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_css3.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_css3.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_support.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_support.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/5a9213a7499eac53953b1dc09cb7cfa58d51c527/_hacks.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/5a9213a7499eac53953b1dc09cb7cfa58d51c527/_hacks.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_appearance.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_appearance.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-clip.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-clip.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-origin.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-origin.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_border-radius.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_border-radius.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-shadow.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-shadow.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_columns.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_columns.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_filter.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_filter.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_font-face.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_font-face.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_hyphenation.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_hyphenation.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_images.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_images.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_inline-block.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_inline-block.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_opacity.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_opacity.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_regions.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_regions.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_shared.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_shared.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_text-shadow.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_text-shadow.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transform.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transform.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transition.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transition.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/928717f716b7357483cd89c938a244e1fd7e2fc7/_utilities.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/928717f716b7357483cd89c938a244e1fd7e2fc7/_utilities.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/style.scss" afterPath="$PROJECT_DIR$/assets/sass/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Facebook.login.js" afterPath="$PROJECT_DIR$/assets/js/Facebook.login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_reset.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_reset.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-size.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-size.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-sizing.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-sizing.scssc" />
     </list>
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +62,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
+            <state line="2793" column="0" selection-start="73095" selection-end="73095" vertical-scroll-proportion="0.93273544">
               <folding />
             </state>
           </provider>
@@ -36,7 +71,7 @@
       <file leaf-file-name="Facebook.login.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="55" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+            <state line="117" column="86" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +143,7 @@
       <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
+            <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="-11.130435">
               <folding />
             </state>
           </provider>
@@ -138,10 +173,10 @@
         <option value="$PROJECT_DIR$/DAO/UserDAO.php" />
         <option value="$PROJECT_DIR$/api/restapi.php" />
         <option value="$PROJECT_DIR$/assets/js/Application.js" />
-        <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
+        <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
         <option value="$PROJECT_DIR$/assets/sass/style.scss" />
       </list>
     </option>
@@ -270,54 +305,6 @@
               <option name="myItemId" value="bulk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAIVFOOD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAIVFOOD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAIVFOOD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAIVFOOD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bulk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -416,6 +403,24 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="" />
@@ -432,7 +437,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.48885792" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937238" sideWeight="0.5013928" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -515,27 +520,6 @@
         <state line="21" column="11" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="36" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="39" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DAO/LikeDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="28" selection-start="810" selection-end="810" vertical-scroll-proportion="0.5696595" />
@@ -543,21 +527,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DAO/UserDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="34" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.51026857">
-          <folding />
-        </state>
+        <state line="112" column="34" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.51026857" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/restapi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="25" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.74251497">
-          <folding />
-        </state>
+        <state line="50" column="25" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.74251497" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+        <state line="117" column="86" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -590,16 +570,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="55" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+        <state line="77" column="39" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="36" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="1247" selection-end="1247" vertical-scroll-proportion="-11.130435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="23" selection-start="5678" selection-end="5689" vertical-scroll-proportion="0.33281493">
+        <state line="2793" column="0" selection-start="73095" selection-end="73095" vertical-scroll-proportion="0.93273544">
           <folding />
         </state>
       </provider>

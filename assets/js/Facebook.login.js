@@ -115,7 +115,7 @@ function fetchUserDetails(target){
 // PUBLISH THE MESSAGE ON FACEBOOK
 function fb_publish(burgerID) {
 
-    var url = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/index.php?page=detail&decade=50&burgerId=" + burgerID;
+    var url = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/index.php?page=detail&burgerId=" + burgerID;
 
      FB.ui(
        {
