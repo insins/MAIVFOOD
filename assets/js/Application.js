@@ -8,17 +8,18 @@ $(function(){
 
 function zoeken(e){
 
-    console.log("Ik probeer te zoeken");
     $("input").val('');
-    toonZoekResultaten();
     $("input").keydown(toonZoekResultaten);
 
 }
 
 function toonZoekResultaten(e){
-    console.log("ik toon zoekresultaten");
     var api = new Api("zoekApi");
     var zoekQuery = $("input").val() + "%";
+
+    var url = document.URL;
+    url = url.split('=');
+    var decade = url.reverse()[0];
 
     var baseUrl = "http://localhost/20122013/SEMESTER2/MAIV/MAIVFOOD/api/user/getUsersForSearchQuery";
     $.ajax({
@@ -26,10 +27,9 @@ function toonZoekResultaten(e){
         url : baseUrl,
         type : 'post',
         dataType : 'json',
-        data: {zoekQuery: zoekQuery},
+        data: {zoekQuery: zoekQuery, decade:decade},
         success : function(data){
 
-            console.log("DATA " + JSON.stringify(data));
             $('#zoekresultaten').empty();
 
             $.each(data, function(index,value){
