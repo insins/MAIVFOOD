@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 13:23:03
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-24 15:09:43
          compiled from "bulk/templates/index.htm" */ ?>
-<?php /*%%SmartyHeaderCode:128096805751c82c1707dcf8-72244745%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:180232536951c84517575322-67804265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '128096805751c82c1707dcf8-72244745',
+  'nocache_hash' => '180232536951c84517575322-67804265',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51c82c1716e806_45873651',
+  'unifunc' => 'content_51c845176525b3_94596157',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c82c1716e806_45873651')) {function content_51c82c1716e806_45873651($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
+<?php if ($_valid && !is_callable('content_51c845176525b3_94596157')) {function content_51c845176525b3_94596157($_smarty_tpl) {?><!DOCTYPE HTML PUBLIC>
 <html>
 <head>
     <title>BURGER KING's battle of the decades</title>

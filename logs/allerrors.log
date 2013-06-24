@@ -361,3 +361,4 @@
 [23-Jun-2013 23:43:26] PHP Notice:  Undefined index: vegetable_name in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/controller/DetailController.php on line 60
 >>>>>>> d4cae78be3301ad9ca33b6e68e530c9152437409
 [24-Jun-2013 13:21:48 Europe/Brussels] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/MAIVFOOD/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php on line 8
+[24-Jun-2013 15:09:23 Europe/Brussels] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/MAIVFOOD/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php on line 11
