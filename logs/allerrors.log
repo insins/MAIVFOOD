@@ -336,3 +336,4 @@
 [23-Jun-2013 18:25:46 UTC] PHP Parse error:  syntax error, unexpected ',', expecting '&' or variable (T_VARIABLE) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/DAO/UserDAO.php on line 76
 [23-Jun-2013 18:41:07 UTC] PHP Notice:  Undefined index: decade_decade in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/controller/DetailController.php on line 106
 [23-Jun-2013 18:41:09 UTC] PHP Notice:  Undefined index: decade_decade in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/controller/DetailController.php on line 106
+[23-Jun-2013 21:38:52 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/devine/20122013/MAIV/MAIVFOOD/bulk/compile/6fc1e9c8124881d5de817766906311b5c7d4961f.file.campaign.tpl.php on line 5

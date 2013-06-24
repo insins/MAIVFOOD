@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 20:37:56
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:51
          compiled from "bulk/templates/pages/partials/detail80s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:154042127551c7151cc58416-03666989%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:118809535251c76b27dd1ca5-53977217%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,20 +11,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '154042127551c7151cc58416-03666989',
+  'nocache_hash' => '118809535251c76b27dd1ca5-53977217',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c7151cccb365_06567731',
   'variables' => 
   array (
     'burger' => 0,
     'ingredient' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.11',
+  'unifunc' => 'content_51c76b27eb7384_75941353',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c7151cccb365_06567731')) {function content_51c7151cccb365_06567731($_smarty_tpl) {?><!-- Header van de 80s -->
+<?php if ($_valid && !is_callable('content_51c76b27eb7384_75941353')) {function content_51c76b27eb7384_75941353($_smarty_tpl) {?><!-- Header van de 80s -->
     <section id="banner-80s">
         <div id="logo">&nbsp;</div>
         <header>

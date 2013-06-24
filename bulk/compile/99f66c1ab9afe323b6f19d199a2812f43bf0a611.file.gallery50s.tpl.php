@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 20:17:24
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-23 23:39:18
          compiled from "bulk/templates/pages/partials/gallery50s.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:140369914851c7143b894898-55681824%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:198949987051c76b06ed7135-63941023%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '140369914851c7143b894898-55681824',
+  'nocache_hash' => '198949987051c76b06ed7135-63941023',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_51c7143b8e0243_34931584',
   'variables' => 
   array (
     'besteBurger' => 0,
@@ -26,8 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'burger' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.11',
+  'unifunc' => 'content_51c76b071c1812_49255389',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51c7143b8e0243_34931584')) {function content_51c7143b8e0243_34931584($_smarty_tpl) {?><!-- Header van de 50s -->
+<?php if ($_valid && !is_callable('content_51c76b071c1812_49255389')) {function content_51c76b071c1812_49255389($_smarty_tpl) {?><!-- Header van de 50s -->
     <section id="banner-50s">
         <div id="logo">&nbsp;</div>
         <header>
