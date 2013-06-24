@@ -63,8 +63,17 @@ $app->get('/like/check',function(){
         echo "gelukt";
         exit();
     }
+});
 
 
+/* ------------------------ */
+/* functies om van ios naar db te gaan */
+/* ------------------------ */
+
+$app->post('/user/insertburger/', function(){
+
+	$request = Slim::getInstance()->request();
+	echo "HELLO WORLD TO IOS";
 
 });
 
