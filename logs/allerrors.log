@@ -365,3 +365,4 @@
 =======
 [24-Jun-2013 13:21:48 Europe/Brussels] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /Applications/MAMP/htdocs/MAIVFOOD/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php on line 8
 >>>>>>> 2c3e107c8eaf72e9787681540c05256f40772193
+[24-Jun-2013 15:52:09] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL in /Applications/MAMP/htdocs/20122013/SEMESTER2/MAIV/MAIVFOOD/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php on line 5

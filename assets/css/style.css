@@ -10,7 +10,7 @@
 /* -------------------- */
 /* ALGEMENE STYLESHEET */
 /* -------------------- */
-/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,45 +32,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -1824,8 +1824,9 @@ section#content-wrapper section#content section#banner-50s {
   background: url("../images/50s-banner-bg.png") no-repeat;
   background-size: cover;
   height: 337px;
+  width: 100%;
 }
-/* line 2137, ../sass/style.scss */
+/* line 2138, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s div#logo {
   background: url("../images/50s-logo.png") no-repeat bottom center;
   width: 87px;
@@ -1833,22 +1834,22 @@ section#content-wrapper section#content section#banner-50s div#logo {
   margin: 0 0 0 215px;
   padding-top: 10px;
 }
-/* line 2145, ../sass/style.scss */
+/* line 2146, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header {
   color: #fffcf1;
   text-shadow: 2px 2px #434343;
 }
-/* line 2150, ../sass/style.scss */
+/* line 2151, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header h1 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 150px;
   margin: 10px 0 0 150px;
 }
-/* line 2155, ../sass/style.scss */
+/* line 2156, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header h1 span {
   font-size: 50px;
 }
-/* line 2161, ../sass/style.scss */
+/* line 2162, ../sass/style.scss */
 section#content-wrapper section#content section#banner-50s header h2 {
   font-family: southern_aire_personal_use_Rg, serif;
   font-size: 65px;
@@ -1856,21 +1857,21 @@ section#content-wrapper section#content section#banner-50s header h2 {
   top: -130px;
   left: 300px;
 }
-/* line 2172, ../sass/style.scss */
+/* line 2173, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s {
   background-color: #df4452;
   /* -------------------- */
   /* DETAIL PAGE */
   /* -------------------- */
 }
-/* line 2176, ../sass/style.scss */
+/* line 2177, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 {
   width: 960px;
   margin: 0 auto 0 auto;
   color: #de606b;
   background-color: #fbf9f4;
 }
-/* line 2185, ../sass/style.scss */
+/* line 2186, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 header h1 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 46px;
@@ -1879,19 +1880,19 @@ section#content-wrapper section#content div#achtergrond50s section#top3 header h
   background: url("../images/50s-title-line.png") no-repeat;
   background-position: 40px 83px;
 }
-/* line 2197, ../sass/style.scss */
+/* line 2198, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers {
   width: 820px;
   margin: 25px auto 0 auto;
 }
-/* line 2203, ../sass/style.scss */
+/* line 2204, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 2209, ../sass/style.scss */
+/* line 2210, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger div#voteCountFirst {
   background: url("../images/50s-vote-count-best.png") no-repeat;
   height: 97px;
@@ -1904,14 +1905,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 2225, ../sass/style.scss */
+/* line 2226, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger p {
   color: #58bfa6;
   font-size: 30px;
   font-family: bebasneue, sans-serif;
   margin-bottom: 10px;
 }
-/* line 2233, ../sass/style.scss */
+/* line 2234, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li {
   margin-bottom: 10px;
   width: 187px;
@@ -1920,14 +1921,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   padding: 5px 10px;
   opacity: 1;
 }
-/* line 2241, ../sass/style.scss */
+/* line 2242, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li a {
   text-decoration: none;
   color: #FFF;
   font-family: bebasneue, sans-serif;
   font-size: 20px;
 }
-/* line 2248, ../sass/style.scss */
+/* line 2249, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
@@ -1937,14 +1938,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2264, ../sass/style.scss */
+/* line 2265, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger {
   position: relative;
   float: left;
   width: 230px;
   margin-right: 60px;
 }
-/* line 2271, ../sass/style.scss */
+/* line 2272, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger div#voteCountSecond {
   background: url("../images/50s-vote-count-second.png") no-repeat;
   height: 97px;
@@ -1957,14 +1958,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 2287, ../sass/style.scss */
+/* line 2288, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger p {
   color: #fd7878;
   font-size: 30px;
   font-family: bebasneue, sans-serif;
   margin-bottom: 10px;
 }
-/* line 2295, ../sass/style.scss */
+/* line 2296, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li {
   margin-bottom: 10px;
   width: 187px;
@@ -1973,14 +1974,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   padding: 5px 10px;
   opacity: 1;
 }
-/* line 2304, ../sass/style.scss */
+/* line 2305, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li a {
   text-decoration: none;
   color: #FFF;
   font-family: bebasneue, sans-serif;
   font-size: 20px;
 }
-/* line 2313, ../sass/style.scss */
+/* line 2314, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
@@ -1990,13 +1991,13 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2327, ../sass/style.scss */
+/* line 2328, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger {
   position: relative;
   float: left;
   width: 230px;
 }
-/* line 2333, ../sass/style.scss */
+/* line 2334, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger div#voteCountThird {
   background: url("../images/50s-vote-count-third.png") no-repeat;
   height: 97px;
@@ -2009,14 +2010,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   left: 60px;
   top: 50px;
 }
-/* line 2349, ../sass/style.scss */
+/* line 2350, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger p {
   color: #ebce11;
   font-size: 30px;
   font-family: bebasneue, sans-serif;
   margin-bottom: 10px;
 }
-/* line 2357, ../sass/style.scss */
+/* line 2358, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li {
   margin-bottom: 10px;
   width: 187px;
@@ -2025,14 +2026,14 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   padding: 5px 10px;
   opacity: 1;
 }
-/* line 2367, ../sass/style.scss */
+/* line 2368, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li a {
   text-decoration: none;
   color: #FFF;
   font-family: bebasneue, sans-serif;
   font-size: 20px;
 }
-/* line 2375, ../sass/style.scss */
+/* line 2376, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
@@ -2042,16 +2043,16 @@ section#content-wrapper section#content div#achtergrond50s section#top3 div#burg
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2391, ../sass/style.scss */
+/* line 2392, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s {
   width: 960px;
   margin: 30 auto 0 auto;
 }
-/* line 2395, ../sass/style.scss */
+/* line 2396, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header {
   float: left;
 }
-/* line 2399, ../sass/style.scss */
+/* line 2400, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header h1 {
   color: #FFF;
   font-family: american_purpose_casual_01Rg, serif;
@@ -2060,23 +2061,23 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   padding-bottom: 8px;
   width: 550px;
 }
-/* line 2409, ../sass/style.scss */
+/* line 2410, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField {
   float: left;
   width: 260px;
 }
-/* line 2414, ../sass/style.scss */
+/* line 2415, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div {
   position: relative;
 }
-/* line 2418, ../sass/style.scss */
+/* line 2419, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten {
   margin: -3px 0 0 85px;
   display: overflow;
   position: absolute;
   z-index: 200;
 }
-/* line 2424, ../sass/style.scss */
+/* line 2425, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten li {
   padding: 10px 5px;
   background-color: #FFF;
@@ -2085,7 +2086,7 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   font-family: bebasneue, sans-serif;
   width: 250px;
 }
-/* line 2432, ../sass/style.scss */
+/* line 2433, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten li a {
   font-size: 20px;
   color: #58bfa6;
@@ -2097,7 +2098,7 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   -webkit-transition-duration: 0.3s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2446, ../sass/style.scss */
+/* line 2447, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten li a:hover {
   color: #ebce11;
   transition-property: color;
@@ -2107,7 +2108,7 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2459, ../sass/style.scss */
+/* line 2460, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div input {
   border: none;
   width: 260px;
@@ -2120,12 +2121,12 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   background-repeat: no-repeat;
   background-position: 220px;
 }
-/* line 2479, ../sass/style.scss */
+/* line 2480, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow {
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 2483, ../sass/style.scss */
+/* line 2484, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary {
   color: #f6e993;
   position: relative;
@@ -2134,11 +2135,11 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   font-family: bebasneue, sans-serif;
   font-size: 30px;
 }
-/* line 2493, ../sass/style.scss */
+/* line 2494, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary p {
   margin-top: 10px;
 }
-/* line 2499, ../sass/style.scss */
+/* line 2500, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li {
   background-color: #f6e993;
   text-align: center;
@@ -2146,13 +2147,13 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   padding: 3px 0 7px 0;
   opacity: 1;
 }
-/* line 2507, ../sass/style.scss */
+/* line 2508, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li a {
   color: #df4452;
   text-decoration: none;
   font-size: 21px;
 }
-/* line 2513, ../sass/style.scss */
+/* line 2514, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li:hover {
   opacity: 0.6;
   transition-property: opacity;
@@ -2162,7 +2163,7 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2525, ../sass/style.scss */
+/* line 2526, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary div.voteCount {
   position: absolute;
   top: -15px;
@@ -2175,19 +2176,19 @@ section#content-wrapper section#content div#achtergrond50s section#allTheBugers5
   font-size: 20px;
   font-family: american_purpose_casual_01Rg, serif;
 }
-/* line 2540, ../sass/style.scss */
+/* line 2541, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow div.line {
   background-color: #fbf9f3;
   height: 1px;
   margin-bottom: 20px;
 }
-/* line 2554, ../sass/style.scss */
+/* line 2555, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting {
   background-color: #fbf9f4;
   width: 960px;
   margin: 0 auto 0 auto;
 }
-/* line 2561, ../sass/style.scss */
+/* line 2562, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting header h1 {
   font-family: american_purpose_casual_01Rg, serif;
   font-size: 46px;
@@ -2196,19 +2197,19 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   padding: 30px 0 5px 0;
   margin: 0 0 0 50px;
 }
-/* line 2575, ../sass/style.scss */
+/* line 2576, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting div#hamburgerImage {
   float: left;
   width: 273px;
   margin: 25px 0 0 86px;
 }
-/* line 2583, ../sass/style.scss */
+/* line 2584, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things {
   float: left;
   width: 400px;
   margin: 25px 0 0 86px;
 }
-/* line 2590, ../sass/style.scss */
+/* line 2591, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li:hover {
   opacity: 0.6;
   transition-property: opacity;
@@ -2218,7 +2219,7 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2601, ../sass/style.scss */
+/* line 2602, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li {
   font-family: bebasneue, sans-serif;
   font-size: 30px;
@@ -2227,11 +2228,11 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   margin-bottom: 45px;
   opacity: 1;
 }
-/* line 2609, ../sass/style.scss */
+/* line 2610, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span {
   color: #78d1b2;
 }
-/* line 2613, ../sass/style.scss */
+/* line 2614, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li span#votes {
   background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
   height: 76px;
@@ -2240,7 +2241,7 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   font-family: american_purpose_casual_01Rg, serif;
   color: #fffcf1;
 }
-/* line 2622, ../sass/style.scss */
+/* line 2623, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a {
   text-decoration: none;
   color: #fffcf1;
@@ -2248,23 +2249,23 @@ section#content-wrapper section#content div#achtergrond50s section#burgerSamenva
   text-align: center;
   padding: 10px 10px;
 }
-/* line 2629, ../sass/style.scss */
+/* line 2630, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actios li a img {
   margin-right: 10px;
 }
-/* line 2640, ../sass/style.scss */
+/* line 2641, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo {
   width: 960px;
   margin: 40px auto 0 auto;
 }
-/* line 2647, ../sass/style.scss */
+/* line 2648, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten {
   float: left;
   width: 300px;
   font-size: 20px;
   font-family: bebasneue, sans-serif;
 }
-/* line 2655, ../sass/style.scss */
+/* line 2656, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten header h1 {
   color: #fffcf1;
   font-size: 40px;
@@ -2272,28 +2273,28 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredie
   background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
   padding-bottom: 10px;
 }
-/* line 2668, ../sass/style.scss */
+/* line 2669, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten p {
   float: left;
   color: #fffcf1;
   margin: 25px 40px 0 0;
 }
-/* line 2674, ../sass/style.scss */
+/* line 2675, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul {
   float: left;
   margin: 25px 0 0 0;
 }
-/* line 2679, ../sass/style.scss */
+/* line 2680, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul li {
   color: #e4cf41;
   margin-bottom: 15px;
 }
-/* line 2691, ../sass/style.scss */
+/* line 2692, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns {
   margin-left: 150px;
   float: left;
 }
-/* line 2699, ../sass/style.scss */
+/* line 2700, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns header h1 {
   color: #fffcf1;
   font-size: 40px;
@@ -2302,7 +2303,7 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
   background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
   padding-bottom: 10px;
 }
-/* line 2714, ../sass/style.scss */
+/* line 2715, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul a:hover {
   opacity: 0.6;
   transition-property: opacity;
@@ -2312,7 +2313,7 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
-/* line 2725, ../sass/style.scss */
+/* line 2726, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li {
   width: 220px;
   background-color: #e4cf41;
@@ -2322,23 +2323,23 @@ section#content-wrapper section#content div#achtergrond50s #bottomInfo section#v
   margin: 15px 0 15px 0;
   opacity: 1;
 }
-/* line 2736, ../sass/style.scss */
+/* line 2737, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a {
   color: #fbf9f4;
   text-decoration: none;
   opacity: 1;
 }
-/* line 2742, ../sass/style.scss */
+/* line 2743, ../sass/style.scss */
 section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a img {
   margin: 0 0 0 15px;
 }
 
-/* line 2760, ../sass/style.scss */
+/* line 2761, ../sass/style.scss */
 .dummy {
   clear: both;
 }
 
-/* line 2767, ../sass/style.scss */
+/* line 2768, ../sass/style.scss */
 section#searchField form div input:focus {
   outline: none;
 }
