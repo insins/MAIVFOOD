@@ -1,101 +1,2431 @@
-/*
-Syntax error: Invalid CSS after "...     ul#actios{": expected "}", was "<<<<<<< HEAD"
-        on line 2591 of /Applications/MAMP/htdocs/MAIVFOOD/assets/sass/style.scss
+@import url(../fonts/bebasneue/stylesheet.css);
+@import url(../fonts/americanPurpose/stylesheet.css);
+@import url(../fonts/branboll/stylesheet.css);
+@import url(../fonts/brandonGrotesque/stylesheet.css);
+@import url(../fonts/geared/stylesheet.css);
+@import url(../fonts/southern/stylesheet.css);
+@import url(../fonts/deftone/stylesheet.css);
+@import url(../fonts/bebas/stylesheet.css);
+@import url(../fonts/nevis/stylesheet.css);
+/* -------------------- */
+/* ALGEMENE STYLESHEET */
+/* -------------------- */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-/Applications/MAMP/htdocs/MAIVFOOD/assets/sass/style.scss:2591
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1148:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1084:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1079:in `tok!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:536:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:591:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `rethrow'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:591:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `rethrow'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:591:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `rethrow'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:591:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `rethrow'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:591:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `rethrow'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:543:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:553:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:82:in `stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:27:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `to_proc'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:30
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44
-/usr/bin/compass:19:in `load'
-/usr/bin/compass:19
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...     ul#actios{\": expected \"}\", was \"<<<<<<< HEAD\"\A         on line 2591 of /Applications/MAMP/htdocs/MAIVFOOD/assets/sass/style.scss"; }
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* START SASSING HERE */
+/* !# IMPORTANTé jaar-classname */
+/* -------------------- */
+/* MENU */
+/* -------------------- */
+/* line 52, ../sass/style.scss */
+div#wrapper section#menu {
+  background-color: #fbf9f4;
+  background-image: url("../images/menu-logo.png");
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+}
+/* line 54, ../sass/style.scss */
+div#wrapper section#menu ul {
+  /* SUBMENU */
+  /* /SUBMENU */
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+/* line 58, ../sass/style.scss */
+div#wrapper section#menu ul li {
+  position: relative;
+}
+/* line 60, ../sass/style.scss */
+div#wrapper section#menu ul li ul#submenu {
+  /*display: none;*/
+  position: absolute;
+  width: 150px;
+  left: -60px;
+  top: 50px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fbf9f4;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+}
+/* line 73, ../sass/style.scss */
+div#wrapper section#menu ul li ul#submenu > li {
+  display: block;
+  border: none;
+  width: 100px;
+  padding: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 83, ../sass/style.scss */
+div#wrapper section#menu ul li ul#submenu > li:last-child {
+  border: none;
+}
+/* line 98, ../sass/style.scss */
+div#wrapper section#menu ul li:hover ul#submenu {
+  /*display: block;*/
+  opacity: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 109, ../sass/style.scss */
+div#wrapper section#menu ul li:first-child {
+  border-top: 3px solid #fd7878;
+}
+/* line 111, ../sass/style.scss */
+div#wrapper section#menu ul li:first-child :hover, div#wrapper section#menu ul li:first-child.active {
+  color: #fd7878;
+}
+/* line 114, ../sass/style.scss */
+div#wrapper section#menu ul li:last-child {
+  border-top: 3px solid #6ee8ca;
+}
+/* line 116, ../sass/style.scss */
+div#wrapper section#menu ul li:last-child :hover, div#wrapper section#menu ul li:last-child.active {
+  color: #6ee8ca;
+}
+/* line 119, ../sass/style.scss */
+div#wrapper section#menu ul li {
+  border-top: 3px solid #f6e993;
+}
+/* line 121, ../sass/style.scss */
+div#wrapper section#menu ul li :hover, div#wrapper section#menu ul li.active {
+  color: #f6e993;
+}
+/* line 126, ../sass/style.scss */
+div#wrapper section#menu ul li {
+  padding-top: 16px;
+  margin-left: 20px;
+  display: inline-block;
+  font-family: "bebasneue";
+  font-size: 30px;
+}
+/* line 127, ../sass/style.scss */
+div#wrapper section#menu ul li a {
+  color: #5f5f5f;
+  text-decoration: none;
+}
+/* line 141, ../sass/style.scss */
+div#wrapper section#menu ul li :hover {
+  color: #f6e993;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 152, ../sass/style.scss */
+div#wrapper section#menu ul li:first-child :hover {
+  color: #fd7878;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 163, ../sass/style.scss */
+div#wrapper section#menu ul li:last-child :hover {
+  color: #6ee8ca;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+
+/* line 202, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage {
+  background-color: #e33951;
+  height: 100%;
+}
+/* line 207, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage section#someText {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 211, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage section#someText p {
+  color: #FFF;
+  margin: 50px 0 0 0;
+  font-family: bitter, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 28px;
+}
+/* line 220, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage section#someText p a {
+  text-decoration: none;
+  color: #f6e993;
+  font-weight: bolder;
+  border-bottom: #f6e993 3px solid;
+  padding-bottom: 1px;
+  text-transform: uppercase;
+}
+/* line 237, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage header {
+  color: #FFF;
+  width: 960px;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+/* line 244, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage header h1 {
+  font-family: nevis, sans-serif;
+  font-size: 70px;
+}
+/* line 250, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#errorMessage header h2 {
+  font-size: 20px;
+  font-family: bitter, sans-serif;
+}
+
+/* -------------------- */
+/* CREATE A BURGER PAGE */
+/* -------------------- */
+/* line 274, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper {
+  background-image: url("../images/create-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 494px;
+  width: 100%;
+}
+/* line 283, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 286, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header {
+  text-shadow: 2px 2px #434343;
+  color: #FFF;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 293, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header h1 {
+  padding: 146px 0 0 96px;
+  font-family: Arvo, sans-serif;
+  font-size: 38px;
+  width: 403px;
+}
+/* line 301, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header header h2 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  margin: 20px 0 0 195px;
+  background: url("../images/create-white-line-h2.png") no-repeat bottom left;
+  padding: 0 0 5px 0;
+}
+/* line 316, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#car-header-wrapper section#car-header div#car-iphone-image {
+  background: url("../images/create-cars-and-iphone.png") no-repeat;
+  background-size: contain;
+  height: 518px;
+  width: 800px;
+  position: absolute;
+  top: 25%;
+  margin-left: 180px;
+}
+/* line 338, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper {
+  background-color: #f2882f;
+  padding: 200px 0 30px 0;
+}
+/* line 341, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper section#how-does-it-work {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+/* line 350, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper header {
+  font-family: brannboll_fetregular, serif;
+  font-size: 42px;
+  color: #FFF;
+  text-shadow: 2px 2px #434343;
+  width: 960px;
+  margin: 20px auto 15px auto;
+}
+/* line 360, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+}
+/* line 364, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work p {
+  color: #FFF;
+  font-size: 30px;
+  margin: 20px 0 27px 10px;
+}
+/* line 371, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work p a {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+  text-indent: -9999px;
+  display: block;
+  background: url("../images/create-app-store-btn.png");
+  width: 160px;
+  height: 54px;
+}
+/* line 389, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work a:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 401, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div.text-wrapper-does-it-work ol {
+  list-style: decimal;
+  color: #474747;
+  margin: 30px 0 0 30px;
+  font-size: 20px;
+}
+/* line 410, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#how-does-it-work-wrapper div#flamingo-iphone-image {
+  background: url("../images/create-flamingo-iphone.png");
+  background-size: contain;
+  width: 256px;
+  height: 355px;
+  position: absolute;
+  top: 0;
+  left: 700px;
+}
+/* line 423, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content {
+  padding-top: 75px;
+  background-color: #00c0a7;
+}
+/* line 428, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content header {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 433, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content header h1 {
+  font-family: brannboll_fetregular, serif;
+  font-size: 42px;
+  color: #FFF;
+  text-shadow: 2px 2px #434343;
+  width: 960px;
+}
+/* line 441, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content header h2 {
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #e27f2c;
+  padding: 3px 5px;
+  width: 175px;
+  text-align: center;
+  margin: -5px 0 40px 300px;
+}
+/* line 454, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content div#video-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 458, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content div#video-wrapper div#video-bg {
+  background: url("../images/create-video-bg.png") no-repeat;
+  width: 1004px;
+  height: 386px;
+  margin: -320px 0 0 -15px;
+  z-index: 10;
+}
+/* line 466, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#video-content div#video-wrapper video {
+  z-index: 9;
+}
+
+/* -------------------- */
+/* CAMPAIGN PAGE */
+/* -------------------- */
+/* line 488, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper {
+  background-color: #b5a7a7;
+}
+/* line 492, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header {
+  background: url("../images/home-bg.png") no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+/* line 502, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header header h1 {
+  background: url("../images/home-logo.png") no-repeat bottom left;
+  height: 110px;
+  padding: 30px 0 0 110px;
+  margin: 0 0 0 5%;
+  line-height: 30px;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 3em;
+}
+/* line 521, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header div#home-burgers {
+  background: url("../images/home-burgers.png") no-repeat;
+  background-size: contain;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 429px;
+}
+/* line 534, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+  background-color: #eff3e4;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -100px auto 0 auto;
+  padding: 33px 0 33px 39px;
+}
+/* line 536, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper section#home-uitleg {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 544, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper header h1 {
+  color: #686964;
+  font-family: bebasneue, sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+/* line 553, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p {
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  font-size: 1.4em;
+  width: 100%;
+  line-height: 1.35em;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+/* line 561, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p span {
+  color: #e33951;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+/* line 568, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  font-size: 0.75em;
+  padding: 5px 10px;
+}
+/* line 577, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a:last-child {
+  background-color: #6bc8af;
+  margin-left: 10px;
+}
+/* line 582, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a:first-child {
+  background-color: #fac00f;
+  margin-right: 10px;
+}
+/* line 587, ../sass/style.scss */
+div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+
+/* -------------------- */
+/* GALERY PAGE */
+/* -------------------- */
+/* line 615, ../sass/style.scss */
+section#content-wrapper section#content {
+  /* -------------------- */
+  /* 00s */
+  /* -------------------- */
+  /* -------------------- */
+  /* 80s */
+  /* -------------------- */
+  /* -------------------- */
+  /* DETAIL 00s */
+  /* -------------------- */
+  /* -------------------- */
+  /* DETAIL 80s */
+  /* -------------------- */
+  /* -------------------- */
+  /* 00S GALLERY */
+  /* -------------------- */
+  /* ALLE HAMBURGERS */
+  /* -------------------- */
+  /* 50s */
+  /* -------------------- */
+  /* ALLE HAMBURGERS */
+}
+/* line 621, ../sass/style.scss */
+section#content-wrapper section#content section#banner-00s {
+  background: url("../images/00s-banner-bg.png") no-repeat;
+  background-size: cover;
+  height: 603px;
+}
+/* line 627, ../sass/style.scss */
+section#content-wrapper section#content section#banner-00s header {
+  margin-left: 200px;
+}
+/* line 631, ../sass/style.scss */
+section#content-wrapper section#content section#banner-00s header h1 {
+  background: url("../images/00s-banner-title-triangles.png") no-repeat bottom left;
+  padding: 45px 0 0 25px;
+  font-family: bebasneue, sans-serif;
+  font-size: 70px;
+  color: #FFF;
+}
+/* line 640, ../sass/style.scss */
+section#content-wrapper section#content section#banner-00s header h1 span {
+  position: absolute;
+  left: -9999px;
+  display: none;
+}
+/* line 647, ../sass/style.scss */
+section#content-wrapper section#content section#banner-00s header h2 {
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  font-size: 30px;
+  color: #Fff;
+  width: 400px;
+  margin: -50px 0 0 400px;
+}
+/* line 654, ../sass/style.scss */
+section#content-wrapper section#content section#banner-00s header h2 span {
+  color: #ffec5b;
+}
+/* line 658, ../sass/style.scss */
+section#content-wrapper section#content section#banner-00s header h2 span#rood {
+  color: #fd7878;
+  font-weight: bolder;
+}
+/* line 670, ../sass/style.scss */
+section#content-wrapper section#content section#banner-80s {
+  background: url("../images/80s-banner-bg.png") no-repeat;
+  background-size: cover;
+  height: 603px;
+}
+/* line 676, ../sass/style.scss */
+section#content-wrapper section#content section#banner-80s header {
+  margin-left: 200px;
+}
+/* line 680, ../sass/style.scss */
+section#content-wrapper section#content section#banner-80s header h1 {
+  background: url("../images/80s-banner-80s.png") no-repeat bottom left;
+  padding: 80px 0 0 255px;
+  font-family: bebasneue, sans-serif;
+  font-size: 70px;
+  color: #FFF;
+  height: 169px;
+  text-transform: lowercase;
+  font-size: 79px;
+  font-family: deftone, serif;
+  color: #50c8b8;
+  text-shadow: -4px 4px #000;
+}
+/* line 700, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s {
+  background-color: #83d6b8;
+}
+/* line 703, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #353535;
+}
+/* line 710, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s header {
+  padding-top: 40px;
+}
+/* line 714, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 2px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 656px;
+  border-bottom: #ffea63 3px solid;
+  margin: 0 0 40px 40px;
+}
+/* line 730, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s div#hamburgerImage {
+  float: left;
+  width: 375px;
+  margin: 10px 0 20px 60px;
+}
+/* line 737, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#list-things {
+  float: left;
+  width: 375px;
+}
+/* line 743, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios {
+  margin: 30px 0 0 50px;
+}
+/* line 748, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li {
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
+  color: #fd7878;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+/* line 755, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li a:hover {
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 766, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li a {
+  height: 65px;
+  width: 160px;
+  padding: 5px;
+  border: 5px #fd7878 solid;
+  color: #fd7878;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 787, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li a img {
+  margin-right: 5px;
+}
+/* line 793, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#list-things ul#actios li span {
+  color: #6ee8ca;
+}
+/* line 803, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#bottomInfo {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 808, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten {
+  width: 335px;
+  float: left;
+}
+/* line 815, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 1px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 300px;
+  border-bottom: #ffea63 3px solid;
+}
+/* line 828, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten p {
+  float: left;
+  font-size: 24px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
+  color: #565656;
+  margin: 0 40px;
+}
+/* line 837, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten ul {
+  float: left;
+  font-size: 22px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
+}
+/* line 845, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#bottomInfo section#ingredienten ul li {
+  margin: 0 0 20px 0;
+}
+/* line 856, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#voteBtns {
+  width: 335px;
+  float: left;
+  margin-left: 100px;
+}
+/* line 863, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#voteBtns header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 1px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 300px;
+  border-bottom: #ffea63 3px solid;
+}
+/* line 876, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#voteBtns ul li {
+  width: 300px;
+  padding: 5px 0 8px 0;
+  margin: 0 0 25px 40px;
+  text-align: center;
+  border: 5px #fd7878 solid;
+  color: #fd7878;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/* line 893, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#voteBtns ul li a {
+  text-decoration: none;
+  color: #fd7878;
+  opacity: 1;
+}
+/* line 899, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#voteBtns ul li a img {
+  margin-left: 10px;
+}
+/* line 903, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#voteBtns ul li li:hover {
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 924, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s {
+  background-color: #fcc567;
+  /* -------------------- */
+  /* 80S GALLERY */
+  /* -------------------- */
+  /* ALLE HAMBURGERS */
+}
+/* line 927, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#burgerSamenvatting {
+  width: 960px;
+  margin: 0 auto;
+  background: url("../images/80s-patterened.png");
+  z-index: 11;
+}
+/* line 935, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s header {
+  padding-top: 40px;
+}
+/* line 939, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s header h1 {
+  font-family: brannboll_fetregular, serif;
+  color: #e72c6c;
+  text-shadow: 2px -2px #50c8b8;
+  font-size: 38px;
+  margin: 0 0 40px 40px;
+  background: url("../images/80s-detail-summary-line.png") no-repeat bottom left;
+  padding-bottom: 1px;
+}
+/* line 954, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s div#hamburgerImage {
+  float: left;
+  width: 375px;
+  margin: 20px 0 20px 30px;
+}
+/* line 961, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#list-things {
+  float: left;
+  width: 375px;
+}
+/* line 967, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios {
+  margin: 30px 0 0 50px;
+}
+/* line 972, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li {
+  font-family: american_purpose_casual_01Rg, serif;
+  color: #e72c6c;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+/* line 978, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li a {
+  height: 65px;
+  width: 160px;
+  padding: 15px 10px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  opacity: 1;
+  background-color: #50c8b8;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 992, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li a img {
+  margin-right: 5px;
+}
+/* line 998, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li a:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1009, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#list-things ul#actios li span {
+  color: #50c8b8;
+}
+/* line 1019, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#bottomInfo {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 1024, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten {
+  width: 335px;
+  float: left;
+}
+/* line 1031, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten header h1 {
+  font-family: brannboll_fetregular, serif;
+  color: #e72c6c;
+  text-shadow: 2px 2px #ecf0aa;
+  font-size: 38px;
+}
+/* line 1042, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten p {
+  float: left;
+  font-size: 27px;
+  font-family: american_purpose_casual_01Rg, serif;
+  color: #e72c6c;
+  margin: 0 40px;
+}
+/* line 1050, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten ul {
+  float: left;
+  font-size: 27px;
+  font-family: american_purpose_casual_01Rg, serif;
+  color: #fff;
+}
+/* line 1056, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#bottomInfo section#ingredienten ul li {
+  margin: 0 0 20px 0;
+}
+/* line 1067, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#voteBtns {
+  width: 335px;
+  float: left;
+  margin-left: 100px;
+}
+/* line 1074, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#voteBtns header h1 {
+  font-family: brannboll_fetregular, serif;
+  color: #e72c6c;
+  text-shadow: 2px 2px #ecf0aa;
+  font-size: 38px;
+}
+/* line 1085, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#voteBtns ul li {
+  background-color: #ecf0aa;
+  font-family: american_purpose_casual_01Rg, serif;
+  text-shadow: 2px 2px #ecf0aa;
+  font-size: 27px;
+  width: 300px;
+  padding: 10px 10px;
+  margin: 0 0 20px 40px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-align: center;
+  opacity: 1;
+}
+/* line 1098, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#voteBtns ul li a {
+  text-decoration: none;
+  color: #e72c6c;
+}
+/* line 1102, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#voteBtns ul li a img {
+  margin-left: 10px;
+}
+/* line 1108, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#voteBtns ul li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1125, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  color: #de606b;
+  background: url("../images/80s-patterened.png");
+}
+/* line 1133, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s header h1 {
+  font-family: brannboll_fetregular, serif;
+  color: #e72c6c;
+  text-shadow: -1px 1px #50c8b8;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 300px;
+  margin: 0 0 40px 40px;
+}
+/* line 1144, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers {
+  width: 820px;
+  margin: 25px auto 0 auto;
+}
+/* line 1150, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 1157, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger div#voteCountFirst {
+  background: url("../images/50s-vote-count-best.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  font-family: american_purpose_casual_01Rg, serif;
+  padding: 30px 20px 0 40px;
+  color: #FFF;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1173, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger p {
+  color: #50c8b8;
+  font-size: 25px;
+  font-family: american_purpose_casual_01Rg, serif;
+  margin-bottom: 10px;
+}
+/* line 1181, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger ul.actions li {
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+  background-color: #50c8b8;
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  padding: 10px 10px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  opacity: 1;
+}
+/* line 1193, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger ul.actions li a {
+  color: #edeed7;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1208, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#topBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1224, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 1231, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger div#voteCountSecond {
+  background: url("../images/50s-vote-count-second.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  font-family: american_purpose_casual_01Rg, serif;
+  padding: 30px 20px 0 40px;
+  color: #FFF;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1248, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger p {
+  color: #ea475f;
+  font-size: 25px;
+  font-family: american_purpose_casual_01Rg, serif;
+  margin-bottom: 10px;
+}
+/* line 1256, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger ul.actions li {
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+  background-color: #ea475f;
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  padding: 10px 10px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  opacity: 1;
+}
+/* line 1268, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger ul.actions li a {
+  color: #edeed7;
+  text-decoration: none;
+}
+/* line 1274, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#secondBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1290, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+}
+/* line 1296, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger div#voteCountThird {
+  background: url("../images/50s-vote-count-third.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  font-family: american_purpose_casual_01Rg, serif;
+  padding: 30px 20px 0 40px;
+  color: #FFF;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1313, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger p {
+  color: #ffb537;
+  font-size: 25px;
+  font-family: american_purpose_casual_01Rg, serif;
+  margin-bottom: 10px;
+}
+/* line 1321, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger ul.actions li {
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+  background-color: #ffb537;
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  padding: 10px 10px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  opacity: 1;
+}
+/* line 1333, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger ul.actions li a {
+  color: #edeed7;
+  text-decoration: none;
+}
+/* line 1339, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#top380s div#burgers section#thirdBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1355, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s {
+  width: 960px;
+  margin: 30 auto 0 auto;
+}
+/* line 1359, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s header {
+  float: left;
+}
+/* line 1362, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s header h1 {
+  font-family: brannboll_fetregular, serif;
+  color: #e72c6c;
+  text-shadow: 2px -2px #50c8b8;
+  font-size: 38px;
+  margin: 0 0 40px 40px;
+}
+/* line 1372, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField {
+  float: left;
+  width: 260px;
+}
+/* line 1377, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField form div {
+  position: relative;
+}
+/* line 1381, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField form div input {
+  border: none;
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+  background-color: #72d2bc;
+  margin: 40px 0 -5px 40px;
+  width: 250px;
+  padding: 10px 10px 10px 20px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  color: #e72c6c;
+  background-image: url("../images/50s-search-glass.png");
+  background-repeat: no-repeat;
+  background-position: 220px;
+}
+/* line 1398, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField form div ul#zoekresultaten {
+  margin: 5px 0 0 40px;
+  position: absolute;
+  z-index: 200;
+}
+/* line 1403, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField form div ul#zoekresultaten li {
+  padding: 10px 5px;
+  background-color: #FFF;
+  border-bottom: 1px solid #72d2bc;
+  margin-left: 15px;
+  font-family: american_purpose_casual_01Rg, serif;
+  width: 200px;
+}
+/* line 1411, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField form div ul#zoekresultaten li a {
+  font-size: 15px;
+  color: #e72c6c;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1425, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section#searchField form div ul#zoekresultaten li a:hover {
+  color: #72d2bc;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1444, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 1448, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary {
+  color: #f6e993;
+  position: relative;
+  float: left;
+  margin: 30px 40px 0 40px;
+  font-family: american_purpose_casual_01Rg, serif;
+  color: #e72c6c;
+}
+/* line 1458, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary p {
+  margin: 10px 0;
+  font-size: 24px;
+}
+/* line 1466, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li {
+  font-family: american_purpose_casual_01Rg, serif;
+  background-color: #e72c6c;
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  padding: 10px 10px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  opacity: 1;
+}
+/* line 1478, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li a {
+  color: #ffb537;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* line 1485, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1497, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow section.burgerSummary div.voteCount {
+  position: absolute;
+  top: -15px;
+  left: 80px;
+  background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+  width: 53px;
+  height: 53px;
+  padding: 18px 0 0 23px;
+  color: #df4452;
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+}
+/* line 1512, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond80s section#allTheBugers00s section.burgerRow div.line {
+  background-color: #fbf9f3;
+  height: 1px;
+  margin-bottom: 20px;
+}
+/* line 1528, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s {
+  /* -------------------- */
+  /* DETAIL PAGE */
+  /* -------------------- */
+}
+/* line 1530, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  color: #de606b;
+  background-color: #353535;
+}
+/* line 1539, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 2px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 456px;
+  border-bottom: #ffea63 3px solid;
+  margin: 0 0 40px 40px;
+}
+/* line 1552, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers {
+  width: 820px;
+  margin: 25px auto 0 auto;
+}
+/* line 1558, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 1565, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger div#voteCountFirst {
+  background: url("../images/50s-vote-count-best.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  padding: 30px 20px 0 40px;
+  color: #FFF;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1581, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger p {
+  color: #6ee8ca;
+  font-size: 20px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* line 1590, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger ul.actions li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  border: 5px #6ee8ca solid;
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  padding: 10px 10px;
+  opacity: 1;
+}
+/* line 1601, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger ul.actions li a {
+  color: #6ee8ca;
+  text-decoration: none;
+}
+/* line 1607, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#topBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1623, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 1630, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger div#voteCountSecond {
+  background: url("../images/50s-vote-count-second.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  color: #FFF;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  padding: 30px 20px 0 40px;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1646, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger p {
+  color: #fd7878;
+  font-size: 20px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* line 1655, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger ul.actions li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  border: 5px #fd7878 solid;
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  padding: 10px 10px;
+  opacity: 1;
+}
+/* line 1666, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger ul.actions li a {
+  color: #fd7878;
+  text-decoration: none;
+}
+/* line 1671, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#secondBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1687, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+}
+/* line 1693, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger div#voteCountThird {
+  background: url("../images/50s-vote-count-third.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  padding: 30px 20px 0 40px;
+  color: #FFF;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 1709, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger p {
+  color: #ffea63;
+  font-size: 20px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* line 1718, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger ul.actions li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  border: 5px #ffea63 solid;
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  padding: 10px 10px;
+  opacity: 1;
+}
+/* line 1729, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger ul.actions li a {
+  color: #ffea63;
+  text-decoration: none;
+}
+/* line 1734, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#top3 div#burgers section#thirdBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1750, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s {
+  width: 960px;
+  margin: 30 auto 0 auto;
+}
+/* line 1754, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s header {
+  float: left;
+}
+/* line 1757, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 1px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 550px;
+  border-bottom: #ffea63 3px solid;
+}
+/* line 1769, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField {
+  float: left;
+  width: 260px;
+}
+/* line 1774, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div {
+  position: relative;
+}
+/* line 1778, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div ul#zoekresultaten {
+  margin: 0 0 0 85px;
+  text-align: left;
+  position: absolute;
+  z-index: 200;
+}
+/* line 1785, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div ul#zoekresultaten li {
+  background-color: #FFF;
+  padding: 10px 14px;
+  border-bottom: 1px solid #fd7878;
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  width: 234px;
+}
+/* line 1794, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div ul#zoekresultaten li a {
+  text-decoration: none;
+  color: #78d1b2;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1807, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div ul#zoekresultaten li a:hover {
+  color: #fd7878;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1823, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section#searchField form div input {
+  border: 5px #fd7878 solid;
+  color: #fd7878;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  background: none;
+  width: 260px;
+  padding: 10px 0 10px 10px;
+  font-size: 18px;
+  color: #fd7878;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  margin: 30px 0 0 85px;
+  background-image: url("../images/50s-search-glass.png");
+  background-repeat: no-repeat;
+  background-position: 220px;
+}
+/* line 1850, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 1854, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary {
+  color: #f6e993;
+  position: relative;
+  float: left;
+  margin: 30px 40px 0 40px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
+}
+/* line 1865, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+/* line 1873, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li {
+  border: 5px #FFF solid;
+  text-decoration: none;
+  font-weight: bolder;
+  background: none;
+  text-align: center;
+  margin-top: 10px;
+  padding: 7px 0 7px 0;
+  opacity: 1;
+}
+/* line 1884, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* line 1891, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 1903, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow section.burgerSummary div.voteCount {
+  position: absolute;
+  top: -15px;
+  left: 80px;
+  background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+  width: 53px;
+  height: 53px;
+  padding: 18px 0 0 22px;
+  color: #df4452;
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+}
+/* line 1918, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#allTheBugers00s section.burgerRow div.line {
+  background-color: #fbf9f3;
+  height: 1px;
+  margin-bottom: 20px;
+}
+/* line 1932, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting {
+  background-color: #333;
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 1939, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 2px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 656px;
+  border-bottom: #ffea63 3px solid;
+  margin: 0 0 20px 40px;
+}
+/* line 1953, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting div#hamburgerImage {
+  float: left;
+  width: 273px;
+  margin: 25px 0 0 86px;
+}
+/* line 1961, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things {
+  float: left;
+  width: 400px;
+  margin: 25px 0 0 86px;
+}
+/* line 1968, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li {
+  font-size: 30px;
+  color: #fd7878;
+  width: 400px;
+  margin-bottom: 45px;
+  opacity: 1;
+}
+/* line 1975, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li span {
+  color: #78d1b2;
+}
+/* line 1979, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li span#votes {
+  background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
+  height: 76px;
+  width: 76px;
+  padding: 22px 33px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  color: #fffcf1;
+}
+/* line 1988, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a {
+  text-decoration: none;
+  color: #fd7878;
+  text-align: center;
+  padding: 10px 10px;
+  opacity: 1;
+}
+/* line 1996, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a img {
+  margin-right: 10px;
+}
+/* line 2000, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s section#burgerSamenvatting section#list-things ul#actios li a:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2017, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo {
+  width: 960px;
+  margin: 40px auto 0 auto;
+}
+/* line 2024, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten {
+  float: left;
+  width: 300px;
+  font-size: 20px;
+  font-family: bebasneue, sans-serif;
+}
+/* line 2032, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 2px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 656px;
+  border-bottom: #ffea63 3px solid;
+  margin: 0 0 20px 40px;
+}
+/* line 2046, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten p {
+  float: left;
+  color: #fffcf1;
+  margin: 25px 40px 0 0;
+}
+/* line 2052, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten ul {
+  float: left;
+}
+/* line 2056, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo #ingredienten ul li {
+  color: #FFFF;
+  margin-bottom: 15px;
+}
+/* line 2068, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns {
+  margin-left: 150px;
+  float: left;
+}
+/* line 2076, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns header h1 {
+  font-family: nevis, sans-serif;
+  text-transform: uppercase;
+  color: #ffea63;
+  text-shadow: -2px 2px #000;
+  font-size: 30px;
+  padding-bottom: 3px;
+  width: 350px;
+  border-bottom: #ffea63 3px solid;
+  margin: 0 0 20px 0;
+}
+/* line 2091, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li {
+  width: 300px;
+  font-size: 20px;
+  font-family: brandon_grotesque_regularRg, sans-serif;
+  padding: 10px 10px;
+  margin: 15px 0 15px 0;
+  opacity: 1;
+}
+/* line 2101, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li a {
+  color: #fd7878;
+  text-decoration: none;
+}
+/* line 2105, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li a img {
+  margin: 0 0 0 15px;
+}
+/* line 2110, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond00s #bottomInfo section#voteBtns ul li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2132, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s {
+  background: url("../images/50s-banner-bg.png") no-repeat;
+  background-size: cover;
+  height: 337px;
+  width: 100%;
+}
+/* line 2138, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s div#logo {
+  background: url("../images/50s-logo.png") no-repeat bottom center;
+  width: 87px;
+  height: 87px;
+  margin: 0 0 0 215px;
+  padding-top: 10px;
+}
+/* line 2146, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header {
+  color: #fffcf1;
+  text-shadow: 2px 2px #434343;
+}
+/* line 2151, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 150px;
+  margin: 10px 0 0 150px;
+}
+/* line 2156, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h1 span {
+  font-size: 50px;
+}
+/* line 2162, ../sass/style.scss */
+section#content-wrapper section#content section#banner-50s header h2 {
+  font-family: southern_aire_personal_use_Rg, serif;
+  font-size: 65px;
+  position: relative;
+  top: -130px;
+  left: 300px;
+}
+/* line 2173, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s {
+  background-color: #df4452;
+  /* -------------------- */
+  /* DETAIL PAGE */
+  /* -------------------- */
+}
+/* line 2177, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  color: #de606b;
+  background-color: #fbf9f4;
+}
+/* line 2186, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  padding: 40px 0 5px 40px;
+  text-shadow: 2px 2px #434343;
+  background: url("../images/50s-title-line.png") no-repeat;
+  background-position: 40px 83px;
+}
+/* line 2198, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers {
+  width: 820px;
+  margin: 25px auto 0 auto;
+}
+/* line 2204, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 2210, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger div#voteCountFirst {
+  background: url("../images/50s-vote-count-best.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 35px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 2226, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger p {
+  color: #58bfa6;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 2234, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #58bfa6;
+  padding: 5px 10px;
+  opacity: 1;
+}
+/* line 2242, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 2249, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#topBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2265, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin-right: 60px;
+}
+/* line 2272, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger div#voteCountSecond {
+  background: url("../images/50s-vote-count-second.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 35px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 2288, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger p {
+  color: #fd7878;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 2296, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #fd7878;
+  padding: 5px 10px;
+  opacity: 1;
+}
+/* line 2305, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 2314, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#secondBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2328, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger {
+  position: relative;
+  float: left;
+  width: 230px;
+}
+/* line 2334, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger div#voteCountThird {
+  background: url("../images/50s-vote-count-third.png") no-repeat;
+  height: 97px;
+  width: 97px;
+  padding: 34px 0 0 35px;
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 43px;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+/* line 2350, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger p {
+  color: #ebce11;
+  font-size: 30px;
+  font-family: bebasneue, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 2358, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li {
+  margin-bottom: 10px;
+  width: 187px;
+  text-align: center;
+  background-color: #ebce11;
+  padding: 5px 10px;
+  opacity: 1;
+}
+/* line 2368, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: bebasneue, sans-serif;
+  font-size: 20px;
+}
+/* line 2376, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#top3 div#burgers section#thirdBurger ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2392, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s {
+  width: 960px;
+  margin: 30 auto 0 auto;
+}
+/* line 2396, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header {
+  float: left;
+}
+/* line 2400, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s header h1 {
+  color: #FFF;
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  background: url("../images/50s-view-all-line.png") no-repeat bottom left;
+  padding-bottom: 8px;
+  width: 550px;
+}
+/* line 2410, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField {
+  float: left;
+  width: 260px;
+}
+/* line 2415, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div {
+  position: relative;
+}
+/* line 2419, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten {
+  margin: -3px 0 0 85px;
+  display: overflow;
+  position: absolute;
+  z-index: 200;
+}
+/* line 2425, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten li {
+  padding: 10px 5px;
+  background-color: #FFF;
+  border-bottom: 1px solid #e72c6c;
+  margin-left: 15px;
+  font-family: bebasneue, sans-serif;
+  width: 250px;
+}
+/* line 2433, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten li a {
+  font-size: 20px;
+  color: #58bfa6;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2447, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div ul#zoekresultaten li a:hover {
+  color: #ebce11;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2460, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section#searchField form div input {
+  border: none;
+  width: 260px;
+  padding: 10px 0 10px 10px;
+  font-size: 24px;
+  color: #df4452;
+  font-family: bebasneue, sans-serif;
+  margin-left: 100px;
+  background-image: url("../images/50s-search-glass.png");
+  background-repeat: no-repeat;
+  background-position: 220px;
+}
+/* line 2480, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 2484, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary {
+  color: #f6e993;
+  position: relative;
+  float: left;
+  margin: 30px 40px 0 40px;
+  font-family: bebasneue, sans-serif;
+  font-size: 30px;
+}
+/* line 2494, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary p {
+  margin-top: 10px;
+}
+/* line 2500, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li {
+  background-color: #f6e993;
+  text-align: center;
+  margin-top: 5px;
+  padding: 3px 0 7px 0;
+  opacity: 1;
+}
+/* line 2508, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li a {
+  color: #df4452;
+  text-decoration: none;
+  font-size: 21px;
+}
+/* line 2514, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary ul.actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2526, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow section.burgerSummary div.voteCount {
+  position: absolute;
+  top: -15px;
+  left: 80px;
+  background: url("../images/50s-vote-count-all-burgers.png") no-repeat;
+  width: 53px;
+  height: 53px;
+  padding: 18px 0 0 23px;
+  color: #df4452;
+  font-size: 20px;
+  font-family: american_purpose_casual_01Rg, serif;
+}
+/* line 2541, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#allTheBugers50s section.burgerRow div.line {
+  background-color: #fbf9f3;
+  height: 1px;
+  margin-bottom: 20px;
+}
+/* line 2555, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting {
+  background-color: #fbf9f4;
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+/* line 2562, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting header h1 {
+  font-family: american_purpose_casual_01Rg, serif;
+  font-size: 46px;
+  color: #df4452;
+  background: url("../images/50s-burger-rocking-title-line.png") no-repeat bottom left;
+  padding: 30px 0 5px 0;
+  margin: 0 0 0 50px;
+}
+/* line 2576, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting div#hamburgerImage {
+  float: left;
+  width: 273px;
+  margin: 25px 0 0 86px;
+}
+/* line 2584, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things {
+  float: left;
+  width: 400px;
+  margin: 25px 0 0 86px;
+}
+/* line 2590, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actions li:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2601, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actions li {
+  font-family: bebasneue, sans-serif;
+  font-size: 30px;
+  color: #e4656f;
+  width: 400px;
+  margin-bottom: 45px;
+  opacity: 1;
+}
+/* line 2609, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actions li span {
+  color: #78d1b2;
+  padding: 20px;
+}
+/* line 2614, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actions li span#votes {
+  background: url("../images/50s-detail-vote-count-bg.png") no-repeat;
+  height: 76px;
+  width: 76px;
+  padding: 25px 33px 25px 30px;
+  font-family: american_purpose_casual_01Rg, serif;
+  color: #fffcf1;
+}
+/* line 2623, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actions li a {
+  text-decoration: none;
+  color: #fffcf1;
+  background-color: #7bd3b4;
+  text-align: center;
+  padding: 10px 10px;
+  opacity: 1;
+}
+/* line 2631, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actions li a img {
+  margin-right: 10px;
+}
+/* line 2636, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s section#burgerSamenvatting section#list-things ul#actions li a:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2653, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo {
+  width: 960px;
+  margin: 40px auto 0 auto;
+}
+/* line 2660, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten {
+  float: left;
+  width: 300px;
+  font-size: 20px;
+  font-family: bebasneue, sans-serif;
+}
+/* line 2668, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten header h1 {
+  color: #fffcf1;
+  font-size: 40px;
+  font-family: american_purpose_casual_01Rg, serif;
+  background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+  padding-bottom: 10px;
+}
+/* line 2681, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten p {
+  float: left;
+  color: #fffcf1;
+  margin: 25px 40px 0 0;
+}
+/* line 2687, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul {
+  float: left;
+  margin: 25px 0 0 0;
+}
+/* line 2692, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo #ingredienten ul li {
+  color: #e4cf41;
+  margin-bottom: 15px;
+}
+/* line 2704, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns {
+  margin-left: 150px;
+  float: left;
+}
+/* line 2712, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns header h1 {
+  color: #fffcf1;
+  font-size: 40px;
+  font-family: american_purpose_casual_01Rg, serif;
+  width: 235px;
+  background: url("../images/50s-detail-bottom-titles-line.png") no-repeat bottom left;
+  padding-bottom: 10px;
+}
+/* line 2727, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul a:hover {
+  opacity: 0.6;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+/* line 2738, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li {
+  width: 220px;
+  background-color: #e4cf41;
+  font-size: 20px;
+  font-family: bebasneue, sans-serif;
+  padding: 10px 10px;
+  margin: 15px 0 15px 0;
+  opacity: 1;
+}
+/* line 2749, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a {
+  color: #fbf9f4;
+  text-decoration: none;
+  opacity: 1;
+}
+/* line 2755, ../sass/style.scss */
+section#content-wrapper section#content div#achtergrond50s #bottomInfo section#voteBtns ul li a img {
+  margin: 0 0 0 15px;
+}
+
+/* line 2773, ../sass/style.scss */
+.dummy {
+  clear: both;
+}
+
+/* line 2780, ../sass/style.scss */
+section#searchField form div input:focus {
+  outline: none;
+}
+
+/* END SASSING HERE */
+/* -------------------- */
+/* RESPONSIVE STYLESHEET */
+/* -------------------- */
+/* START SASSING HERE */
+@media screen and (max-width: 960px) {
+  /* line 16, ../sass/responsive.scss */
+  div#wrapper section#menu ul {
+    width: 90%;
+  }
+  /* line 30, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header header h1 {
+    font-size: 250%;
+  }
+  /* line 34, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header div#home-burgers {
+    width: 90%;
+  }
+  /* line 38, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+    margin: -15% auto 0 auto;
+  }
+}
+@media screen and (max-width: 784px) {
+  /* line 57, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+    margin: -23% auto 0 auto;
+  }
+  /* line 61, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper header h1 {
+    font-size: 1.9em;
+  }
+  /* line 66, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 490px) {
+  /* line 81, ../sass/responsive.scss */
+  div#wrapper section#menu {
+    width: 100%;
+  }
+  /* line 82, ../sass/responsive.scss */
+  div#wrapper section#menu ul {
+    width: 90%;
+  }
+  /* line 86, ../sass/responsive.scss */
+  div#wrapper section#menu ul li {
+    font-size: 1.5em;
+  }
+  /* line 102, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-header header h1 {
+    font-size: 1.3em;
+  }
+  /* line 108, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper {
+    margin: -60% auto 0 auto;
+  }
+  /* line 114, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper header h1 {
+    font-size: 1.8em;
+  }
+  /* line 119, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p {
+    font-size: 1.4em;
+  }
+  /* line 122, ../sass/responsive.scss */
+  div#wrapper section#content-wrapper section#content section#home-wrapper section#home-uitleg-wrapper p a {
+    margin-top: 15%;
+    width: 70%;
+  }
+}
+/* END SASSING HERE */
