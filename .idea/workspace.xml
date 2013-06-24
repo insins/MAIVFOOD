@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dea0ace-fcc0-4079-bda2-c0483d080383" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/1f60b181d356074d67921bb7c799bed71d2db354.file.index.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/8440fad56a6e193cbd984eebe94c35d3fb16dd17.file.create.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/99f66c1ab9afe323b6f19d199a2812f43bf0a611.file.gallery50s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/cbf964ad0f50ecdbba317fc5bb7190412b584b83.file.gallery80s.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulk/compile/e73f98f04db3d94da10a23bd78d47db0ac2374b5.file.gallery00s.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_support.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/47bc3e79e5cf428e640b160a6ff691ab3903ebe8/_support.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/5a9213a7499eac53953b1dc09cb7cfa58d51c527/_hacks.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/5a9213a7499eac53953b1dc09cb7cfa58d51c527/_hacks.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_appearance.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_appearance.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-clip.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-clip.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-origin.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-origin.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_border-radius.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_border-radius.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-shadow.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-shadow.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_columns.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_columns.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_filter.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_filter.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_font-face.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_font-face.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_hyphenation.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_hyphenation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_inline-block.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_inline-block.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_opacity.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_opacity.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_regions.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_regions.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_shared.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_shared.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_text-shadow.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_text-shadow.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transform.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transform.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transition.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_transition.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/928717f716b7357483cd89c938a244e1fd7e2fc7/_utilities.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/928717f716b7357483cd89c938a244e1fd7e2fc7/_utilities.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/b131730014eaedb83dc468c7dfde52c36e310cea/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-size.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_background-size.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-sizing.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_box-sizing.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_images.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_images.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/Facebook.login.js" afterPath="$PROJECT_DIR$/assets/js/Facebook.login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/style.scss" afterPath="$PROJECT_DIR$/assets/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/allerrors.log" afterPath="$PROJECT_DIR$/logs/allerrors.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" afterPath="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
     </list>
     <ignored path="MAIVFOOD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +31,16 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2135" column="22" selection-start="53704" selection-end="53704" vertical-scroll-proportion="0.42857143">
+            <state line="2532" column="40" selection-start="66506" selection-end="66506" vertical-scroll-proportion="0.55676514">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Facebook.login.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="55" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +58,34 @@
       <file leaf-file-name="gallery80s.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="27" selection-start="2327" selection-end="2380" vertical-scroll-proportion="0.0">
+            <state line="88" column="35" selection-start="2914" selection-end="2996" vertical-scroll-proportion="-13.217391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail80s.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="40" selection-start="763" selection-end="763" vertical-scroll-proportion="-10.130435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail50s.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="-17.391304">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail00s.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="-12.913043">
               <folding />
             </state>
           </provider>
@@ -124,18 +134,18 @@
         <option value="$PROJECT_DIR$/assets/sass/responsive.scss" />
         <option value="$PROJECT_DIR$/DAO/BurgerDAO.php" />
         <option value="$PROJECT_DIR$/controller/DetailController.php" />
-        <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/index.htm" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
-        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery50s.tpl" />
         <option value="$PROJECT_DIR$/bulk/templates/pages/partials/gallery00s.tpl" />
         <option value="$PROJECT_DIR$/DAO/UserDAO.php" />
         <option value="$PROJECT_DIR$/api/restapi.php" />
         <option value="$PROJECT_DIR$/assets/js/Application.js" />
+        <option value="$PROJECT_DIR$/assets/js/Facebook.login.js" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl" />
+        <option value="$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl" />
         <option value="$PROJECT_DIR$/assets/sass/style.scss" />
       </list>
     </option>
@@ -494,11 +504,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller/GalleryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="46" selection-start="3078" selection-end="3113" vertical-scroll-proportion="0.023952097" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/404.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="10" selection-start="407" selection-end="407" vertical-scroll-proportion="0.28742516" />
@@ -512,28 +517,6 @@
     <entry file="file://$PROJECT_DIR$/bulk/templates/pages/campaign.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="11" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="117" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="12" selection-start="1489" selection-end="1489" vertical-scroll-proportion="1.3396524" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="116" selection-start="1604" selection-end="1915" vertical-scroll-proportion="0.82137406" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="27" selection-start="2327" selection-end="2380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bulk/templates/index.htm">
@@ -585,9 +568,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/gallery80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="35" selection-start="2914" selection-end="2996" vertical-scroll-proportion="-13.217391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail80s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="40" selection-start="763" selection-end="763" vertical-scroll-proportion="-10.130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail50s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="40" selection-start="771" selection-end="771" vertical-scroll-proportion="-17.391304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulk/templates/pages/partials/detail00s.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="26" selection-start="643" selection-end="649" vertical-scroll-proportion="-12.913043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Facebook.login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="55" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2135" column="22" selection-start="53704" selection-end="53704" vertical-scroll-proportion="0.42857143">
+        <state line="2532" column="40" selection-start="66506" selection-end="66506" vertical-scroll-proportion="0.55676514">
           <folding />
         </state>
       </provider>

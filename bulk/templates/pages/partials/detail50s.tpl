@@ -23,7 +23,7 @@
             <ul id="actios">
                 <li><span>by</span> {$burger.creator}</li>
                 <li><span id="votes"> {$burger.votes}</span> votes</li>
-                <li><a href="1"><img src="assets/images/50s-detail-like.png" />Vote for this burger</a></li>
+                <li><a href="{$burger.id}"><img src="assets/images/50s-detail-like.png" />Vote for this burger</a></li>
             </ul>
         </section>
 
